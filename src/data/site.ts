@@ -395,11 +395,143 @@ function statLogisticsLead(): Lead {
   };
 }
 
-// Two dummy leads (gold default accent) + one real mapped lead.
+// ------------------------------------------------------------
+// REAL LEAD — Platinum Enterprises Inc. (slice 5, score 72).
+// Mapped from Airtable (structured) + Firecrawl scrape of platinum-enterprises.com.
+// Accent: live-extracted #23593D failed contrast -> fell back to OMH gold (no accent field).
+// DID NOT USE: their "RODNEY F." testimonial (HARD-CLAIM stays bracketed).
+// ------------------------------------------------------------
+function platinumLead(): Lead {
+  const base = "/platinum-enterprises";
+  return {
+    slug: "platinum-enterprises",
+    company: {
+      name: "Platinum Enterprises Inc.",                 // STRUCTURED (Airtable)
+      logo: "",                                           // image slot bracketed this slice -> wordmark fallback
+      tagline: "Specialized heavy haul and freight transport in Riverside, CA.", // REWRITEABLE (title + description)
+      phone: "(951) 684-3444",                            // STRUCTURED (Airtable +19516843444)
+      email: "victor@platinum-enterprises.com",           // STRUCTURED (Airtable)
+      address: "Riverside, CA",                            // STRUCTURED (scrape description "based out of Riverside, CA")
+      yearsInBusiness: "[##]",                             // HARD-CLAIM
+      credentials: [                                       // HARD-CLAIM
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]",
+      ],
+    },
+    nav: {
+      links: [
+        { label: "Home", href: base },
+        { label: "About", href: `${base}/about` },
+        { label: "Contact", href: `${base}/contact` },
+      ],
+      cta: { label: "Talk to us", href: `${base}/contact` },
+    },
+    home: {
+      hero: {
+        eyebrow: "Heavy haul · Oversized loads",          // REWRITEABLE (their services)
+        headline: "Specialized transportation for oversized, heavy loads.", // REWRITEABLE (their "SPECIALIZED TRANSPORTATION" + "oversized loads")
+        sub: "Platinum Enterprises handles oversized loads out of Riverside, CA with an experienced team and a well-maintained fleet.", // REWRITEABLE (their description)
+        primaryCta: { label: "See capabilities", href: `${base}#capabilities` },
+        secondaryCta: { label: "Talk to us", href: `${base}/contact` },
+      },
+      heroSpec: [                                          // HARD-CLAIM
+        { label: "[DIFFERENTIATOR]", value: "[##]", unit: "[unit]" },
+        { label: "[DIFFERENTIATOR]", value: "[##]", unit: "[unit]" },
+        { label: "[DIFFERENTIATOR]", value: "[##]", unit: "[unit]" },
+      ],
+      heroTrust: ["[Years in business]", "[Units shipped]", "[Projects delivered]"], // HARD-CLAIM
+      problems: {                                          // REWRITEABLE (non-testimonial copy: fleet, safety, customer types)
+        eyebrow: "What we handle",
+        heading: "Oversized freight, handled with safety and quality assurance.",
+        items: [
+          { label: "RELIABILITY", text: "An unreliable or poorly maintained truck stalls an oversized move, so we run a reliable, well-maintained fleet." },
+          { label: "SAFETY", text: "Oversized loads carry real risk, so we prioritize safety and quality assurance on every haul." },
+          { label: "FIT", text: "Large industrial shippers and growing businesses need transport that scales, which is what we provide." },
+        ],
+      },
+      ledger: {                                            // REWRITEABLE service names; details lorem (no per-service copy on their site)
+        eyebrow: "Capabilities",
+        heading: "What Platinum Enterprises hauls.",
+        rows: [
+          { spec: "01", capability: "RGN / low bed services", detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+          { spec: "02", capability: "Landoll trailer services", detail: "Sed do eiusmod tempor incididunt ut labore et dolore magna." },
+          { spec: "03", capability: "Rollback truck services", detail: "Ut enim ad minim veniam, quis nostrud exercitation ullamco." },
+          { spec: "04", capability: "Heavy haul / oversized loads", detail: "Duis aute irure dolor in reprehenderit in voluptate velit." },
+        ],
+      },
+      process: {                                           // REWRITEABLE; no process copy on their site -> lorem
+        eyebrow: "Lorem process",
+        heading: "Lorem ipsum dolor sit amet consectetur.",
+        steps: [
+          { n: "1", title: "Lorem ipsum", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed." },
+          { n: "2", title: "Dolor sit", text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+          { n: "3", title: "Consectetur", text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
+          { n: "4", title: "Adipiscing", text: "Duis aute irure dolor in reprehenderit in voluptate velit esse." },
+        ],
+      },
+      flow: {                                              // REWRITEABLE; no process copy -> bracket placeholders
+        eyebrow: "Lorem ipsum",
+        heading: "Lorem ipsum dolor sit amet flow.",
+        steps: ["[Step one]", "[Step two]", "[Step three]"],
+      },
+      stats: {                                             // HARD-CLAIM items; heading lorem
+        eyebrow: "Lorem ipsum",
+        heading: "Lorem ipsum dolor sit amet.",
+        items: [
+          { figure: "[##]", unit: "[unit]", label: "[METRIC]", context: "[One line on what this figure proves]" },
+          { figure: "[##]", unit: "[unit]", label: "[METRIC]", context: "[One line on what this figure proves]" },
+          { figure: "[##]", unit: "[unit]", label: "[METRIC]", context: "[One line on what this figure proves]" },
+        ],
+      },
+      ctaMid: {
+        heading: "Lorem ipsum dolor sit amet consectetur.",
+        label: "Request a quote",
+        href: `${base}/contact`,
+      },
+      trustBand: {                                         // HARD-CLAIM
+        heading: "Lorem ipsum dolor sit amet.",
+        logos: ["[Client logo]", "[Client logo]", "[Client logo]", "[Client logo]", "[Client logo]"],
+        certs: ["[Cert badge]", "[Compliance badge]"],
+      },
+      proof: {                                             // HARD-CLAIM: their RODNEY F. testimonial deliberately NOT used
+        eyebrow: "[Proof: real results only]",
+        heading: "[Add real customer results]",
+        testimonials: [
+          { quote: "[Add a real customer testimonial, exact quote only]", name: "[Full name]", title: "[Title]", company: "[Company]", result: "[Quantified result]" },
+          { quote: "[Add a second real testimonial, exact quote only]", name: "[Full name]", title: "[Title]", company: "[Company]", result: "[Quantified result]" },
+        ],
+      },
+      endCta: {                                            // REWRITEABLE (their "NEED A RELIABLE FREIGHT PARTNER... give us a call")
+        eyebrow: "Talk to us",
+        headline: "Need a reliable freight partner?",
+        line: "See what Platinum Enterprises can do for you. Give us a call.",
+      },
+      faq: {                                               // no Q&A on their site -> lorem Q + bracketed A
+        eyebrow: "Before you ask",
+        heading: "Common questions.",
+        items: [
+          { q: "Lorem ipsum dolor sit amet?", a: "[Answer from the lead's real policy, do not invent specifics]" },
+          { q: "Consectetur adipiscing elit?", a: "[Answer from the lead's real policy, do not invent specifics]" },
+          { q: "Sed do eiusmod tempor incididunt?", a: "[Answer from the lead's real policy, do not invent specifics]" },
+          { q: "Ut enim ad minim veniam?", a: "[Answer from the lead's real policy, do not invent specifics]" },
+        ],
+      },
+    },
+    about: SHARED_ABOUT,
+    contact: SHARED_CONTACT,
+    cta: SHARED_CTA,
+    // accent omitted -> default OMH gold (live-extracted #23593D failed contrast)
+  };
+}
+
+// Two dummy leads (gold default accent) + real mapped leads.
 export const leads: Lead[] = [
   makeLead("lorem-industrial", "Demo A"),
   makeLead("ipsum-logistics", "Demo B"),
   statLogisticsLead(),
+  platinumLead(),
 ];
 
 export function getLead(slug: string): Lead | undefined {
