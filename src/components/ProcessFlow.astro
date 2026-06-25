@@ -35,7 +35,7 @@ const lineEndX = x0 + gap * (flow.steps.length - 1);
           return (
             <g class="flow__node">
               <circle class="flow__dot" cx={x} cy={cy} r="26" />
-              <circle class="flow__ring" cx={x} cy={cy} r="26" />
+              <circle class="flow__ring" cx={x} cy={cy} r="32" />
               <text class="flow__num" x={x} y={cy + 6}>{i + 1}</text>
               <text class="flow__label" x={x} y={cy + 64}>{s}</text>
             </g>
@@ -78,14 +78,14 @@ const lineEndX = x0 + gap * (flow.steps.length - 1);
         const len = line.getTotalLength();
 
         gsap.set(line, { strokeDasharray: len, strokeDashoffset: len });
-        gsap.set(rings, { opacity: 0, scale: 0.6, transformOrigin: "center" });
+        gsap.set(rings, { opacity: 0 }); // fade only; no transform = no drift
 
         const tl = gsap.timeline({
           scrollTrigger: { trigger: flow, start: "top 75%", end: "bottom 65%", scrub: 0.5 },
         });
         tl.to(line, { strokeDashoffset: 0, ease: "none" }, 0);
         rings.forEach((r, i) =>
-          tl.to(r, { opacity: 1, scale: 1, ease: "power1.out", duration: 0.5 }, 0.2 + i * 0.25)
+          tl.to(r, { opacity: 1, ease: "power1.out", duration: 0.5 }, 0.2 + i * 0.25)
         );
       },
       { rootMargin: "200px 0px", threshold: 0 }
@@ -107,15 +107,15 @@ const lineEndX = x0 + gap * (flow.steps.length - 1);
 
   /* gold accents: drawn progress line + activation ring */
   .flow__line { stroke: var(--c-accent); stroke-width: 3; stroke-dasharray: 480; stroke-dashoffset: 0; }
-  .flow__ring { fill: none; stroke: var(--c-accent); stroke-width: 2.5; opacity: 1; transform-box: fill-box; transform-origin: center; }
+  .flow__ring { fill: none; stroke: var(--c-accent); stroke-width: 2.5; opacity: 1; }
 
   /* ARMED (JS, motion allowed): reset to empty so GSAP can draw it on scroll */
   .flow.is-armed .flow__line { stroke-dashoffset: 480; }
-  .flow.is-armed .flow__ring { opacity: 0; transform: scale(.6); }
+  .flow.is-armed .flow__ring { opacity: 0; }
 
   /* Reduced motion: never armed -> stays complete. Belt-and-suspenders reset. */
   @media (prefers-reduced-motion: reduce) {
     .flow .flow__line { stroke-dashoffset: 0 !important; }
-    .flow .flow__ring { opacity: 1 !important; transform: none !important; }
+    .flow .flow__ring { opacity: 1 !important; }
   }
 </style>
