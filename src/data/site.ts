@@ -407,7 +407,7 @@ function platinumLead(): Lead {
     slug: "platinum-enterprises",
     company: {
       name: "Platinum Enterprises Inc.",                 // STRUCTURED (Airtable)
-      logo: "",                                           // image slot bracketed this slice -> wordmark fallback
+      logo: "/leads/platinum-enterprises/logo.png",       // STRUCTURED: their real logo (alt "Platinum Enterprises Logo"), pulled into repo
       tagline: "Specialized heavy haul and freight transport in Riverside, CA.", // REWRITEABLE (title + description)
       phone: "(951) 684-3444",                            // STRUCTURED (Airtable +19516843444)
       email: "victor@platinum-enterprises.com",           // STRUCTURED (Airtable)
@@ -522,7 +522,10 @@ function platinumLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
-    // accent omitted -> default OMH gold (live-extracted #23593D failed contrast)
+    // Option A accent: their real brand green from the logo. Passes contrast
+    // (5.76 dark-text-on-accent, 3.04 vs off-white, 5.76 on dark sections).
+    accent: "#02A64B",
+    accentDk: "#028D40",
   };
 }
 
