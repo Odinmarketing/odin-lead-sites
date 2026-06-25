@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import ContactCTA from "../../components/ContactCTA.astro";
+import { leads } from "../../data/site";
+
+export function getStaticPaths() {
+  return leads.map((lead) => ({ params: { slug: lead.slug }, props: { lead } }));
+}
+
+const { lead } = Astro.props;
+const c = lead.contact;
+const company = lead.company;
+---
+
+<Base title="Contact" description={`Contact ${company.name}, request a quote or scope call.`} lead={lead}>
+
+  <section class="section chero">
+    <div class="container">
+      <span class="eyebrow">{c.hero.eyebrow}</span>
+      <h1 class="chero__h">{c.hero.headline}</h1>
+      <p class="chero__sub maxw-prose">{c.hero.sub}</p>
+    </div>
+  </section>
+
+  <!-- STATIC CONTACT CTA: no form. Conversion happens off-site. -->
+  <section class="section section--tight" data-reveal>
+    <div class="container">
+      <ContactCTA company={company} cta={lead.cta} />
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  .chero { padding-block: var(--s-7) var(--s-4); }
+  .chero__h { margin-block: var(--s-2) var(--s-3); max-width: 18ch; }
+  .chero__sub { font-size: var(--t-lg); }
+</style>

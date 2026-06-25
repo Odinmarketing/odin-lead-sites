@@ -1,0 +1,54 @@
+---
+// Dev index (/) — lists every generated lead site.
+// Each lead lives at /<slug> with its own /about and /contact.
+// This page is a navigation helper, not part of a lead's site.
+import "../styles/global.css";
+import { leads } from "../data/site";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OMH Lead Sites, Test Phase</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container idx">
+      <span class="eyebrow">OMH · Test phase</span>
+      <h1>Generated lead sites</h1>
+      <p class="idx__sub">All content is placeholder (lorem ipsum + labeled brackets). Each lead is one site, generated from <code>src/data/site.ts</code>.</p>
+
+      <ul class="idx__list">
+        {leads.map((l) => (
+          <li class="idx__item">
+            <a class="idx__name" href={`/${l.slug}`}>{l.company.name}</a>
+            <span class="idx__links mono">
+              <a href={`/${l.slug}`}>/{l.slug}</a>
+              <a href={`/${l.slug}/about`}>/about</a>
+              <a href={`/${l.slug}/contact`}>/contact</a>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </main>
+
+    <style>
+      .idx { padding-block: var(--s-6); max-width: 760px; }
+      .idx h1 { margin-block: var(--s-2) var(--s-2); }
+      .idx__sub { font-size: var(--t-lg); margin-bottom: var(--s-4); }
+      .idx__list { list-style: none; padding: 0; display: grid; gap: var(--s-2); }
+      .idx__item {
+        background: var(--c-surface); border: 1px solid var(--c-line);
+        border-left: 3px solid var(--c-accent); border-radius: var(--radius);
+        padding: var(--s-3); display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); flex-wrap: wrap;
+      }
+      .idx__name { font-family: var(--f-display); font-weight: 600; font-size: var(--t-lg); }
+      .idx__links { display: flex; gap: var(--s-2); font-size: var(--t-xs); }
+    </style>
+  </body>
+</html>

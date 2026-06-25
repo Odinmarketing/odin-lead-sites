@@ -1,0 +1,80 @@
+---
+import Base from "../../layouts/Base.astro";
+import { leads } from "../../data/site";
+
+export function getStaticPaths() {
+  return leads.map((lead) => ({ params: { slug: lead.slug }, props: { lead } }));
+}
+
+const { lead } = Astro.props;
+const a = lead.about;
+const company = lead.company;
+const base = `/${lead.slug}`;
+---
+
+<Base title="About" description={`About ${company.name}, ${company.tagline}`} lead={lead}>
+
+  <section class="ahero">
+    <div class="container">
+      <span class="eyebrow">{a.hero.eyebrow}</span>
+      <h1 class="ahero__h">{a.hero.headline}</h1>
+      <p class="ahero__sub maxw-prose">{a.hero.sub}</p>
+    </div>
+  </section>
+
+  <!-- STORY (shared OMH template content) -->
+  <section class="section" data-reveal>
+    <div class="container story">
+      <div class="story__side">
+        <span class="eyebrow">{a.story.heading}</span>
+      </div>
+      <div class="story__body">
+        {a.story.body.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES (shared OMH template content) -->
+  <section class="section section--dark" data-reveal>
+    <div class="container">
+      <span class="eyebrow">{a.values.eyebrow}</span>
+      <h2>{a.values.heading}</h2>
+      <div class="vals">
+        {a.values.items.map((v) => (
+          <div class="val">
+            <span class="val__label mono">{v.label}</span>
+            <p>{v.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--tight center cta">
+    <div class="container">
+      <h2 class="cta__h">Work with people who pick up the phone.</h2>
+      <a href={`${base}/contact`} class="btn btn--primary btn--lg">Start a conversation</a>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  .ahero { padding-block: var(--s-7) var(--s-5); }
+  .ahero__h { margin-block: var(--s-2) var(--s-3); max-width: 18ch; }
+  .ahero__sub { font-size: var(--t-lg); }
+
+  .story { display: grid; grid-template-columns: 1fr 2fr; gap: var(--s-5); }
+  .story__body p { font-size: var(--t-lg); margin-bottom: var(--s-3); max-width: 60ch; }
+
+  .vals { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--s-4); margin-top: var(--s-4); }
+  .val { border-top: 2px solid var(--c-accent); padding-top: var(--s-2); }
+  .val__label { display: block; color: var(--c-accent); font-size: var(--t-xs); letter-spacing: .12em; margin-bottom: .6rem; }
+
+  .cta__h { margin-bottom: var(--s-3); max-width: 20ch; margin-inline: auto; }
+
+  @media (max-width: 880px) {
+    .story, .vals { grid-template-columns: 1fr; gap: var(--s-3); }
+  }
+</style>

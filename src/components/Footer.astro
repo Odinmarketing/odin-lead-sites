@@ -1,0 +1,70 @@
+---
+import type { Lead } from "../data/site";
+interface Props { lead: Lead; }
+const { lead } = Astro.props;
+const { company, nav } = lead;
+const base = nav.links[0].href; // this lead's home path, e.g. /acme-co
+const year = new Date().getFullYear();
+---
+
+<footer class="ftr">
+  <div class="container ftr__top">
+    <div class="ftr__brand">
+      <a href={base} class="ftr__logo">
+        {company.logo
+          ? <img src={company.logo} alt={company.name} class="ftr__logoimg" />
+          : (<><span class="ftr__mark" aria-hidden="true"></span>{company.name}</>)}
+      </a>
+      <p class="ftr__line">{company.tagline}</p>
+      <p class="ftr__contact mono">
+        <a href={`tel:${company.phone}`}>{company.phone}</a><br />
+        <a href={`mailto:${company.email}`}>{company.email}</a><br />
+        {company.address}
+      </p>
+    </div>
+
+    <div class="ftr__col">
+      <span class="ftr__head">Site</span>
+      {nav.links.map((l) => <a href={l.href}>{l.label}</a>)}
+    </div>
+
+    <div class="ftr__col">
+      <span class="ftr__head">Start a project</span>
+      <a href={`${base}/contact`}>Request a quote</a>
+      <a href={`${base}#lead`}>Download the guide</a>
+      <a href={`tel:${company.phone}`}>Call the floor</a>
+    </div>
+
+    <div class="ftr__cta">
+      <p class="ftr__ctah">Need it built right and on time?</p>
+      <a href={`${base}/contact`} class="btn btn--primary">Tell us what you need</a>
+    </div>
+  </div>
+
+  <hr class="rule" />
+  <div class="container ftr__bottom">
+    <span>© {year} {company.name}. All rights reserved.</span>
+    <span class="ftr__legal"><a href={`${base}/contact`}>Privacy</a> · <a href={`${base}/contact`}>Terms</a></span>
+  </div>
+</footer>
+
+<style>
+  .ftr { background: var(--c-ink); color: #B8C2CC; padding-top: var(--s-6); }
+  .ftr a { color: #C9D2DB; }
+  .ftr a:hover { color: #fff; }
+  .ftr__top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.4fr; gap: var(--s-4); padding-bottom: var(--s-5); }
+  .ftr__logo { font-family: var(--f-display); font-weight: 700; font-size: 1.1rem; color: #fff; display: flex; align-items: center; gap: .5rem; }
+  .ftr__logoimg { height: 28px; width: auto; display: block; }
+  .ftr__mark { width: 12px; height: 12px; background: var(--c-accent); clip-path: polygon(50% 0,100% 38%,82% 100%,18% 100%,0 38%); }
+  .ftr__line { margin-top: .75rem; max-width: 28ch; font-size: var(--t-sm); }
+  .ftr__contact { margin-top: var(--s-2); font-size: var(--t-xs); line-height: 1.9; }
+  .ftr__col { display: flex; flex-direction: column; gap: .6rem; }
+  .ftr__head { font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: .14em; text-transform: uppercase; color: var(--c-accent); margin-bottom: .25rem; }
+  .ftr__cta { display: flex; flex-direction: column; align-items: flex-start; gap: var(--s-2); }
+  .ftr__ctah { font-family: var(--f-display); font-weight: 600; color: #fff; font-size: var(--t-lg); }
+  .ftr__bottom { display: flex; justify-content: space-between; padding-block: var(--s-3); font-size: var(--t-xs); color: var(--c-muted); }
+  @media (max-width: 820px) {
+    .ftr__top { grid-template-columns: 1fr 1fr; }
+    .ftr__bottom { flex-direction: column; gap: .5rem; }
+  }
+</style>

@@ -1,0 +1,20 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# vercel / env
+.vercel
+.env
+.env.*
+
+# logs / OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# internal strategy doc — keep OUT of the public deploy repo
+FILL-RULES.md

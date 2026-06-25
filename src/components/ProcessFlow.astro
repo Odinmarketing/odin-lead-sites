@@ -1,0 +1,121 @@
+---
+// Scroll-driven SVG process flow (HOME only).
+// Monochrome track + node bodies; gold ONLY on the drawn progress line and the
+// node activation rings. GSAP + ScrollTrigger are dynamically imported (lazy,
+// scoped to this island's chunk) only when the diagram nears the viewport, so
+// GSAP never lands in the global bundle.
+//
+// Reduced-motion / no-JS = the diagram renders COMPLETE and static (default CSS
+// state). The animatable empty state is only applied by the inline arm script
+// when motion is allowed, so there is no flash of an empty state.
+interface Props {
+  flow: { eyebrow: string; heading: string; steps: string[] };
+}
+const { flow } = Astro.props;
+const W = 720;
+const cy = 70;
+const x0 = 120;
+const gap = (W - x0 * 2) / Math.max(flow.steps.length - 1, 1);
+const lineEndX = x0 + gap * (flow.steps.length - 1);
+---
+
+<section class="section--tight flow-sec" aria-label="Process flow" data-reveal>
+  <div class="container">
+    <span class="eyebrow">{flow.eyebrow}</span>
+    <h2 class="sec__h">{flow.heading}</h2>
+
+    <div class="flow" id="processFlow">
+      <svg class="flow__svg" viewBox={`0 0 ${W} 150`} role="img" aria-label="Process flow diagram">
+        <!-- neutral track (always visible) -->
+        <path class="flow__track" d={`M${x0} ${cy} H${lineEndX}`} fill="none" />
+        <!-- gold progress line (draws itself) -->
+        <path class="flow__line" d={`M${x0} ${cy} H${lineEndX}`} fill="none" />
+        {flow.steps.map((s, i) => {
+          const x = x0 + gap * i;
+          return (
+            <g class="flow__node">
+              <circle class="flow__dot" cx={x} cy={cy} r="26" />
+              <circle class="flow__ring" cx={x} cy={cy} r="26" />
+              <text class="flow__num" x={x} y={cy + 6}>{i + 1}</text>
+              <text class="flow__label" x={x} y={cy + 64}>{s}</text>
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- Arm synchronously (pre-paint) ONLY when motion is allowed. Prevents any
+     flash and guarantees reduced-motion/no-JS keep the complete static state. -->
+<script is:inline>
+  (function () {
+    try {
+      var f = document.getElementById("processFlow");
+      if (f && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        f.classList.add("is-armed");
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<script>
+  // Lazy-load GSAP only when armed AND the diagram nears the viewport.
+  const flow = document.getElementById("processFlow");
+  if (flow && flow.classList.contains("is-armed") && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(
+      async (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return;
+        io.disconnect();
+        const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+          import("gsap"),
+          import("gsap/ScrollTrigger"),
+        ]);
+        gsap.registerPlugin(ScrollTrigger);
+
+        const line = flow.querySelector(".flow__line") as SVGPathElement;
+        const rings = flow.querySelectorAll(".flow__ring");
+        const len = line.getTotalLength();
+
+        gsap.set(line, { strokeDasharray: len, strokeDashoffset: len });
+        gsap.set(rings, { opacity: 0, scale: 0.6, transformOrigin: "center" });
+
+        const tl = gsap.timeline({
+          scrollTrigger: { trigger: flow, start: "top 75%", end: "bottom 65%", scrub: 0.5 },
+        });
+        tl.to(line, { strokeDashoffset: 0, ease: "none" }, 0);
+        rings.forEach((r, i) =>
+          tl.to(r, { opacity: 1, scale: 1, ease: "power1.out", duration: 0.5 }, 0.2 + i * 0.25)
+        );
+      },
+      { rootMargin: "200px 0px", threshold: 0 }
+    );
+    io.observe(flow);
+  }
+</script>
+
+<style>
+  .flow-sec { padding-block: var(--s-5); }
+  .flow { margin-top: var(--s-3); }
+  .flow__svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+  /* neutral monochrome scaffolding */
+  .flow__track { stroke: var(--c-line); stroke-width: 2; }
+  .flow__dot { fill: var(--c-paper); stroke: var(--c-ink); stroke-width: 2; }
+  .flow__num { fill: var(--c-ink); font-family: var(--f-mono); font-size: 18px; text-anchor: middle; font-weight: 600; }
+  .flow__label { fill: var(--c-muted); font-family: var(--f-mono); font-size: 15px; text-anchor: middle; letter-spacing: .04em; }
+
+  /* gold accents: drawn progress line + activation ring */
+  .flow__line { stroke: var(--c-accent); stroke-width: 3; stroke-dasharray: 480; stroke-dashoffset: 0; }
+  .flow__ring { fill: none; stroke: var(--c-accent); stroke-width: 2.5; opacity: 1; transform-box: fill-box; transform-origin: center; }
+
+  /* ARMED (JS, motion allowed): reset to empty so GSAP can draw it on scroll */
+  .flow.is-armed .flow__line { stroke-dashoffset: 480; }
+  .flow.is-armed .flow__ring { opacity: 0; transform: scale(.6); }
+
+  /* Reduced motion: never armed -> stays complete. Belt-and-suspenders reset. */
+  @media (prefers-reduced-motion: reduce) {
+    .flow .flow__line { stroke-dashoffset: 0 !important; }
+    .flow .flow__ring { opacity: 1 !important; transform: none !important; }
+  }
+</style>

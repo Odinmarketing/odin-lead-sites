@@ -1,0 +1,41 @@
+---
+// Static contact CTA. NO <form>, NO inputs.
+// Conversion happens off-site: this points back to our channel (phone, email).
+// phone/email are STRUCTURED-FACT slots from the lead's company data.
+import type { Lead } from "../data/site";
+interface Props {
+  company: Lead["company"];
+  cta: { eyebrow?: string; headline: string; line: string };
+}
+const { company, cta } = Astro.props;
+---
+
+<div class="cta-block" id="contact-cta">
+  <div class="cta-block__inner">
+    {cta.eyebrow && <span class="eyebrow">{cta.eyebrow}</span>}
+    <h2 class="cta-block__h">{cta.headline}</h2>
+    <p class="cta-block__line">{cta.line}</p>
+    <div class="cta-block__actions">
+      <a href={`tel:${company.phone}`} class="btn btn--primary btn--lg">Call {company.phone}</a>
+      <a href={`mailto:${company.email}`} class="btn btn--ghost btn--lg">Email us</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cta-block__inner {
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-left: 3px solid var(--c-accent);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: var(--s-5);
+    text-align: center;
+  }
+  .cta-block__h { font-size: var(--t-2xl); margin-block: .5rem .5rem; }
+  .cta-block__line { max-width: 48ch; margin-inline: auto; }
+  .cta-block__actions {
+    display: flex; gap: var(--s-2); justify-content: center;
+    flex-wrap: wrap; margin-top: var(--s-3);
+  }
+</style>

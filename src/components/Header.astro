@@ -1,0 +1,87 @@
+---
+import type { Lead } from "../data/site";
+interface Props { lead: Lead; }
+const { lead } = Astro.props;
+const { company, nav } = lead;
+const path = Astro.url.pathname;
+const homeHref = nav.links[0].href;
+---
+
+<header class="hdr">
+  <div class="container hdr__inner">
+    <a href={homeHref} class="hdr__logo">
+      {company.logo
+        ? <img src={company.logo} alt={company.name} class="hdr__logoimg" />
+        : (<><span class="hdr__mark" aria-hidden="true"></span>{company.name}</>)}
+    </a>
+
+    <nav class="hdr__nav" aria-label="Primary">
+      {nav.links.map((l) => (
+        <a
+          href={l.href}
+          class:list={["hdr__link", { "is-active": path === l.href }]}
+          aria-current={path === l.href ? "page" : undefined}
+        >{l.label}</a>
+      ))}
+      <a href={nav.cta.href} class="btn btn--primary hdr__cta">{nav.cta.label}</a>
+    </nav>
+
+    <button class="hdr__toggle" aria-label="Open menu" aria-expanded="false" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="hdr__mobile" id="navMobile" hidden>
+    {nav.links.map((l) => <a href={l.href} class="hdr__mlink">{l.label}</a>)}
+    <a href={nav.cta.href} class="btn btn--primary">{nav.cta.label}</a>
+  </div>
+</header>
+
+<style>
+  .hdr {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,249,245,.9);
+    backdrop-filter: saturate(150%) blur(8px);
+    border-bottom: 1px solid var(--c-line);
+  }
+  .hdr__inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+  .hdr__logo {
+    font-family: var(--f-display); font-weight: 700; font-size: 1.15rem;
+    color: var(--c-ink); display: flex; align-items: center; gap: .55rem;
+  }
+  .hdr__logoimg { height: 32px; width: auto; display: block; }
+  .hdr__mark {
+    width: 14px; height: 14px; background: var(--c-accent);
+    /* rune-ish notch — distinctive mark, not a generic dot */
+    clip-path: polygon(50% 0, 100% 38%, 82% 100%, 18% 100%, 0 38%);
+  }
+  .hdr__nav { display: flex; align-items: center; gap: var(--s-3); }
+  .hdr__link {
+    font-size: var(--t-sm); font-weight: 500; color: var(--c-ink-soft);
+    padding-bottom: 2px; border-bottom: 2px solid transparent;
+  }
+  .hdr__link:hover, .hdr__link.is-active { color: var(--c-ink); border-color: var(--c-accent); }
+  .hdr__cta { margin-left: var(--s-2); }
+
+  .hdr__toggle { display: none; flex-direction: column; gap: 4px; background: none; border: 0; padding: 8px; cursor: pointer; }
+  .hdr__toggle span { width: 22px; height: 2px; background: var(--c-ink); }
+
+  .hdr__mobile { display: none; flex-direction: column; gap: var(--s-2); padding: var(--s-3); border-top: 1px solid var(--c-line); }
+  .hdr__mlink { font-family: var(--f-display); font-weight: 600; font-size: var(--t-lg); color: var(--c-ink); }
+
+  @media (max-width: 820px) {
+    .hdr__nav { display: none; }
+    .hdr__toggle { display: flex; }
+    .hdr__mobile[data-open] { display: flex; }
+  }
+</style>
+
+<script>
+  const t = document.getElementById("navToggle");
+  const m = document.getElementById("navMobile");
+  t?.addEventListener("click", () => {
+    const open = m?.hasAttribute("data-open");
+    if (open) { m?.removeAttribute("data-open"); m?.setAttribute("hidden",""); t.setAttribute("aria-expanded","false"); }
+    else { m?.setAttribute("data-open",""); m?.removeAttribute("hidden"); t.setAttribute("aria-expanded","true"); }
+  });
+</script>

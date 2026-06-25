@@ -1,0 +1,122 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import type { Lead } from "../data/site";
+
+interface Props {
+  title: string;
+  description: string;
+  lead: Lead;
+}
+const { title, description, lead } = Astro.props;
+const company = lead.company;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · {company.name}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts. OMH brand: Poppins for display. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LocalBusiness schema. Fill from site.ts company data. -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": company.name,
+      "telephone": company.phone,
+      "email": company.email,
+      "areaServed": company.address,
+      "description": description
+    })} />
+
+    {/* Option A: per-lead accent override (accent token ONLY; neutrals/layout unchanged). */}
+    {lead.accent && (
+      <style is:inline set:html={`:root{--c-accent:${lead.accent} !important;--c-accent-dk:${lead.accentDk || lead.accent} !important;}`} />
+    )}
+  </head>
+  <body>
+    <a href="#main" class="skip">Skip to content</a>
+    <Header lead={lead} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lead={lead} />
+
+    <style>
+      .skip {
+        position: absolute; left: -9999px; top: 0;
+        background: var(--c-ink); color: #fff; padding: .75rem 1rem; z-index: 100;
+      }
+      .skip:focus { left: 0; }
+    </style>
+
+    <script>
+      // Motion primitives. Zero external deps. Honors prefers-reduced-motion first.
+      const root = document.documentElement;
+      root.classList.add("js");
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      // --- Scroll reveals (fade + 16px rise, stagger via CSS, trigger once) ---
+      const revealEls = document.querySelectorAll("[data-reveal], [data-reveal-children]");
+      if (reduce || !("IntersectionObserver" in window)) {
+        revealEls.forEach((el) => el.classList.add("in"));
+      } else {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+            });
+          },
+          { threshold: 0.15 }
+        );
+        revealEls.forEach((el) => io.observe(el));
+      }
+
+      // --- Count-up stats. Reads target from data-count. No-ops on bracket/non-numeric. ---
+      const runCount = (el: Element) => {
+        const raw = el.getAttribute("data-count") || "";
+        // bracket placeholder or non-numeric -> leave the text exactly as-is
+        if (raw.includes("[") || raw.includes("]")) return;
+        const num = parseFloat(raw.replace(/[, ]/g, ""));
+        if (!isFinite(num)) return;
+        const suffix = (raw.match(/[^0-9.,\s-].*$/) || [""])[0];
+        const decimals = (raw.split(".")[1] || "").replace(/[^0-9]/g, "").length;
+        if (reduce) { el.textContent = raw; return; }
+        const dur = 1200, start = performance.now();
+        const tick = (now: number) => {
+          const p = Math.min((now - start) / dur, 1);
+          const eased = 1 - Math.pow(1 - p, 3); // ease-out cubic
+          if (p < 1) { el.textContent = (num * eased).toFixed(decimals) + suffix; requestAnimationFrame(tick); }
+          else { el.textContent = raw; }
+        };
+        el.textContent = (0).toFixed(decimals) + suffix;
+        requestAnimationFrame(tick);
+      };
+      const counters = document.querySelectorAll("[data-count]");
+      if (!reduce && "IntersectionObserver" in window) {
+        const cio = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) { runCount(e.target); cio.unobserve(e.target); }
+            });
+          },
+          { threshold: 0.5 }
+        );
+        counters.forEach((el) => cio.observe(el));
+      }
+      // reduced-motion / no-IO: values stay as their final/bracket text (already in DOM)
+    </script>
+  </body>
+</html>
