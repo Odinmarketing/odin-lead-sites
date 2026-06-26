@@ -45,6 +45,12 @@ const company = lead.company;
     {lead.accent && (
       <style is:inline set:html={`:root{--c-accent:${lead.accent} !important;--c-accent-dk:${lead.accentDk || lead.accent} !important;}`} />
     )}
+    {/* Per-lead CTA button text: flips to off-white when the accent is dark enough
+        that dark ink text would be illegible. Only emitted for such leads; mid-tone
+        leads (Platinum, Stat) omit it and keep the default dark ink. */}
+    {lead.accentText && (
+      <style is:inline set:html={`:root{--c-btn-text:${lead.accentText} !important;}`} />
+    )}
   </head>
   <body>
     <a href="#main" class="skip">Skip to content</a>

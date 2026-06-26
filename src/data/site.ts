@@ -43,6 +43,9 @@ export interface Lead {
   // Omit -> page uses the default OMH gold. accentDk is a darker shade for hover.
   accent?: string;
   accentDk?: string;
+  // CTA button text color for this lead. Omit -> default dark ink (mid/light accents).
+  // Set to off-white (#FAF9F5) only when the accent is dark (decided by build-lead.js).
+  accentText?: string;
 }
 
 // ------------------------------------------------------------

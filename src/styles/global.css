@@ -13,6 +13,7 @@
   --c-primary-dk: #141413;   /* (hover affordances use gold accent instead)   */
   --c-accent:     #BA9238;   /* OMH amber — PRIMARY CTA ONLY                   */
   --c-accent-dk:  #9C7A2E;   /* accent hover (darker amber)                   */
+  --c-btn-text:   var(--c-ink); /* CTA button text; per-lead override to off-white for dark accents */
   --c-paper:      #FAF9F5;   /* page background                (OMH)          */
   --c-surface:    #FFFFFF;   /* cards                                         */
   --c-line:       #D8DCE0;   /* hairline borders                              */
@@ -99,8 +100,8 @@ a:hover { color: var(--c-accent); }
   cursor: pointer; transition: all .15s ease;
   min-height: 48px;            /* mobile tap target */
 }
-.btn--primary { background: var(--c-accent); color: var(--c-ink); }
-.btn--primary:hover { background: var(--c-accent-dk); color: var(--c-ink); transform: translateY(-1px); }
+.btn--primary { background: var(--c-accent); color: var(--c-btn-text); }
+.btn--primary:hover { background: var(--c-accent-dk); color: var(--c-btn-text); transform: translateY(-1px); }
 .btn--ghost { background: transparent; border-color: var(--c-line); color: var(--c-ink); }
 .btn--ghost:hover { border-color: var(--c-accent); color: var(--c-accent); }
 .section--dark .btn--ghost { border-color: rgba(255,255,255,.25); color: #fff; }
