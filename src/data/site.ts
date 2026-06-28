@@ -538,7 +538,7 @@ function platinumLead(): Lead {
 // HARD-CLAIM + image/logo slots stay bracketed. Accents from the contrast guard.
 // ============================================================
 
-// REAL LEAD — TCR Performance Inc. Accent: gold fallback (no usable color).
+// REAL LEAD — TCR Performance Inc. Accent #FEDC00 yellow (header-crop), dark button text.
 function tcrPerformanceLead(): Lead {
   const base = "/tcr-performance";
   return {
@@ -651,10 +651,12 @@ function tcrPerformanceLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
+    accent: "#FEDC00",
+    accentDk: "#D0B400",
   };
 }
 
-// REAL LEAD — Advanced Detection Systems. Accent #B79986, dark button text.
+// REAL LEAD — Advanced Detection Systems. Accent #008ED4 blue (header logo), dark button text.
 function advancedDetectionLead(): Lead {
   const base = "/advanced-detection";
   return {
@@ -767,8 +769,8 @@ function advancedDetectionLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
-    accent: "#B79986",
-    accentDk: "#987F6F",
+    accent: "#008ED4",
+    accentDk: "#0074AE",
   };
 }
 
@@ -1014,7 +1016,7 @@ function lairdManufacturingLead(): Lead {
   };
 }
 
-// REAL LEAD — TMG ltd (The Machine Group). Accent olive #5A7446, white button text.
+// REAL LEAD — TMG ltd (The Machine Group). Accent #0969AD blue (header-crop), white button text.
 function tmgLead(): Lead {
   const base = "/tmg";
   return {
@@ -1127,8 +1129,8 @@ function tmgLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
-    accent: "#5A7446",
-    accentDk: "#4B603A",
+    accent: "#0969AD",
+    accentDk: "#07568E",
     accentText: "#FAF9F5",
   };
 }
@@ -1254,7 +1256,7 @@ function rlEngineeringLead(): Lead {
   };
 }
 
-// REAL LEAD — Brenner-Fiedler. Accent: gold fallback (no usable color).
+// REAL LEAD — Brenner-Fiedler. Accent #081D5A navy (header-crop), white button text.
 function brennerFiedlerLead(): Lead {
   const base = "/brenner-fiedler";
   return {
@@ -1367,10 +1369,13 @@ function brennerFiedlerLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
+    accent: "#081D5A",
+    accentDk: "#07184A",
+    accentText: "#FAF9F5",
   };
 }
 
-// REAL LEAD — Guntert & Zimmerman (G&Z). Accent green #8FCA8F, dark button text.
+// REAL LEAD — Guntert & Zimmerman (G&Z). Accent #005CA9 blue (header logo), white button text.
 function guntertZimmermanLead(): Lead {
   const base = "/guntert-zimmerman";
   return {
@@ -1483,12 +1488,13 @@ function guntertZimmermanLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
-    accent: "#8FCA8F",
-    accentDk: "#77A877",
+    accent: "#005CA9",
+    accentDk: "#004B8B",
+    accentText: "#FAF9F5",
   };
 }
 
-// REAL LEAD — Applied Motion Products. Accent #175B8C, white button text.
+// REAL LEAD — Applied Motion Products. Accent #334D5D slate (header-crop), white button text.
 function appliedMotionLead(): Lead {
   const base = "/applied-motion";
   return {
@@ -1601,8 +1607,8 @@ function appliedMotionLead(): Lead {
     about: SHARED_ABOUT,
     contact: SHARED_CONTACT,
     cta: SHARED_CTA,
-    accent: "#175B8C",
-    accentDk: "#134C74",
+    accent: "#334D5D",
+    accentDk: "#2A3F4C",
     accentText: "#FAF9F5",
   };
 }
