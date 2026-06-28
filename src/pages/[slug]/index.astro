@@ -16,44 +16,57 @@ const base = `/${lead.slug}`;
 
 <Base title="Home" description={company.tagline} lead={lead}>
 
-  <!-- HERO: left-weighted. Headline + subhead + escalation-level-1 CTAs.
-       Right side = compact spec panel (default). Image slot is the commented alt. -->
-  <section class="hero">
-    <div class="container hero__grid">
-      <div class="hero__copy">
-        <span class="eyebrow">{h.hero.eyebrow}</span>
-        <h1 class="hero__h">{h.hero.headline}</h1>
-        <p class="hero__sub">{h.hero.sub}</p>
+  <!-- HERO. With a placed photo -> full-width banner (photo + dark scrim + overlaid copy,
+       legible on any image). Without -> original left-weighted grid + spec panel. -->
+  {lead.images?.hero ? (
+    <section class="hero--banner">
+      <div class="hero--banner__media">
+        <img src={lead.images.hero} alt={`${company.name} — ${h.hero.eyebrow}`} width="1600" height="900" loading="eager" />
+      </div>
+      <div class="hero--banner__scrim"></div>
+      <div class="container hero--banner__inner">
+        <span class="eyebrow eyebrow--inv">{h.hero.eyebrow}</span>
+        <h1 class="hero__h hero--banner__h">{h.hero.headline}</h1>
+        <p class="hero__sub hero--banner__sub">{h.hero.sub}</p>
         <div class="hero__ctas">
           <a href={h.hero.primaryCta.href} class="btn btn--primary btn--lg">{h.hero.primaryCta.label}</a>
-          <a href={h.hero.secondaryCta.href} class="hero__link">{h.hero.secondaryCta.label} &rsaquo;</a>
+          <a href={h.hero.secondaryCta.href} class="hero__link hero--banner__link">{h.hero.secondaryCta.label} &rsaquo;</a>
         </div>
       </div>
-
-      <!-- DEFAULT: spec panel, 3 hard differentiators (hard-claim brackets) -->
-      <aside class="hspec" aria-label="Key differentiators">
-        <div class="hspec__bar">
-          <span class="mono">SPEC SHEET</span>
-          <span class="hspec__status"><span class="hspec__wire"></span>OPERATIONAL</span>
-        </div>
-        {h.heroSpec.map((s) => (
-          <div class="hspec__row">
-            <span class="hspec__label mono">{s.label}</span>
-            <span class="hspec__val"><span data-count={s.value}>{s.value}</span> <span class="hspec__unit mono">{s.unit}</span></span>
-          </div>
-        ))}
-      </aside>
-
-      <!-- ALTERNATIVE hero visual (use instead of the spec panel when a real image exists):
-      <div class="hvisual" aria-label="Hero visual">[Hero visual]</div>
-      -->
-    </div>
-
-    <!-- Thin trust strip directly under the hero (hard-claim brackets) -->
+    </section>
     <div class="container hero-trust" data-reveal>
       {h.heroTrust.map((t) => <span class="hero-trust__item mono">{t}</span>)}
     </div>
-  </section>
+  ) : (
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <span class="eyebrow">{h.hero.eyebrow}</span>
+          <h1 class="hero__h">{h.hero.headline}</h1>
+          <p class="hero__sub">{h.hero.sub}</p>
+          <div class="hero__ctas">
+            <a href={h.hero.primaryCta.href} class="btn btn--primary btn--lg">{h.hero.primaryCta.label}</a>
+            <a href={h.hero.secondaryCta.href} class="hero__link">{h.hero.secondaryCta.label} &rsaquo;</a>
+          </div>
+        </div>
+        <aside class="hspec" aria-label="Key differentiators">
+          <div class="hspec__bar">
+            <span class="mono">SPEC SHEET</span>
+            <span class="hspec__status"><span class="hspec__wire"></span>OPERATIONAL</span>
+          </div>
+          {h.heroSpec.map((s) => (
+            <div class="hspec__row">
+              <span class="hspec__label mono">{s.label}</span>
+              <span class="hspec__val"><span data-count={s.value}>{s.value}</span> <span class="hspec__unit mono">{s.unit}</span></span>
+            </div>
+          ))}
+        </aside>
+      </div>
+      <div class="container hero-trust" data-reveal>
+        {h.heroTrust.map((t) => <span class="hero-trust__item mono">{t}</span>)}
+      </div>
+    </section>
+  )}
 
   <!-- STATS: figure + unit, uppercase label above, one-line context beneath. -->
   <section class="section stats" data-reveal>
@@ -93,6 +106,11 @@ const base = `/${lead.slug}`;
     <div class="container">
       <span class="eyebrow">{h.ledger.eyebrow}</span>
       <h2 class="ledger__heading">{h.ledger.heading}</h2>
+      {lead.images?.capabilities && (
+        <div class="sec-img sec-img--dark">
+          <img src={lead.images.capabilities} alt={`${company.name} — ${h.ledger.heading}`} width="1200" height="500" loading="lazy" />
+        </div>
+      )}
       <div class="ledger" data-reveal-children>
         {h.ledger.rows.map((r) => (
           <div class="ledger__row">
@@ -126,6 +144,13 @@ const base = `/${lead.slug}`;
 
   <!-- SCROLL-DRIVEN PROCESS DIAGRAM (home only, adjacent to process) -->
   <ProcessFlow flow={h.flow} />
+
+  <!-- Full-bleed operations banner (premium stock, placed by fetch-images.js) -->
+  {lead.images?.operations && (
+    <section class="imgband" data-reveal>
+      <img src={lead.images.operations} alt={`${company.name} operations`} width="1600" height="520" loading="lazy" />
+    </section>
+  )}
 
   <!-- CTA ESCALATION level 2 (medium): request a quote -->
   <section class="section--tight" data-reveal>
@@ -230,6 +255,27 @@ const base = `/${lead.slug}`;
 
   /* HERO VISUAL (alternative) */
   .hvisual { display: grid; place-items: center; min-height: 260px; background: var(--c-surface); border: 1px dashed var(--c-line); border-radius: var(--radius); color: var(--c-muted); font-family: var(--f-mono); }
+  /* HERO BANNER — full-width photo + dark scrim + overlaid copy (legible on any image) */
+  .hero--banner { position: relative; overflow: hidden; min-height: clamp(420px, 56vh, 600px); display: grid; align-items: center; border-bottom: 1px solid var(--c-line); }
+  .hero--banner__media { position: absolute; inset: 0; z-index: 0; }
+  .hero--banner__media img { width: 100%; height: 100%; object-fit: cover; }
+  .hero--banner__scrim { position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(90deg, rgba(12,14,16,.85) 0%, rgba(12,14,16,.66) 40%, rgba(12,14,16,.20) 75%, rgba(12,14,16,0) 100%); }
+  .hero--banner__inner { position: relative; z-index: 2; padding-block: var(--s-7); max-width: 62ch; }
+  .hero--banner__h { color: #fff; margin-block: var(--s-2) var(--s-3); max-width: 16ch; }
+  .hero--banner__sub { color: rgba(255,255,255,.92); font-size: var(--t-lg); max-width: 46ch; }
+  .eyebrow--inv { color: rgba(255,255,255,.82); }
+  .hero--banner__link { color: #fff; }
+  .hero--banner__link:hover { color: var(--c-accent); }
+
+  /* In-section image (capabilities) */
+  .sec-img { border-radius: var(--radius); overflow: hidden; margin-block: var(--s-4) var(--s-2); }
+  .sec-img img { display: block; width: 100%; height: auto; aspect-ratio: 24 / 9; object-fit: cover; }
+  .sec-img--dark { border: 1px solid rgba(255,255,255,.14); }
+
+  /* Full-bleed operations banner (spans full viewport width) */
+  .imgband { width: 100%; height: clamp(220px, 30vw, 420px); overflow: hidden; }
+  .imgband img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
   /* Thin trust strip */
   .hero-trust { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-4); padding-top: var(--s-3); border-top: 1px solid var(--c-line); }
@@ -300,6 +346,9 @@ const base = `/${lead.slug}`;
   /* RESPONSIVE */
   @media (max-width: 900px) {
     .hero__grid { grid-template-columns: 1fr; }   /* spec panel stacks below headline */
+    /* full-width text on mobile -> stronger vertical scrim for legibility */
+    .hero--banner__scrim { background: linear-gradient(180deg, rgba(12,14,16,.5) 0%, rgba(12,14,16,.82) 100%); }
+    .hero--banner__inner { max-width: none; }
     .prob__grid { grid-template-columns: 1fr; }
     .proc { grid-template-columns: repeat(2,1fr); } /* 4 -> 2 */
     .trustband__logos { grid-template-columns: repeat(3,1fr); }

@@ -19,6 +19,8 @@
 // TEST PHASE (current): all placeholder. NO Airtable, NO scraping, NO real content.
 // ============================================================
 
+import { leadImages } from "./leadImages.ts"; // AUTO-GENERATED home-page images per lead (fetch-images.js)
+
 export interface Lead {
   slug: string;
   company: {
@@ -46,6 +48,11 @@ export interface Lead {
   // CTA button text color for this lead. Omit -> default dark ink (mid/light accents).
   // Set to off-white (#FAF9F5) only when the accent is dark (decided by build-lead.js).
   accentText?: string;
+  // Home-page PREMIUM stock photos placed at build time (fetch-images.js), keyed by slot:
+  // hero (full-width banner), capabilities, operations. Omit hero -> hero shows the spec panel.
+  images?: { hero?: string; capabilities?: string; operations?: string };
+  // License PDF url per placed image (audit trail; mirrors Airtable "Image Licenses").
+  imageLicenses?: Record<string, string>;
 }
 
 // ------------------------------------------------------------
@@ -1733,7 +1740,7 @@ function svtAssociatesLead(): Lead {
 }
 
 // Two dummy leads (gold default accent) + real mapped leads.
-export const leads: Lead[] = [
+const baseLeads: Lead[] = [
   makeLead("lorem-industrial", "Demo A"),
   makeLead("ipsum-logistics", "Demo B"),
   statLogisticsLead(),
@@ -1749,6 +1756,13 @@ export const leads: Lead[] = [
   appliedMotionLead(),
   svtAssociatesLead(),
 ];
+
+// Merge in the auto-generated premium stock images (placed by fetch-images.js) per slug.
+export const leads: Lead[] = baseLeads.map((l) => ({
+  ...l,
+  images: leadImages[l.slug]?.images,
+  imageLicenses: leadImages[l.slug]?.imageLicenses,
+}));
 
 export function getLead(slug: string): Lead | undefined {
   return leads.find((l) => l.slug === slug);
