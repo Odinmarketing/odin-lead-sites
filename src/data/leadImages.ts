@@ -115,9 +115,9 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
       "operations": "/leads/guntert-zimmerman/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/136989164?lang=en",
+      "hero": "https://www.magnific.com/profile/license/pdf/15585268?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/67194050?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/31085618?lang=en"
+      "operations": "https://www.magnific.com/profile/license/pdf/415341141?lang=en"
     }
   },
   "applied-motion": {
