@@ -20,6 +20,8 @@
 // ============================================================
 
 import { leadImages } from "./leadImages.ts"; // AUTO-GENERATED home-page images per lead (fetch-images.js)
+import { autoLeads } from "./autoLeads.ts";   // AUTO-GENERATED pipeline-built leads (odin-pipeline/compose-auto-leads.js)
+import { SHARED_ABOUT, SHARED_CONTACT, SHARED_CTA } from "./shared.ts"; // shared template content (moved out so autoLeads.ts can import it too)
 
 export interface Lead {
   slug: string;
@@ -56,55 +58,9 @@ export interface Lead {
 }
 
 // ------------------------------------------------------------
-// SHARED TEMPLATE CONTENT — identical for every lead.
-// Not bespoke-filled per lead. Lightly tuned OMH content lives here.
+// SHARED TEMPLATE CONTENT — now lives in shared.ts (imported above) so the
+// auto-generated autoLeads.ts can reuse the exact same objects.
 // ------------------------------------------------------------
-
-// REWRITEABLE (shared) — static contact CTA copy. Lead-agnostic.
-// Used on HOME (where the form used to sit) and on CONTACT.
-const SHARED_CTA = {
-  eyebrow: "Start here",
-  headline: "Lorem ipsum dolor sit amet.",
-  line: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-};
-
-// SHARED about content (OMH's own story/values). No hard-claim slots.
-const SHARED_ABOUT = {
-  // REWRITEABLE (shared)
-  hero: {
-    eyebrow: "Lorem ipsum",
-    headline: "Lorem ipsum dolor sit amet.",
-    sub: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-  },
-  // REWRITEABLE (shared)
-  story: {
-    heading: "Lorem ipsum",
-    body: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ],
-  },
-  // REWRITEABLE (shared)
-  values: {
-    eyebrow: "Lorem ipsum",
-    heading: "Lorem ipsum dolor sit amet consectetur.",
-    items: [
-      { label: "LOREM IPSUM", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod." },
-      { label: "DOLOR SIT", text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." },
-      { label: "AMET CONSECTETUR", text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum." },
-    ],
-  },
-};
-
-// SHARED contact content. The CTA itself comes from SHARED_CTA. No hard-claim slots.
-const SHARED_CONTACT = {
-  // REWRITEABLE (shared)
-  hero: {
-    eyebrow: "Lorem ipsum",
-    headline: "Lorem ipsum dolor sit amet.",
-    sub: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  },
-};
 
 // ------------------------------------------------------------
 // PER-LEAD BESPOKE HOME — the only page filled per lead in slice 3.
@@ -1739,8 +1695,10 @@ function svtAssociatesLead(): Lead {
   };
 }
 
-// Two dummy leads (gold default accent) + real mapped leads.
-const baseLeads: Lead[] = [
+// Two dummy leads (gold default accent) + real mapped leads + pipeline-built leads.
+// autoLeads entries whose slug collides with a hand-mapped lead are dropped —
+// the hand-mapped version always wins.
+const handLeads: Lead[] = [
   makeLead("lorem-industrial", "Demo A"),
   makeLead("ipsum-logistics", "Demo B"),
   statLogisticsLead(),
@@ -1755,6 +1713,11 @@ const baseLeads: Lead[] = [
   guntertZimmermanLead(),
   appliedMotionLead(),
   svtAssociatesLead(),
+];
+const handSlugs = new Set(handLeads.map((l) => l.slug));
+const baseLeads: Lead[] = [
+  ...handLeads,
+  ...autoLeads.filter((l) => !handSlugs.has(l.slug)),
 ];
 
 // Merge in the auto-generated premium stock images (placed by fetch-images.js) per slug.
