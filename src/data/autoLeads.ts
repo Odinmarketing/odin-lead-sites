@@ -7241,6 +7241,265 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "bl-paletten",
+    "company": {
+      "name": "BL Paletten GmbH",
+      "logo": "",
+      "tagline": "Spezialpaletten, Palettenherstellung und Europaletten, deutschlandweit sowie in die Schweiz, die Niederlande und weitere Länder",
+      "phone": "[(555) 555-0100]",
+      "email": "wolfgang.hartmann@hps-pal.de",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/bl-paletten"
+        },
+        {
+          "label": "About",
+          "href": "/bl-paletten/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/bl-paletten/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/bl-paletten/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Paletten · Lademittel",
+        "headline": "Schnell und flexibel in der Lademittelwelt",
+        "sub": "LEHN Paletten GmbH ist ein mittelständisches Unternehmen und IPPC Betrieb, welches sich auf den Neubau von Spezialpaletten, Reparatur und An- und Verkauf von Lademitteln jeglicher Art spezialisiert hat.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/bl-paletten#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/bl-paletten/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Was wir lösen",
+        "heading": "Für uns ist \"Nein\" nicht die Antwort",
+        "items": [
+          {
+            "label": "VERSORGUNG",
+            "text": "Wenn Sie Lademittel kurzfristig benötigen, liefern wir für jedes Produkt die optimale Palette, deutschlandweit sowie in die Schweiz, die Niederlande und andere Länder."
+          },
+          {
+            "label": "REPARATUR",
+            "text": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
+          },
+          {
+            "label": "VERWERTUNG",
+            "text": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem, um den Palettenzyklus zu beenden, wir entsorgen nicht nur, sondern verwerten alle Paletten."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What BL Paletten GmbH handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Neubau von Spezialpaletten",
+            "detail": "Wir spezialisieren uns auf den Neubau von Spezialpaletten und erarbeiten ein individuelles, auf Ihr Unternehmen abgeschnittenes Lademittel-Versorgungskonzept."
+          },
+          {
+            "spec": "02",
+            "capability": "An- und Verkauf von Lademitteln",
+            "detail": "Wir bieten Lademittel jeglicher Art, und das deutschlandweit sowie nach Schweiz, den Niederlanden und andere Länder."
+          },
+          {
+            "spec": "03",
+            "capability": "Reparatur von Paletten",
+            "detail": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
+          },
+          {
+            "spec": "04",
+            "capability": "Verwertung und Recycling",
+            "detail": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem und verwerten alle Paletten, anstatt sie nur zu entsorgen."
+          },
+          {
+            "spec": "05",
+            "capability": "Wertstoffverarbeitung",
+            "detail": "Wir verarbeiten Wertstoffe aller Arten wie Papier/Pappe, Folie, Styropor und Kunststoffe jeglicher Art."
+          },
+          {
+            "spec": "06",
+            "capability": "Eigener Fuhrpark und Partnernetzwerk",
+            "detail": "Mit Hilfe eines eigenen Fuhrparks sind wir schnell und flexibel, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/bl-paletten/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Sprechen Sie uns an, wir arbeiten gerne ein individuelles Konzept aus",
+        "line": "Rufen Sie uns an, wenn Sie Paletten zu übergeben haben oder kurzfristig benötigen, wir nehmen alle Paletten an und liefern für jedes Produkt die optimale Palette."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Was versteht man unter dem Komplettangebot aus einer Hand?",
+            "a": "Wir sind in der Welt der Ladungsträger daheim und mit Hilfe eines eigenen Fuhrparks sind wir für Sie schnell und flexibel, gleichermaßen in der Welt der Speditionen sind wir regional für Sie unterwegs, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
+          },
+          {
+            "q": "Welchen Beitrag leisten gebrauchte Paletten zum Umweltschutz?",
+            "a": "Die gebrauchten Paletten entsprechen den neuen, Sie als Verbraucher leisten einen wesentlichen Beitrag zum Umweltschutz, denn wir bringen Ihre Paletten wieder in den Kreislauf."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FFFF0F",
+    "accentDk": "#D1D10C",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "brg-racing",
     "company": {
       "name": "BRG Racing Products",
@@ -43936,13 +44195,13 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
-    "slug": "bl-paletten",
+    "slug": "interior-specialties",
     "company": {
-      "name": "BL Paletten GmbH",
+      "name": "Interior Specialties Group",
       "logo": "",
-      "tagline": "Spezialpaletten, Palettenherstellung und Europaletten, deutschlandweit sowie in die Schweiz, die Niederlande und weitere Länder",
-      "phone": "[(555) 555-0100]",
-      "email": "wolfgang.hartmann@hps-pal.de",
+      "tagline": "Custom Window Coverings and Specialty Services to the Trade",
+      "phone": "(818) 522-6755",
+      "email": "michael@interiorspec.com",
       "address": "[City, State]",
       "yearsInBusiness": "[##]",
       "credentials": [
@@ -43956,34 +44215,34 @@ export const autoLeads: Lead[] = [
       "links": [
         {
           "label": "Home",
-          "href": "/bl-paletten"
+          "href": "/interior-specialties"
         },
         {
           "label": "About",
-          "href": "/bl-paletten/about"
+          "href": "/interior-specialties/about"
         },
         {
           "label": "Contact",
-          "href": "/bl-paletten/contact"
+          "href": "/interior-specialties/contact"
         }
       ],
       "cta": {
         "label": "Talk to us",
-        "href": "/bl-paletten/contact"
+        "href": "/interior-specialties/contact"
       }
     },
     "home": {
       "hero": {
-        "eyebrow": "Paletten · Lademittel",
-        "headline": "Schnell und flexibel in der Lademittelwelt",
-        "sub": "LEHN Paletten GmbH ist ein mittelständisches Unternehmen und IPPC Betrieb, welches sich auf den Neubau von Spezialpaletten, Reparatur und An- und Verkauf von Lademitteln jeglicher Art spezialisiert hat.",
+        "eyebrow": "Trade Resource · Specialty Services",
+        "headline": "Custom Window Coverings and Specialty Services",
+        "sub": "Interior Specialties is a complete to the trade resource serving the design, hospitality, architectural, and construction industries.",
         "primaryCta": {
           "label": "See capabilities",
-          "href": "/bl-paletten#capabilities"
+          "href": "/interior-specialties#capabilities"
         },
         "secondaryCta": {
           "label": "Talk to us",
-          "href": "/bl-paletten/contact"
+          "href": "/interior-specialties/contact"
         }
       },
       "heroSpec": [
@@ -44009,92 +44268,92 @@ export const autoLeads: Lead[] = [
         "[Projects delivered]"
       ],
       "problems": {
-        "eyebrow": "Was wir lösen",
-        "heading": "Für uns ist \"Nein\" nicht die Antwort",
+        "eyebrow": "Why It Matters",
+        "heading": "Your project deserves a single source.",
         "items": [
           {
-            "label": "VERSORGUNG",
-            "text": "Wenn Sie Lademittel kurzfristig benötigen, liefern wir für jedes Produkt die optimale Palette, deutschlandweit sowie in die Schweiz, die Niederlande und andere Länder."
+            "label": "SCOPE",
+            "text": "Projects span window coverings, wall upholstery, bedding, motorization, and specialty needs, and Interior Specialties handles them all as your single source."
           },
           {
-            "label": "REPARATUR",
-            "text": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
+            "label": "COMPLEXITY",
+            "text": "From tented ceilings and canopies to Japanese Norens and bed fabrication, there are no limits to your imagination."
           },
           {
-            "label": "VERWERTUNG",
-            "text": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem, um den Palettenzyklus zu beenden, wir entsorgen nicht nur, sondern verwerten alle Paletten."
+            "label": "CLIENTS",
+            "text": "High-profile and celebrity residential clients require a special white glove approach and respect, which Interior Specialties brings to every project."
           }
         ]
       },
       "ledger": {
         "eyebrow": "Capabilities",
-        "heading": "What BL Paletten GmbH handles.",
+        "heading": "What Interior Specialties Group handles.",
         "rows": [
           {
             "spec": "01",
-            "capability": "Neubau von Spezialpaletten",
-            "detail": "Wir spezialisieren uns auf den Neubau von Spezialpaletten und erarbeiten ein individuelles, auf Ihr Unternehmen abgeschnittenes Lademittel-Versorgungskonzept."
+            "capability": "Window Coverings",
+            "detail": "We offer drapery, shades, and shutters as part of our custom window coverings to the trade."
           },
           {
             "spec": "02",
-            "capability": "An- und Verkauf von Lademitteln",
-            "detail": "Wir bieten Lademittel jeglicher Art, und das deutschlandweit sowie nach Schweiz, den Niederlanden und andere Länder."
+            "capability": "Wall Upholstery and Upholstered Panels",
+            "detail": "Wall upholstery and upholstered panels serve both decorative applications and sound control."
           },
           {
             "spec": "03",
-            "capability": "Reparatur von Paletten",
-            "detail": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
+            "capability": "Bedding",
+            "detail": "Bedding and bed fabrication are included among our specialty services and product offerings."
           },
           {
             "spec": "04",
-            "capability": "Verwertung und Recycling",
-            "detail": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem und verwerten alle Paletten, anstatt sie nur zu entsorgen."
+            "capability": "Specialty Services",
+            "detail": "Tented ceilings, canopies, Japanese Norens, and more are offered with no limits to your imagination."
           },
           {
             "spec": "05",
-            "capability": "Wertstoffverarbeitung",
-            "detail": "Wir verarbeiten Wertstoffe aller Arten wie Papier/Pappe, Folie, Styropor und Kunststoffe jeglicher Art."
+            "capability": "Hospitality and Commercial",
+            "detail": "We work with hospitality and commercial projects from consultation and budget to completion."
           },
           {
             "spec": "06",
-            "capability": "Eigener Fuhrpark und Partnernetzwerk",
-            "detail": "Mit Hilfe eines eigenen Fuhrparks sind wir schnell und flexibel, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
+            "capability": "High End Residential",
+            "detail": "We bring a special white glove approach and respect for the high profile and celebrity client."
           }
         ]
       },
       "process": {
-        "eyebrow": "Lorem process",
-        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "eyebrow": "How it works",
+        "heading": "From planning and budgeting to installation.",
         "steps": [
           {
             "n": "1",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+            "title": "Consult and Budget",
+            "text": "We handle the planning and budgeting all the way up to the installation."
           },
           {
             "n": "2",
-            "title": "Dolor sit",
-            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "title": "Design",
+            "text": "We offer a wide array of services from planning and budgeting to design and physical installation."
           },
           {
             "n": "3",
-            "title": "Consectetur",
-            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+            "title": "Fabrication",
+            "text": "LOREM"
           },
           {
             "n": "4",
-            "title": "Adipiscing",
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+            "title": "Installation",
+            "text": "Installing window coverings, wall upholstery, bedding, motorization, and other specialty needs requires the right product."
           }
         ]
       },
       "flow": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet flow.",
+        "eyebrow": "Process",
+        "heading": "From consultation and budget to completion.",
         "steps": [
-          "[Step one]",
-          "[Step two]",
-          "[Step three]"
+          "Consultation and budgeting",
+          "Design and fabrication",
+          "Physical installation"
         ]
       },
       "stats": {
@@ -44124,7 +44383,7 @@ export const autoLeads: Lead[] = [
       "ctaMid": {
         "heading": "Lorem ipsum dolor sit amet consectetur.",
         "label": "Request a quote",
-        "href": "/bl-paletten/contact"
+        "href": "/interior-specialties/contact"
       },
       "trustBand": {
         "heading": "Lorem ipsum dolor sit amet.",
@@ -44162,20 +44421,20 @@ export const autoLeads: Lead[] = [
       },
       "endCta": {
         "eyebrow": "Talk to us",
-        "headline": "Sprechen Sie uns an, wir arbeiten gerne ein individuelles Konzept aus",
-        "line": "Rufen Sie uns an, wenn Sie Paletten zu übergeben haben oder kurzfristig benötigen, wir nehmen alle Paletten an und liefern für jedes Produkt die optimale Palette."
+        "headline": "Call us or email us today to see why we are right for your project.",
+        "line": "Because we are a complete to the trade resource, we handle the planning and budgeting all the way up to the installation."
       },
       "faq": {
         "eyebrow": "Before you ask",
         "heading": "Common questions.",
         "items": [
           {
-            "q": "Was versteht man unter dem Komplettangebot aus einer Hand?",
-            "a": "Wir sind in der Welt der Ladungsträger daheim und mit Hilfe eines eigenen Fuhrparks sind wir für Sie schnell und flexibel, gleichermaßen in der Welt der Speditionen sind wir regional für Sie unterwegs, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
+            "q": "Who does Interior Specialties Group serve?",
+            "a": "Interior Specialties serves the design, hospitality, architectural, and construction industries as a complete to the trade resource."
           },
           {
-            "q": "Welchen Beitrag leisten gebrauchte Paletten zum Umweltschutz?",
-            "a": "Die gebrauchten Paletten entsprechen den neuen, Sie als Verbraucher leisten einen wesentlichen Beitrag zum Umweltschutz, denn wir bringen Ihre Paletten wieder in den Kreislauf."
+            "q": "What kinds of projects does Interior Specialties Group handle?",
+            "a": "We are your single source for window coverings, wall upholstery, bedding, motorization, and specialty needs that you haven't even thought of yet."
           },
           {
             "q": "Sed do eiusmod tempor incididunt?",
@@ -44188,8 +44447,6 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#FFFF0F",
-    "accentDk": "#D1D10C",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
