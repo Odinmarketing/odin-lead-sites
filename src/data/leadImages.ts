@@ -515,5 +515,29 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
       "capabilities": "https://www.magnific.com/profile/license/pdf/35664509?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/332160678?lang=en"
     }
+  },
+  "e-s": {
+    "images": {
+      "hero": "/leads/e-s/hero.jpg",
+      "capabilities": "/leads/e-s/capabilities.jpg",
+      "operations": "/leads/e-s/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/285230381?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/37224717?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/10666387?lang=en"
+    }
+  },
+  "central-media": {
+    "images": {
+      "hero": "/leads/central-media/hero.jpg",
+      "capabilities": "/leads/central-media/capabilities.jpg",
+      "operations": "/leads/central-media/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/392544254?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/329817447?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/409071223?lang=en"
+    }
   }
 };
