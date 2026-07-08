@@ -36474,6 +36474,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "siemens",
+    "company": {
+      "name": "Siemens",
+      "logo": "",
+      "tagline": "A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
+      "phone": "[(555) 555-0100]",
+      "email": "sudhanshu.ratnaparkhee@siemens.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/siemens"
+        },
+        {
+          "label": "About",
+          "href": "/siemens/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/siemens/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/siemens/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Industrial AI · Digital Transformation",
+        "headline": "What if AI could do an engineer's most tedious work?",
+        "sub": "We've launched the Eigen Engineering Agent, purpose-built AI for industrial automation engineering that moves AI beyond generating suggestions to executing engineering tasks end-to-end.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/siemens#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/siemens/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Upgrade Reality",
+        "heading": "The challenges of tomorrow demand an upgrade today.",
+        "items": [
+          {
+            "label": "ENGINEERING",
+            "text": "Tedious engineering tasks slow teams down; the Eigen Engineering Agent autonomously plans, codes, configures and validates automation engineering tasks end-to-end."
+          },
+          {
+            "label": "OPERATIONS",
+            "text": "Siloed data makes campus operations inefficient; a digital twin brings together data from assets, BMS points, energy meters and documents to create a single source of truth."
+          },
+          {
+            "label": "SUSTAINABILITY",
+            "text": "Industrial processes waste energy and water; bringing a digital twin to an extraction process cut energy and water use while boosting income for the local community by 60%."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Siemens handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Industrial AI",
+            "detail": "We power your ideas with artificial intelligence, simulation and smart technologies, moving you from digital blueprint to real-world impact."
+          },
+          {
+            "spec": "02",
+            "capability": "Digital Twin",
+            "detail": "A digital twin brings together data from assets, BMS points, energy meters and documents to create a single source of truth and enable efficient, data-driven operations."
+          },
+          {
+            "spec": "03",
+            "capability": "Software-Defined Automation",
+            "detail": "The Eigen Engineering Agent is purpose-built AI that autonomously plans, codes, configures and validates automation engineering tasks."
+          },
+          {
+            "spec": "04",
+            "capability": "Rail Technology",
+            "detail": "The next generation of locomotives for freight and passenger transport combines proven platform technology with app-based functionalities and open interfaces for third-party providers."
+          },
+          {
+            "spec": "05",
+            "capability": "Infrastructure",
+            "detail": "Intelligence Center X is the agentic enterprise system where industrial AI delivers measurable business outcomes."
+          },
+          {
+            "spec": "06",
+            "capability": "Digital Transformation",
+            "detail": "Industrial AI is transforming every step, from product design and engineering to production and operations."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/siemens/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Start your free trial today.",
+        "line": "The Eigen Engineering Agent is now available for more than 600,000 TIA Portal users."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is the Eigen Engineering Agent?",
+            "a": "The Eigen Engineering Agent is purpose-built AI for industrial automation engineering that moves AI beyond generating suggestions to executing engineering tasks end-to-end, and is now available for more than 600,000 TIA Portal users."
+          },
+          {
+            "q": "What is Siemens building with NVIDIA?",
+            "a": "Together with NVIDIA, Siemens is building the Industrial AI operating system for the physical world."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#000028",
+    "accentDk": "#000021",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "soft-touch",
     "company": {
       "name": "Soft Touch AB",
@@ -43676,13 +43936,13 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
-    "slug": "siemens",
+    "slug": "bl-paletten",
     "company": {
-      "name": "Siemens",
+      "name": "BL Paletten GmbH",
       "logo": "",
-      "tagline": "A global technology leader driving innovation in industry, infrastructure and mobility through digital transformation.",
+      "tagline": "Spezialpaletten, Palettenherstellung und Europaletten, deutschlandweit sowie in die Schweiz, die Niederlande und weitere Länder",
       "phone": "[(555) 555-0100]",
-      "email": "sudhanshu.ratnaparkhee@siemens.com",
+      "email": "wolfgang.hartmann@hps-pal.de",
       "address": "[City, State]",
       "yearsInBusiness": "[##]",
       "credentials": [
@@ -43696,34 +43956,34 @@ export const autoLeads: Lead[] = [
       "links": [
         {
           "label": "Home",
-          "href": "/siemens"
+          "href": "/bl-paletten"
         },
         {
           "label": "About",
-          "href": "/siemens/about"
+          "href": "/bl-paletten/about"
         },
         {
           "label": "Contact",
-          "href": "/siemens/contact"
+          "href": "/bl-paletten/contact"
         }
       ],
       "cta": {
         "label": "Talk to us",
-        "href": "/siemens/contact"
+        "href": "/bl-paletten/contact"
       }
     },
     "home": {
       "hero": {
-        "eyebrow": "Industrial AI · Digital Transformation",
-        "headline": "What if AI could do an engineer's most tedious work?",
-        "sub": "We've launched the Eigen Engineering Agent, purpose-built AI for industrial automation engineering that moves AI beyond generating suggestions to executing engineering tasks end-to-end.",
+        "eyebrow": "Paletten · Lademittel",
+        "headline": "Schnell und flexibel in der Lademittelwelt",
+        "sub": "LEHN Paletten GmbH ist ein mittelständisches Unternehmen und IPPC Betrieb, welches sich auf den Neubau von Spezialpaletten, Reparatur und An- und Verkauf von Lademitteln jeglicher Art spezialisiert hat.",
         "primaryCta": {
           "label": "See capabilities",
-          "href": "/siemens#capabilities"
+          "href": "/bl-paletten#capabilities"
         },
         "secondaryCta": {
           "label": "Talk to us",
-          "href": "/siemens/contact"
+          "href": "/bl-paletten/contact"
         }
       },
       "heroSpec": [
@@ -43749,56 +44009,56 @@ export const autoLeads: Lead[] = [
         "[Projects delivered]"
       ],
       "problems": {
-        "eyebrow": "Upgrade Reality",
-        "heading": "The challenges of tomorrow demand an upgrade today.",
+        "eyebrow": "Was wir lösen",
+        "heading": "Für uns ist \"Nein\" nicht die Antwort",
         "items": [
           {
-            "label": "ENGINEERING",
-            "text": "Tedious engineering tasks slow teams down; the Eigen Engineering Agent autonomously plans, codes, configures and validates automation engineering tasks end-to-end."
+            "label": "VERSORGUNG",
+            "text": "Wenn Sie Lademittel kurzfristig benötigen, liefern wir für jedes Produkt die optimale Palette, deutschlandweit sowie in die Schweiz, die Niederlande und andere Länder."
           },
           {
-            "label": "OPERATIONS",
-            "text": "Siloed data makes campus operations inefficient; a digital twin brings together data from assets, BMS points, energy meters and documents to create a single source of truth."
+            "label": "REPARATUR",
+            "text": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
           },
           {
-            "label": "SUSTAINABILITY",
-            "text": "Industrial processes waste energy and water; bringing a digital twin to an extraction process cut energy and water use while boosting income for the local community by 60%."
+            "label": "VERWERTUNG",
+            "text": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem, um den Palettenzyklus zu beenden, wir entsorgen nicht nur, sondern verwerten alle Paletten."
           }
         ]
       },
       "ledger": {
         "eyebrow": "Capabilities",
-        "heading": "What Siemens handles.",
+        "heading": "What BL Paletten GmbH handles.",
         "rows": [
           {
             "spec": "01",
-            "capability": "Industrial AI",
-            "detail": "We power your ideas with artificial intelligence, simulation and smart technologies, moving you from digital blueprint to real-world impact."
+            "capability": "Neubau von Spezialpaletten",
+            "detail": "Wir spezialisieren uns auf den Neubau von Spezialpaletten und erarbeiten ein individuelles, auf Ihr Unternehmen abgeschnittenes Lademittel-Versorgungskonzept."
           },
           {
             "spec": "02",
-            "capability": "Digital Twin",
-            "detail": "A digital twin brings together data from assets, BMS points, energy meters and documents to create a single source of truth and enable efficient, data-driven operations."
+            "capability": "An- und Verkauf von Lademitteln",
+            "detail": "Wir bieten Lademittel jeglicher Art, und das deutschlandweit sowie nach Schweiz, den Niederlanden und andere Länder."
           },
           {
             "spec": "03",
-            "capability": "Software-Defined Automation",
-            "detail": "The Eigen Engineering Agent is purpose-built AI that autonomously plans, codes, configures and validates automation engineering tasks."
+            "capability": "Reparatur von Paletten",
+            "detail": "Defekte Teile werden durch neue ersetzt, sodass technisch reparierte Paletten von Neupaletten nicht zu unterscheiden sind."
           },
           {
             "spec": "04",
-            "capability": "Rail Technology",
-            "detail": "The next generation of locomotives for freight and passenger transport combines proven platform technology with app-based functionalities and open interfaces for third-party providers."
+            "capability": "Verwertung und Recycling",
+            "detail": "Wir verwenden ein fortschrittliches Palettenrecyclingsystem und verwerten alle Paletten, anstatt sie nur zu entsorgen."
           },
           {
             "spec": "05",
-            "capability": "Infrastructure",
-            "detail": "Intelligence Center X is the agentic enterprise system where industrial AI delivers measurable business outcomes."
+            "capability": "Wertstoffverarbeitung",
+            "detail": "Wir verarbeiten Wertstoffe aller Arten wie Papier/Pappe, Folie, Styropor und Kunststoffe jeglicher Art."
           },
           {
             "spec": "06",
-            "capability": "Digital Transformation",
-            "detail": "Industrial AI is transforming every step, from product design and engineering to production and operations."
+            "capability": "Eigener Fuhrpark und Partnernetzwerk",
+            "detail": "Mit Hilfe eines eigenen Fuhrparks sind wir schnell und flexibel, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
           }
         ]
       },
@@ -43864,7 +44124,7 @@ export const autoLeads: Lead[] = [
       "ctaMid": {
         "heading": "Lorem ipsum dolor sit amet consectetur.",
         "label": "Request a quote",
-        "href": "/siemens/contact"
+        "href": "/bl-paletten/contact"
       },
       "trustBand": {
         "heading": "Lorem ipsum dolor sit amet.",
@@ -43902,20 +44162,20 @@ export const autoLeads: Lead[] = [
       },
       "endCta": {
         "eyebrow": "Talk to us",
-        "headline": "Start your free trial today.",
-        "line": "The Eigen Engineering Agent is now available for more than 600,000 TIA Portal users."
+        "headline": "Sprechen Sie uns an, wir arbeiten gerne ein individuelles Konzept aus",
+        "line": "Rufen Sie uns an, wenn Sie Paletten zu übergeben haben oder kurzfristig benötigen, wir nehmen alle Paletten an und liefern für jedes Produkt die optimale Palette."
       },
       "faq": {
         "eyebrow": "Before you ask",
         "heading": "Common questions.",
         "items": [
           {
-            "q": "What is the Eigen Engineering Agent?",
-            "a": "The Eigen Engineering Agent is purpose-built AI for industrial automation engineering that moves AI beyond generating suggestions to executing engineering tasks end-to-end, and is now available for more than 600,000 TIA Portal users."
+            "q": "Was versteht man unter dem Komplettangebot aus einer Hand?",
+            "a": "Wir sind in der Welt der Ladungsträger daheim und mit Hilfe eines eigenen Fuhrparks sind wir für Sie schnell und flexibel, gleichermaßen in der Welt der Speditionen sind wir regional für Sie unterwegs, und überregional wirken wir mit unserem Partnernetzwerk miteinander."
           },
           {
-            "q": "What is Siemens building with NVIDIA?",
-            "a": "Together with NVIDIA, Siemens is building the Industrial AI operating system for the physical world."
+            "q": "Welchen Beitrag leisten gebrauchte Paletten zum Umweltschutz?",
+            "a": "Die gebrauchten Paletten entsprechen den neuen, Sie als Verbraucher leisten einen wesentlichen Beitrag zum Umweltschutz, denn wir bringen Ihre Paletten wieder in den Kreislauf."
           },
           {
             "q": "Sed do eiusmod tempor incididunt?",
@@ -43928,9 +44188,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#000028",
-    "accentDk": "#000021",
-    "accentText": "#FAF9F5",
+    "accent": "#FFFF0F",
+    "accentDk": "#D1D10C",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
