@@ -255,8 +255,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#B8956C",
-    "accentDk": "#977A59",
+    "accent": "#8895B7",
+    "accentDk": "#707A96",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -514,8 +514,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#E73B0E",
-    "accentDk": "#BD300B",
+    "accent": "#397ABA",
+    "accentDk": "#2F6499",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -2060,9 +2061,251 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#A81C28",
-    "accentDk": "#8A1721",
+    "accent": "#A4010C",
+    "accentDk": "#86010A",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "advanced-laser",
+    "company": {
+      "name": "Advanced Laser Dies",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(310) 701-3341",
+      "email": "greg.coleman@advancedlaserdies.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/advanced-laser"
+        },
+        {
+          "label": "About",
+          "href": "/advanced-laser/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/advanced-laser/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/advanced-laser/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/advanced-laser#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/advanced-laser/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Advanced Laser Dies handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/advanced-laser/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -3609,8 +3852,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#B5A415",
-    "accentDk": "#948611",
+    "accent": "#006D9D",
+    "accentDk": "#005981",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -5935,8 +6179,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#0D73BB",
-    "accentDk": "#0B5E99",
+    "accent": "#096DB7",
+    "accentDk": "#075996",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -6197,6 +6441,266 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#002E67",
     "accentDk": "#002654",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "baca-marine",
+    "company": {
+      "name": "Baca Marine",
+      "logo": "",
+      "tagline": "Joe Baca High Performance Marine Service and Repair",
+      "phone": "(915) 208-0645",
+      "email": "joe@bacamarine.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/baca-marine"
+        },
+        {
+          "label": "About",
+          "href": "/baca-marine/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/baca-marine/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/baca-marine/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Marine Service · High Performance",
+        "headline": "The Most Comprehensive Boat Service Company in the West",
+        "sub": "Baca Marine and Joe Baca provide outstanding service for all of your marine needs.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/baca-marine#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/baca-marine/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What We Solve",
+        "heading": "Your boat deserves reliable, high-performance care on the water.",
+        "items": [
+          {
+            "label": "PERFORMANCE",
+            "text": "If your boat is not reaching its potential, Baca Marine will push it to the highest levels of performance."
+          },
+          {
+            "label": "RELIABILITY",
+            "text": "High performance means nothing without dependability, so Baca Marine keeps your boat reliable and safe on the water."
+          },
+          {
+            "label": "SERVICE",
+            "text": "From complete boat service and repair to preventative maintenance, Baca Marine is a full-service center for all of your marine needs."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Baca Marine handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Complete Boat Service and Repair",
+            "detail": "Baca Marine and Joe Baca provide outstanding service for all of your marine needs."
+          },
+          {
+            "spec": "02",
+            "capability": "Performance Upgrades and Tuning",
+            "detail": "Baca Marine will push your boat to the highest levels of performance while keeping it reliable and safe on the water."
+          },
+          {
+            "spec": "03",
+            "capability": "On and Off-Water EFI Fuel Map Tuning",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Outdrive Building and Rebuilding",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "05",
+            "capability": "Complete Dyno Services",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "Boat Storage and Detail Service",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/baca-marine/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Count on Baca Marine for your marine service needs.",
+        "line": "Baca Marine and Joe Baca provide outstanding service for all of your marine needs."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What kinds of boat services does Baca Marine offer?",
+            "a": "Boat services include complete boat service and repair, boat tuning, custom rigging, performance upgrades, on and off-water EFI fuel map tuning, complete dyno services, outdrive building and rebuilding service, preventative maintenance, system trouble shooting, complete detail service, and boat storage."
+          },
+          {
+            "q": "Who does Baca Marine partner with for engine work?",
+            "a": "Partnered with the engine experts and builders at Pfaff Engines, Baca Marine has become a full-service center for marine service and high performance upgrades."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#0D328D",
+    "accentDk": "#0B2974",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -6722,6 +7226,251 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "bay-machine",
+    "company": {
+      "name": "Bay Machine Design",
+      "logo": "",
+      "tagline": "Machine design and mechanical engineering of industrial machinery and automation systems.",
+      "phone": "(805) 458-6278",
+      "email": "pdr@baymachinedesign.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/bay-machine"
+        },
+        {
+          "label": "About",
+          "href": "/bay-machine/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/bay-machine/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/bay-machine/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Mechanical Engineering · Industrial Automation",
+        "headline": "Engineering, design, and troubleshooting of industrial systems",
+        "sub": "Bay Machine Design is a mechanical engineering firm specializing in engineering, design, and troubleshooting of mechanical power transmission and industrial automation systems.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/bay-machine#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/bay-machine/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why it matters",
+        "heading": "Minimize time and money. Maximize your profits.",
+        "items": [
+          {
+            "label": "TIME",
+            "text": "Bay Machine Design focuses on fast response to minimize your expenditure of time."
+          },
+          {
+            "label": "QUALITY",
+            "text": "Thoroughness and attention to detail ensure quality outcomes for your project."
+          },
+          {
+            "label": "COST",
+            "text": "Bay Machine Design focuses on minimizing your expenditure of money and maximizing your profits."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Bay Machine Design handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Engineering",
+            "detail": "Bay Machine Design provides engineering of mechanical power transmission and industrial automation systems."
+          },
+          {
+            "spec": "02",
+            "capability": "Design",
+            "detail": "Bay Machine Design provides design of mechanical power transmission and industrial automation systems."
+          },
+          {
+            "spec": "03",
+            "capability": "Troubleshooting",
+            "detail": "Bay Machine Design provides troubleshooting of mechanical power transmission and industrial automation systems."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/bay-machine/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What does Bay Machine Design specialize in?",
+            "a": "Bay Machine Design is a mechanical engineering firm specializing in engineering, design, and troubleshooting of mechanical power transmission and industrial automation systems."
+          },
+          {
+            "q": "What does Bay Machine Design focus on to benefit clients?",
+            "a": "In order to minimize your expenditure of time and money, and maximize your profits, Bay Machine Design focuses on fast response, quality, thoroughness, and attention to detail."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#050567",
+    "accentDk": "#040454",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "bee-right",
     "company": {
       "name": "Bee Right There Heating & Air",
@@ -7233,8 +7982,511 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#053887",
-    "accentDk": "#042E6F",
+    "accent": "#9797D3",
+    "accentDk": "#7C7CAD",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "bertschi-instrumentos",
+    "company": {
+      "name": "BERTSCHI instrumentos",
+      "logo": "",
+      "tagline": "Especialistas en Instrumentos de Medición y Control e Ingeniería, desde 1927",
+      "phone": "[(555) 555-0100]",
+      "email": "pablo@bertschi.com.ar",
+      "address": "Buenos Aires",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/bertschi-instrumentos"
+        },
+        {
+          "label": "About",
+          "href": "/bertschi-instrumentos/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/bertschi-instrumentos/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/bertschi-instrumentos/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Medición y Control · Ingeniería",
+        "headline": "Bienvenidos a BERTSCHI instrumentos",
+        "sub": "Somos especialistas en Instrumentos de Medición y Control e Ingeniería.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/bertschi-instrumentos#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/bertschi-instrumentos/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Sectores que servimos",
+        "heading": "Presentes en las industrias que más lo necesitan.",
+        "items": [
+          {
+            "label": "ENERGÍA",
+            "text": "LOREM"
+          },
+          {
+            "label": "AGUA",
+            "text": "LOREM"
+          },
+          {
+            "label": "INDUSTRIA",
+            "text": "LOREM"
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What BERTSCHI instrumentos handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Instrumentos de procesos",
+            "detail": "Instrumentación para la industria en general."
+          },
+          {
+            "spec": "02",
+            "capability": "Auscultación",
+            "detail": "Instrumental Geotécnico para Obras Civiles."
+          },
+          {
+            "spec": "03",
+            "capability": "Centrales Hidroeléctricas y manejo del Agua",
+            "detail": "Caudal, Nivel, Posición de Compuertas, Monitoreo de Eficiencia de Turbinas."
+          },
+          {
+            "spec": "04",
+            "capability": "Relojes y Centrales Horarias",
+            "detail": "Relojes para edificios, florales, relojes patrones, servidores de tiempo NTP."
+          },
+          {
+            "spec": "05",
+            "capability": "Meteorología, Hidrología y Medio Ambiente",
+            "detail": "Centrales Meteorológicas, Instrumental para Hidrología y Medio Ambiente."
+          },
+          {
+            "spec": "06",
+            "capability": "Instrumental Sísmico y Vibraciones",
+            "detail": "Instrumental Sísmico, monitoreo de vibraciones en minería y construcciones."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/bertschi-instrumentos/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "En qué sectores está presente BERTSCHI instrumentos?",
+            "a": "Energía, Petróleo, Alimentación, Agua, Industria y Construcción."
+          },
+          {
+            "q": "En qué se especializa BERTSCHI instrumentos?",
+            "a": "Somos especialistas en Instrumentos de Medición y Control e Ingeniería."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FF0000",
+    "accentDk": "#D10000",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "bianchi-quadri",
+    "company": {
+      "name": "Bianchi Quadri S.r.l",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "[(555) 555-0100]",
+      "email": "paolo.bianchi@bianchiquadri.com",
+      "address": "Venegono Inferiore, Varese, Italy",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/bianchi-quadri"
+        },
+        {
+          "label": "About",
+          "href": "/bianchi-quadri/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/bianchi-quadri/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/bianchi-quadri/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/bianchi-quadri#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/bianchi-quadri/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Bianchi Quadri S.r.l handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/bianchi-quadri/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#003399",
+    "accentDk": "#002A7D",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -7493,8 +8745,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#FFFF0F",
-    "accentDk": "#D1D10C",
+    "accent": "#A75757",
+    "accentDk": "#894747",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -8759,8 +10012,267 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#2D7EB5",
-    "accentDk": "#256794",
+    "accent": "#3985B9",
+    "accentDk": "#2F6D98",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "candyland-amusements",
+    "company": {
+      "name": "Candyland Amusements",
+      "logo": "",
+      "tagline": "Rides, games, and food for events in Southern California",
+      "phone": "(818) 345-7988",
+      "email": "raymond@candylandamusements.com",
+      "address": "Tarzana, CA 91356",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/candyland-amusements"
+        },
+        {
+          "label": "About",
+          "href": "/candyland-amusements/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/candyland-amusements/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/candyland-amusements/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Rides · Games · Food",
+        "headline": "A Leader in Events Across Southern California",
+        "sub": "We are a leader in providing rides, games, and food for small to medium and large size events in Southern California.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/candyland-amusements#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/candyland-amusements/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Candyland Amusements handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Rides",
+            "detail": "We are a leader in providing rides for small to medium and large size events in Southern California."
+          },
+          {
+            "spec": "02",
+            "capability": "Games",
+            "detail": "We are a leader in providing games for small to medium and large size events in Southern California."
+          },
+          {
+            "spec": "03",
+            "capability": "Food",
+            "detail": "We are a leader in providing food for small to medium and large size events in Southern California."
+          },
+          {
+            "spec": "04",
+            "capability": "Studio and Live Production Rentals",
+            "detail": "We specialize in renting equipment for movie productions."
+          },
+          {
+            "spec": "05",
+            "capability": "Corporate and Private Rentals",
+            "detail": "We specialize in large corporate rentals."
+          },
+          {
+            "spec": "06",
+            "capability": "Fairs and Festivals",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/candyland-amusements/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Book Candyland Amusements for your next event.",
+        "line": "For more information on booking Candyland Amusements for your next event, please email or call us at 310-873-3248."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of events does Candyland Amusements serve?",
+            "a": "We provide rides, games, and food for small to medium and large size events in Southern California including the greater Los Angeles metropolitan area."
+          },
+          {
+            "q": "Does Candyland Amusements serve movie productions and corporate clients?",
+            "a": "We also specialize in renting equipment for movie productions and large corporate rentals."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#C5006E",
+    "accentDk": "#A2005A",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -9022,6 +10534,245 @@ export const autoLeads: Lead[] = [
     "accent": "#4D0205",
     "accentDk": "#3F0204",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "carlton-engineering",
+    "company": {
+      "name": "Carlton Engineering",
+      "logo": "",
+      "tagline": "Automation and Product Development Engineering",
+      "phone": "(731) 772-9752",
+      "email": "richard.carlton@carltonengineering.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/carlton-engineering"
+        },
+        {
+          "label": "About",
+          "href": "/carlton-engineering/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/carlton-engineering/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/carlton-engineering/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Automation · Product Development",
+        "headline": "Automation and Product Development",
+        "sub": "Carlton Engineering provides automation and product development services.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/carlton-engineering#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/carlton-engineering/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Carlton Engineering handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Product Development",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/carlton-engineering/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Reach Richard Carlton, P.E. today.",
+        "line": "Contact Richard Carlton by email at richard.carlton@CarltonEngineering.com or by mobile voice and text at 1-408-828-8775."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#91915A",
+    "accentDk": "#77774A",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -9528,8 +11279,267 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#A66C02",
-    "accentDk": "#885902",
+    "accent": "#F4B001",
+    "accentDk": "#C89001",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "central-refrigeration",
+    "company": {
+      "name": "Central Refrigeration Company",
+      "logo": "",
+      "tagline": "Air conditioning, heating and cooling services and repairs for businesses in the Bay Area",
+      "phone": "(415) 559-0055",
+      "email": "david@centralrefrigerationcompany.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/central-refrigeration"
+        },
+        {
+          "label": "About",
+          "href": "/central-refrigeration/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/central-refrigeration/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/central-refrigeration/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Commercial · Industrial",
+        "headline": "Air conditioning, heating and cooling services",
+        "sub": "Central Refrigeration Inc. specializes in commercial and industrial sales, service, and repairs of air conditioning, heating, refrigeration, custom-built cooling, ice machine, and ventilation units.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/central-refrigeration#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/central-refrigeration/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Central Refrigeration Company handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Air Conditioning",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of air conditioning units serving businesses in the Bay Area."
+          },
+          {
+            "spec": "02",
+            "capability": "Heating",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of heating units serving businesses in the Bay Area."
+          },
+          {
+            "spec": "03",
+            "capability": "Refrigeration",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of refrigeration units serving businesses in the Bay Area."
+          },
+          {
+            "spec": "04",
+            "capability": "Custom-Built Cooling",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of custom-built cooling units serving businesses in the Bay Area."
+          },
+          {
+            "spec": "05",
+            "capability": "Ice Machines",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of ice machine units serving businesses in the Bay Area."
+          },
+          {
+            "spec": "06",
+            "capability": "Ventilation",
+            "detail": "Central Refrigeration Inc. provides sales, service, and repairs of ventilation units serving businesses in the Bay Area."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/central-refrigeration/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Find out more about Central Refrigeration Inc.",
+        "line": "Central Refrigeration Inc. specializes in commercial and industrial sales, service, and repairs serving businesses in the Bay Area."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of businesses does Central Refrigeration Inc. serve?",
+            "a": "Central Refrigeration Inc. serves businesses in the Bay Area, specializing in commercial and industrial sales, service, and repairs."
+          },
+          {
+            "q": "What equipment does Central Refrigeration Inc. work on?",
+            "a": "Central Refrigeration Inc. works on air conditioning, heating, refrigeration, custom-built cooling, ice machine, and ventilation units."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#052957",
+    "accentDk": "#042247",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -10563,6 +12573,515 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "conesys",
+    "company": {
+      "name": "Conesys",
+      "logo": "",
+      "tagline": "Connectors, Electronic and Interconnection Systems for Military, Aerospace, Telecommunication, Medical, Automotive and Industrial",
+      "phone": "(310) 663-3729",
+      "email": "medwards@conesys.com",
+      "address": "Torrance, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/conesys"
+        },
+        {
+          "label": "About",
+          "href": "/conesys/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/conesys/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/conesys/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Connectors · Interconnect Systems",
+        "headline": "World-Class Supplier of Interconnect Solutions",
+        "sub": "Conesys is a vertically integrated provider of circular and rectangular connectors, fiber optic termini, copper and fiber interconnect systems, specialty cable assemblies, and application specific connectors.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/conesys#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/conesys/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What We Solve",
+        "heading": "From standard applications to customized solutions.",
+        "items": [
+          {
+            "label": "QUALITY",
+            "text": "Customers need quality products delivered cost-effectively and on-time, and Conesys supplies exactly that while meeting a full range of requirements."
+          },
+          {
+            "label": "REACH",
+            "text": "Customers across the Americas, Asia, Europe, Africa, and the Middle East need a global partner, and Conesys manufacturing and sales facilities serve all of those regions."
+          },
+          {
+            "label": "FLEXIBILITY",
+            "text": "Customers require both the financial strength and the responsiveness of a world-class supplier, and Conesys combines both."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Conesys handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Mil Spec Connectors",
+            "detail": "Aero-Electric Connector is a high-volume, Mil Spec connector manufacturer."
+          },
+          {
+            "spec": "02",
+            "capability": "Filter Connectors",
+            "detail": "EMP is a technology-driven filter connector manufacturer."
+          },
+          {
+            "spec": "03",
+            "capability": "Industrial Connectors and Cable Assemblies",
+            "detail": "AIP sells and manufactures connectors and cable assemblies for the Industrial marketplace."
+          },
+          {
+            "spec": "04",
+            "capability": "Customized Connectors and Fiber Optic Assemblies",
+            "detail": "J-Tech is a quick reacting manufacturer of customized connectors and fiber optic assemblies."
+          },
+          {
+            "spec": "05",
+            "capability": "International Sales and Engineering",
+            "detail": "Conesys Europe provides sales, engineering, and connector assembly, representing Conesys brands and supporting international customers."
+          },
+          {
+            "spec": "06",
+            "capability": "Molding and Assembly",
+            "detail": "Conesys Mexico is a molding and assembly center dedicated to support the Conesys companies."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/conesys/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Our mission is to be a world-class supplier of electronic connector products.",
+        "line": "We supply our valued customers quality products, cost-effectively and on-time, while meeting a full range of requirements from standard applications to customized solutions."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What markets does Conesys serve?",
+            "a": "Conesys connectors are widely used in all types of applications spanning different markets including Military/Aerospace, Commercial Aviation, Business Aviation, Aircraft Engines, Marine Applications, Heavy Equipment, Transportation, Rail Mass Transit, Geophysical, Machine Automation/Motion Control, Medical Equipment, General Industrial, and Telecommunications."
+          },
+          {
+            "q": "Where are Conesys facilities located?",
+            "a": "Manufacturing and assembly facilities in Torrance California and Tecate Mexico serve the needs of customers throughout the Americas and Asia, and Conesys Europe located in Toulouse, France focuses on serving customers in Europe, Africa, and the Middle East."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#98B8D8",
+    "accentDk": "#7D97B1",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "confluence-environmental",
+    "company": {
+      "name": "Confluence Environmental, Inc.",
+      "logo": "",
+      "tagline": "Groundwater, soil and air sampling and field service support for all types of sites and environmental projects.",
+      "phone": "(916) 759-8156",
+      "email": "jbrown@confluence-env.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/confluence-environmental"
+        },
+        {
+          "label": "About",
+          "href": "/confluence-environmental/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/confluence-environmental/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/confluence-environmental/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Environmental · Field Services",
+        "headline": "Field Services for Environmental Projects",
+        "sub": "Confluence Environmental Field Services provides groundwater, soil and air sampling and field service support for all types of sites and environmental projects.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/confluence-environmental#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/confluence-environmental/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Confluence Environmental, Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Groundwater Sampling",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Soil Sampling",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Air Sampling",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Field Service Support",
+            "detail": "Field service support is provided for all types of sites and environmental projects."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/confluence-environmental/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#913194",
+    "accentDk": "#772879",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "cool-air",
     "company": {
       "name": "Cool Air Technologies Inc",
@@ -10817,6 +13336,240 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#FDC40B",
     "accentDk": "#CFA109",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "cornerstone-services",
+    "company": {
+      "name": "Cornerstone Services, Inc.",
+      "logo": "",
+      "tagline": "Strengthening Your Bottom Line",
+      "phone": "(541) 520-5631",
+      "email": "jerry@oregoncsi.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/cornerstone-services"
+        },
+        {
+          "label": "About",
+          "href": "/cornerstone-services/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/cornerstone-services/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/cornerstone-services/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/cornerstone-services#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/cornerstone-services/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Cornerstone Services, Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/cornerstone-services/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#6B85A2",
+    "accentDk": "#586D85",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -11845,6 +14598,509 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "d-h",
+    "company": {
+      "name": "D & H TRANSPORTATION, INC.",
+      "logo": "",
+      "tagline": "Trucking Company in Yuba City, CA",
+      "phone": "(530) 865-4782",
+      "email": "greg@dhtransportation.com",
+      "address": "Yuba City, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/d-h"
+        },
+        {
+          "label": "About",
+          "href": "/d-h/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/d-h/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/d-h/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Trucking · Hauling",
+        "headline": "For All Your Hauling Needs",
+        "sub": "D&H Transportation Inc is a local trucking company in Yuba City, California.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/d-h#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/d-h/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why It Matters",
+        "heading": "We Know How to Provide Quality Customer Service",
+        "items": [
+          {
+            "label": "DISTRIBUTION",
+            "text": "What good is producing truckloads of fruit, vegetables, and other goods without proper distribution? Our agricultural transport services will get your goods to processing plants."
+          },
+          {
+            "label": "SAFETY",
+            "text": "We take your transportation needs seriously, and our flatbed hauling service provides fast, safe transport for building materials, lumber, and many other products."
+          },
+          {
+            "label": "READINESS",
+            "text": "Our fleet of Class A Commercial semi-trucks are always ready to pick up loads."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What D & H TRANSPORTATION, INC. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Agricultural Transport",
+            "detail": "Our agricultural transport services will get your goods to processing plants."
+          },
+          {
+            "spec": "02",
+            "capability": "Flatbed Hauling",
+            "detail": "Our flatbed hauling service provides fast, safe transport for building materials, lumber, and many other products throughout the western United States."
+          },
+          {
+            "spec": "03",
+            "capability": "Wood Shipping",
+            "detail": "D&H Transportation Inc provides wood shipping for individuals and commercial clients."
+          },
+          {
+            "spec": "04",
+            "capability": "Full Truckload (FTL)",
+            "detail": "An FTL shipment is over 10,000 lb or takes up an entire truck, making one trip from point A to point B without transferring the cargo."
+          },
+          {
+            "spec": "05",
+            "capability": "Less Than Truckload (LTL)",
+            "detail": "For LTL shipments, the cargo is safely consolidated with other shipments that may be picked up and distributed in the same area."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/d-h/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Get a Free Quote from D&H Transportation Inc",
+        "line": "Feel free to contact us and get a free quote."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is the difference between FTL and LTL services?",
+            "a": "FTL stands for Full Truckload. A shipment that is over 10,000 lb or takes up an entire truck by itself is considered Full Truckload, and it will take your shipment on a long haul, making one trip from point A to point B without transferring the cargo. LTL stands for Less Than Truckload. It takes just a section of the truck and the cargo is safely consolidated with other shipments that may be picked up and distributed in the same area."
+          },
+          {
+            "q": "What areas do you serve?",
+            "a": "D&H Transportation proudly serves Oregon, Washington, California, Nevada, Idaho, Montana, Wyoming, Utah, Colorado, Arizona, Texas, and New Mexico, from their home in Yuba City, California."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#3996B2",
+    "accentDk": "#2F7B92",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "deep-root",
+    "company": {
+      "name": "Deep Root Distribution",
+      "logo": "",
+      "tagline": "Deep Root Irrigation California & Worldwide, drip system attachment delivering water directly to the roots",
+      "phone": "(805) 689-7557",
+      "email": "walterp@deeprootdistribution.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/deep-root"
+        },
+        {
+          "label": "About",
+          "href": "/deep-root/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/deep-root/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/deep-root/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Irrigation · Water Management",
+        "headline": "Innovative Irrigation Solutions for Orchards Worldwide",
+        "sub": "Deep Root Distribution is a drip system attachment device that delivers water directly to the roots.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/deep-root#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/deep-root/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Water Challenges",
+        "heading": "The world needs better water management.",
+        "items": [
+          {
+            "label": "WASTE",
+            "text": "Conventional irrigation wastes water above ground; Deep Root Distribution is actively involved in creating innovative solutions for the world's water management requirements."
+          },
+          {
+            "label": "COST",
+            "text": "Water and energy costs run high with standard drip systems; Deep Root Distribution can save 50% or more on water and other energy related costs."
+          },
+          {
+            "label": "WEEDS",
+            "text": "Surface watering promotes weed growth; Deep Root Distribution delivers water completely underground, helping to eliminate the weed problem."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Deep Root Distribution handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Root-Zone Water Delivery",
+            "detail": "Deep Root Distribution is a drip system attachment device that delivers water directly to the roots."
+          },
+          {
+            "spec": "02",
+            "capability": "Water Waste Reduction",
+            "detail": "Our mission is to achieve ZERO water waste for orchards and vineyards worldwide."
+          },
+          {
+            "spec": "03",
+            "capability": "Innovative Irrigation Solutions",
+            "detail": "Deep Root Distribution is committed to providing you with innovative irrigation solutions."
+          },
+          {
+            "spec": "04",
+            "capability": "Global Water Management",
+            "detail": "Deep Root Distribution is actively involved in creating innovative solutions for the world's water management requirements."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/deep-root/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Check out our FAQs or contact us today.",
+        "line": "Deep Root Distribution is committed to providing you with innovative irrigation solutions."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What does Deep Root Distribution do?",
+            "a": "Deep Root Distribution is a drip system attachment device that delivers water directly to the roots."
+          },
+          {
+            "q": "What is Deep Root Distribution's mission?",
+            "a": "Our mission is to achieve ZERO water waste for orchards and vineyards worldwide."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#9FC02C",
+    "accentDk": "#829D24",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "delcom-instruments",
     "company": {
       "name": "Delcom Instruments, Inc.",
@@ -12607,8 +15863,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#55561A",
-    "accentDk": "#464715",
+    "accent": "#000286",
+    "accentDk": "#00026E",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -12852,8 +16108,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#0866A4",
-    "accentDk": "#075486",
+    "accent": "#0864A1",
+    "accentDk": "#075284",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -15429,6 +18685,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "elite-industrial",
+    "company": {
+      "name": "Elite Industrial Sales",
+      "logo": "",
+      "tagline": "Orbital welding and tube prep equipment for industrial industries, buy or rent",
+      "phone": "(209) 256-0328",
+      "email": "mark@eliteindustrialsales.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/elite-industrial"
+        },
+        {
+          "label": "About",
+          "href": "/elite-industrial/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/elite-industrial/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/elite-industrial/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Orbital Welding · Tube Prep",
+        "headline": "Helping you find the right solutions.",
+        "sub": "Donut Tools (formerly Elite Industrial Sales) offers equipment purchases and leasing/rental programs.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/elite-industrial#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/elite-industrial/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Industries We Serve",
+        "heading": "High performance orbital welding products for industrial industries.",
+        "items": [
+          {
+            "label": "PRECISION",
+            "text": "Demanding environments require precise and reliable welds, we provide the solutions you need to achieve them."
+          },
+          {
+            "label": "ACCESS",
+            "text": "We ship anywhere, so sourcing orbital welding and tube prep equipment is never a barrier."
+          },
+          {
+            "label": "SUPPORT",
+            "text": "As you browse through our website please don't hesitate to contact us, we always respond quickly and are ready to listen to your requirements."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Donut Tools handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Orbital Welding Machines",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Tube Facing Tools",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Sanitary Tack Clamps",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Tool Bits and Accessories",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "05",
+            "capability": "Saw Guides",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "Rental Programs",
+            "detail": "Donut Tools (formerly Elite Industrial Sales) offers equipment purchases and leasing/rental programs."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/elite-industrial/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Contact us for further details on a particular product.",
+        "line": "We always respond quickly and are ready to listen to your requirements."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Which industries does Donut Tools serve?",
+            "a": "Aerospace, Food Processing, Pharmaceutical, Biotech, Semiconductors, Oil and Gas, Nuclear, and more."
+          },
+          {
+            "q": "Can I rent equipment instead of buying?",
+            "a": "Donut Tools (formerly Elite Industrial Sales) offers equipment purchases and leasing/rental programs."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#002A77",
+    "accentDk": "#002262",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "empire-marketing",
     "company": {
       "name": "Empire Marketing Group",
@@ -15920,8 +19436,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#0073B2",
-    "accentDk": "#005E92",
+    "accent": "#E10D1E",
+    "accentDk": "#B90B19",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -16177,6 +19693,256 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#F48F1B",
     "accentDk": "#C87516",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "euroclydon-engineering",
+    "company": {
+      "name": "Euroclydon Engineering",
+      "logo": "",
+      "tagline": "Control Panel Manufacturing by Euroclydon Engineering",
+      "phone": "[(555) 555-0100]",
+      "email": "jiringan@euroclydonengineering.com",
+      "address": "Union City, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/euroclydon-engineering"
+        },
+        {
+          "label": "About",
+          "href": "/euroclydon-engineering/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/euroclydon-engineering/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/euroclydon-engineering/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Control Panel · Manufacturing",
+        "headline": "Custom Industrial Control Panels Built to Spec",
+        "sub": "Euroclydon Engineering builds custom industrial control panels for various industries and OEM applications.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/euroclydon-engineering#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/euroclydon-engineering/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Euroclydon Engineering handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Custom Industrial Control Panels",
+            "detail": "Euroclydon Engineering builds custom industrial control panels for various industries and OEM applications."
+          },
+          {
+            "spec": "02",
+            "capability": "OEM Applications",
+            "detail": "We build custom industrial control panels for OEM applications from your specifications."
+          },
+          {
+            "spec": "03",
+            "capability": "Conceptual Design",
+            "detail": "From conceptual design to fabrication, we specialize in providing the latest and greatest in control panel fabrication."
+          },
+          {
+            "spec": "04",
+            "capability": "Fabrication",
+            "detail": "Our professional engineers develop quality control panels from our customer's specifications."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "How it works",
+        "heading": "From concept to completed control panel.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Customer Specs",
+            "text": "Our professional engineers develop quality control panels from our customer's specifications."
+          },
+          {
+            "n": "2",
+            "title": "Conceptual Design",
+            "text": "From conceptual design to fabrication, we specialize in providing the latest and greatest in control panel fabrication."
+          },
+          {
+            "n": "3",
+            "title": "Fabrication",
+            "text": "LOREM"
+          },
+          {
+            "n": "4",
+            "title": "Delivery",
+            "text": "LOREM"
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Process",
+        "heading": "From concept to completed control panel.",
+        "steps": [
+          "Customer provides specifications to our professional engineers.",
+          "Conceptual design is developed for the control panel.",
+          "Fabrication is completed to deliver a quality finished panel."
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/euroclydon-engineering/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of control panels does Euroclydon Engineering build?",
+            "a": "Euroclydon Engineering builds custom industrial control panels for various industries and OEM applications."
+          },
+          {
+            "q": "How does the engineering process work?",
+            "a": "Our professional engineers develop quality control panels from our customer's specifications, from conceptual design to fabrication."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#537C7B",
+    "accentDk": "#446665",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -16946,6 +20712,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "fork-lift",
+    "company": {
+      "name": "Fork Lift Specialties Inc",
+      "logo": "",
+      "tagline": "Papé Material Handling offers superior products and customer service at locations throughout the West.",
+      "phone": "(559) 647-1414",
+      "email": "mfitz@fsicencal.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/fork-lift"
+        },
+        {
+          "label": "About",
+          "href": "/fork-lift/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/fork-lift/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/fork-lift/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Material Handling · Forklifts",
+        "headline": "Uptime is your priority, ours too",
+        "sub": "Papé Material Handling offers a full line of forklifts and material handling solutions from industry-leading manufacturers like Hyster and Yale.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/fork-lift#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/fork-lift/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Industry Solutions",
+        "heading": "Equipment built for demanding operations.",
+        "items": [
+          {
+            "label": "EFFICIENCY",
+            "text": "Managing space constraints and workflow precision is a challenge; our equipment is designed to keep your operations running smoothly and sustainably."
+          },
+          {
+            "label": "DURABILITY",
+            "text": "Tough environments and heavy loads demand rugged equipment; our reliable solutions ensure efficient material flow, improved safety, and maximum uptime."
+          },
+          {
+            "label": "FLEXIBILITY",
+            "text": "High-volume demands and tight timelines require scalable solutions; our advanced equipment is tailored to handle diverse inventory and keep your business moving forward."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Fork Lift Specialties Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Forklifts",
+            "detail": "We offer a full line of forklift models from industry-leading manufacturers, like Hyster and Yale, including 3- and 4-wheel electric, internal combustion, narrow aisle, high-capacity, and reach trucks."
+          },
+          {
+            "spec": "02",
+            "capability": "Aerial Lifts",
+            "detail": "When you need to work at height safely, aerial lifts from top manufacturers including Genie, Skyjack, and JLG make the equipment you need to get the job done."
+          },
+          {
+            "spec": "03",
+            "capability": "Railcar Movers",
+            "detail": "We partner with Trackmobile, the leading manufacturer of bi-modal railcar movers, to bring our customers high-quality and cost-effective equipment for railcar movement."
+          },
+          {
+            "spec": "04",
+            "capability": "Utility Work Carts",
+            "detail": "We carry a wide range of electric utility vehicles, personnel carriers, and stock chasers from industry-leading manufacturers such as GEM, Icon, Motrec, and Taylor-Dunn."
+          },
+          {
+            "spec": "05",
+            "capability": "Rental Equipment",
+            "detail": "Find the right rental equipment for your jobsite needs."
+          },
+          {
+            "spec": "06",
+            "capability": "Warehouse Design",
+            "detail": "Explore warehouse solutions and design for your space and budget, at no cost, with free warehouse planning."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/fork-lift/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Start planning your warehouse today.",
+        "line": "Papé Material Handling offers superior products and customer service at every one of our locations throughout the West."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Where are Papé Material Handling locations?",
+            "a": "Our locations span across Washington, Oregon, California, Montana, and Nevada, so we're always nearby to meet your material handling needs throughout the West."
+          },
+          {
+            "q": "What types of new equipment does Papé Material Handling carry?",
+            "a": "We offer forklifts, aerial lifts, railcar movers, utility work carts, and Combilift models, sourced from manufacturers including Hyster, Yale, Genie, Skyjack, JLG, Trackmobile, GEM, Icon, Motrec, and Taylor-Dunn."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#392702",
+    "accentDk": "#2F2002",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "fresh-quality",
     "company": {
       "name": "Fresh Quality Produce",
@@ -17198,8 +21224,497 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#343B05",
-    "accentDk": "#2B3004",
+    "accent": "#F65C48",
+    "accentDk": "#CA4B3B",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "ga-systems",
+    "company": {
+      "name": "G.A. Systems, Inc.",
+      "logo": "",
+      "tagline": "Mobile serving counters and serving systems for B2B clients",
+      "phone": "(714) 448-9446",
+      "email": "virginia@gasystemsmfg.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/ga-systems"
+        },
+        {
+          "label": "About",
+          "href": "/ga-systems/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/ga-systems/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/ga-systems/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Food Service · Manufacturing",
+        "headline": "Specializing in mobile serving counters",
+        "sub": "G.A. Systems, Inc. specializes in mobile serving counters.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/ga-systems#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/ga-systems/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What G.A. Systems, Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Mobile Serving Counters",
+            "detail": "G.A. Systems, Inc. specializes in mobile serving counters."
+          },
+          {
+            "spec": "02",
+            "capability": "Speedline Serving System",
+            "detail": "The Speedee-Serv Speedline serving system was designed to increase student participation while decreasing operating costs."
+          },
+          {
+            "spec": "03",
+            "capability": "Design and Manufacturing",
+            "detail": "Gordon put together a team of highly skilled design and manufacturing professionals to create the serving system."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/ga-systems/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What does G.A. Systems, Inc. specialize in?",
+            "a": "G.A. Systems, Inc. specializes in mobile serving counters."
+          },
+          {
+            "q": "What is the Speedline serving system designed to do?",
+            "a": "The Speedee-Serv Speedline serving system was designed to increase student participation while decreasing operating costs."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#992A15",
+    "accentDk": "#7D2211",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "gifts-of",
+    "company": {
+      "name": "Gifts of Nature, Inc",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(760) 594-9001",
+      "email": "john@giftsofnature.sdcoxmail.com",
+      "address": "Las Vegas, NV",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/gifts-of"
+        },
+        {
+          "label": "About",
+          "href": "/gifts-of/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/gifts-of/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/gifts-of/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/gifts-of#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/gifts-of/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Gifts of Nature, Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Showroom",
+            "detail": "Visit the Gifts of Nature showroom at Las Vegas Market, C806."
+          },
+          {
+            "spec": "02",
+            "capability": "Online Store",
+            "detail": "Browse and shop at giftsofnaturethestore.com."
+          },
+          {
+            "spec": "03",
+            "capability": "Direct Contact",
+            "detail": "Reach the team by email at info@gonreps.com or by phone at 800-733-7783."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/gifts-of/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Where is the Gifts of Nature showroom located?",
+            "a": "The showroom is at Las Vegas Market, C806."
+          },
+          {
+            "q": "How can I contact Gifts of Nature?",
+            "a": "You can reach them at info@gonreps.com or 800-733-7783, and shop online at giftsofnaturethestore.com."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#726B00",
+    "accentDk": "#5D5800",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -17458,9 +21973,263 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#00245A",
-    "accentDk": "#001E4A",
+    "accent": "#00265D",
+    "accentDk": "#001F4C",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "global-construction",
+    "company": {
+      "name": "Global Construction Equipment Services Inc.",
+      "logo": "",
+      "tagline": "Your premium machinery provider for used construction equipment",
+      "phone": "(425) 641-7269",
+      "email": "adel@gcesequipment.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/global-construction"
+        },
+        {
+          "label": "About",
+          "href": "/global-construction/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/global-construction/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/global-construction/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Used Equipment · Attachments",
+        "headline": "Your Premium Machinery Provider",
+        "sub": "Explore the finest machinery with GCES used equipment and attachments.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/global-construction#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/global-construction/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Finding Equipment",
+        "heading": "Want specific construction equipment?",
+        "items": [
+          {
+            "label": "SEARCH",
+            "text": "Finding the right machine is hard; GCES lets you search by equipment type, brand, model, and year to locate what you need."
+          },
+          {
+            "label": "VARIETY",
+            "text": "Projects require many machine types; GCES carries equipment from all manufacturers and all categories, plus brand new attachments that complete your work."
+          },
+          {
+            "label": "RESPONSE",
+            "text": "Downtime costs you; our representatives work hard to find your inquiry as soon as possible because your work must keep going."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Global Construction Equipment Services Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Used Machinery",
+            "detail": "GCES offers used machinery for sale from some of the world's top construction suppliers."
+          },
+          {
+            "spec": "02",
+            "capability": "New Attachments",
+            "detail": "Brand new attachments are available to complete your work."
+          },
+          {
+            "spec": "03",
+            "capability": "Parts",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Equipment On Demand",
+            "detail": "GCES will supply you with the hottest deals on the machines you want."
+          },
+          {
+            "spec": "05",
+            "capability": "Multi-Brand Inventory",
+            "detail": "Equipment is available from brands including Caterpillar, Hitachi, Volvo, Doosan, Case, John Deere, Komatsu, Hyundai, Kobelco, Sany, JCB, and Ingersoll Rand."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/global-construction/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Find your next machinery with GCES.",
+        "line": "We are pleased to offer used machinery for sale from some of the world's top construction suppliers."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of equipment does GCES carry?",
+            "a": "GCES carries track loaders, telehandlers, mini excavators, skid steers, attachments, dump trucks, parts, rollers, backhoes, dozers, wheel excavators, excavators, motor graders, and wheel loaders."
+          },
+          {
+            "q": "What brands does GCES offer?",
+            "a": "Available brands include Caterpillar, Hitachi, Volvo, Doosan, Case, John Deere, Komatsu, Hyundai, Kobelco, Sany, JCB, and Ingersoll Rand."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FDA61D",
+    "accentDk": "#CF8818",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -18224,6 +22993,266 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#0172FA",
     "accentDk": "#015DCD",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "great-way",
+    "company": {
+      "name": "Great Way Trading & Transportation",
+      "logo": "",
+      "tagline": "Great Way Trading & Transportation, International Logistics, Trading, and Hi-Tech Exchange",
+      "phone": "(650) 580-4895",
+      "email": "peter.gong@great-way.com",
+      "address": "Union City, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/great-way"
+        },
+        {
+          "label": "About",
+          "href": "/great-way/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/great-way/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/great-way/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Logistics · Trading",
+        "headline": "A great one stop solution for international logistics",
+        "sub": "Great Way offers a one-stop solution for a full range of supply chain and logistics services, such as U.S. Customs brokerage, international freight forwarding, warehouses, and e-commerce logistics.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/great-way#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/great-way/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Your Challenges",
+        "heading": "Serving importers and exporters across the world.",
+        "items": [
+          {
+            "label": "FREIGHT",
+            "text": "When your cargo needs to move internationally, Great Way provides freight forwarding services including air freight, ocean freight, and project and industrial logistics."
+          },
+          {
+            "label": "COMPLIANCE",
+            "text": "When navigating customs is complex, Great Way offers U.S. Customs brokerage to support clearance procedures and documentation."
+          },
+          {
+            "label": "COMMERCE",
+            "text": "When you need to reach customers online, Great Way provides e-commerce logistics including overseas warehouse, Amazon FBA, order fulfillment, and parcel services."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Great Way Trading & Transportation handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Freight Forwarding",
+            "detail": "Great Way provides international freight forwarding including air freight, ocean freight, and project and industrial logistics."
+          },
+          {
+            "spec": "02",
+            "capability": "Customs Brokerage",
+            "detail": "Great Way offers U.S. Customs brokerage services including clearance procedures, terms, and document support."
+          },
+          {
+            "spec": "03",
+            "capability": "E-Commerce Logistics",
+            "detail": "Great Way supports e-commerce through overseas warehouse, Amazon FBA, order fulfillment, and parcel services."
+          },
+          {
+            "spec": "04",
+            "capability": "Value-Added Trading Services",
+            "detail": "Great Way provides trading agent processes, international trading escrow, and supply chain finance."
+          },
+          {
+            "spec": "05",
+            "capability": "Technology and Investment Brokerage",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "US-China Business Services",
+            "detail": "Great Way serves Chinese businesses that want to expand to the U.S."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/great-way/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Contact us with any questions about our services.",
+        "line": "If you have any questions or concerns with our services, please contact us."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What kind of businesses does Great Way serve?",
+            "a": "Great Way serves importers and exporters, especially Chinese businesses that want to expand to the U.S."
+          },
+          {
+            "q": "What is Great Way's mission?",
+            "a": "Great Way's mission is to promote international trade and serve the importer and exporters."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#132B54",
+    "accentDk": "#102345",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -19503,6 +24532,250 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#FEE300",
     "accentDk": "#D0BA00",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "heinzen-manufacturing",
+    "company": {
+      "name": "Heinzen Manufacturing, Intl.",
+      "logo": "",
+      "tagline": "Full-service engineering and fabrication for food processing equipment",
+      "phone": "(408) 422-2081",
+      "email": "dzamzow@heinzen.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/heinzen-manufacturing"
+        },
+        {
+          "label": "About",
+          "href": "/heinzen-manufacturing/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/heinzen-manufacturing/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/heinzen-manufacturing/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Food Processing · Engineering",
+        "headline": "Your Partner in Food Safe Innovation",
+        "sub": "Heinzen Manufacturing International is a full-service engineering and fabrication company specializing in the design, production, and installation of food processing equipment.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/heinzen-manufacturing#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/heinzen-manufacturing/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Heinzen Manufacturing, Intl. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Custom Integrated Solutions",
+            "detail": "HMI draws upon a wide range of depth and experience, from custom-built fruit processing lines to complete heavy construction projects."
+          },
+          {
+            "spec": "02",
+            "capability": "Food Processing Equipment Design",
+            "detail": "Heinzen Manufacturing International specializes in the design, production, and installation of food processing equipment."
+          },
+          {
+            "spec": "03",
+            "capability": "Sanitation Equipment",
+            "detail": "Channelized Integrated Solutions is excited for the launch of JetBrush™ and our Sanitation Brush Line."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/heinzen-manufacturing/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Let us put our experience to work for you.",
+        "line": "Heinzen Manufacturing has been satisfying customers and is ready to deliver custom integrated solutions for your food processing needs."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of projects does Heinzen Manufacturing handle?",
+            "a": "HMI draws upon a wide range of depth and experience, from custom-built fruit processing lines to complete heavy construction projects."
+          },
+          {
+            "q": "What kind of work environment does Heinzen offer its employees?",
+            "a": "Heinzen's manufacturing and engineering environment provides a unique experience in a fast paced, results driven atmosphere."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#7092BE",
+    "accentDk": "#5C789C",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -21563,8 +26836,269 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#FD1400",
-    "accentDk": "#CF1000",
+    "accent": "#041B36",
+    "accentDk": "#03162C",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "innosense",
+    "company": {
+      "name": "Innosense Corporation",
+      "logo": "",
+      "tagline": "InnoSense develops cutting edge innovations in sensors, materials, coatings, green technology, renewable energy, and biomedical diagnostics for the aerospace, defense, energy, and healthcare markets.",
+      "phone": "(425) 985-4586",
+      "email": "nikhil.balagopalan@haircutsarefun.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/innosense"
+        },
+        {
+          "label": "About",
+          "href": "/innosense/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/innosense/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/innosense/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Sensors · Materials · Coatings",
+        "headline": "Technologies for Tomorrow",
+        "sub": "InnoSense is a uniquely driven engineering company committed to producing technologies for tomorrow, today.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/innosense#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/innosense/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Our Approach",
+        "heading": "Using scientific expertise and a spirit of innovation to solve real world problems.",
+        "items": [
+          {
+            "label": "EXPERTISE",
+            "text": "Our research staff comprises experts in aerogels, ceramic and glass science, nanotechnology, medical devices and more, and our team of scientists and engineers work together to develop novel engineered materials."
+          },
+          {
+            "label": "REACH",
+            "text": "Our mission is to use our scientific expertise and spirit of innovation to improve the way people do things in the U.S., around the world, and in space."
+          },
+          {
+            "label": "SOLUTIONS",
+            "text": "Our research and development efforts focus on sensors, materials, coatings, renewable energy, and medical diagnostic devices and therapeutic agents."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Innosense Corporation handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Environmental Sensors",
+            "detail": "InnoSense develops CO2 sensors, oxygen sensors, humidity sensors, and hydrogen sensors."
+          },
+          {
+            "spec": "02",
+            "capability": "Nanomaterial Based Coatings",
+            "detail": "InnoSense develops transparent conductive coatings and hydrophobic coatings."
+          },
+          {
+            "spec": "03",
+            "capability": "Functional Materials",
+            "detail": "InnoSense develops advanced composite foams, phase change materials, and solid rare isotope catchers."
+          },
+          {
+            "spec": "04",
+            "capability": "Green Technology",
+            "detail": "InnoSense works on carbon dioxide to methanol conversion and carbon dioxide monitoring."
+          },
+          {
+            "spec": "05",
+            "capability": "Renewable Energy",
+            "detail": "InnoSense develops materials for photovoltaic, photo-electrochemical, and solid oxide fuel cells."
+          },
+          {
+            "spec": "06",
+            "capability": "Biomedical Diagnostics",
+            "detail": "InnoSense develops nanoparticles for cancer detection and monitoring, and nanowire-based disease biomarker sensors."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/innosense/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Learn more about innovations at Innosense Corporation.",
+        "line": "To learn more about our technologies or other innovations at Innosense Corporation, please visit our technology webpage or contact us."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is FogGo?",
+            "a": "FogGo is a permanent anti-fog coating that leverages nanotechnology to deliver superior anti-fogging performance in harsh environments."
+          },
+          {
+            "q": "What is Therm-E-Log?",
+            "a": "Therm-E-Log is a battery-free time-temperature dosimeter that can monitor the thermal history across a variety of applications."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#29498D",
+    "accentDk": "#223C74",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -21822,8 +27356,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#31F200",
-    "accentDk": "#28C600",
+    "accent": "#2D81FD",
+    "accentDk": "#256ACF",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -22088,6 +27622,526 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "interior-specialties",
+    "company": {
+      "name": "Interior Specialties Group",
+      "logo": "",
+      "tagline": "Custom Window Coverings and Specialty Services to the Trade",
+      "phone": "(818) 522-6755",
+      "email": "michael@interiorspec.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/interior-specialties"
+        },
+        {
+          "label": "About",
+          "href": "/interior-specialties/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/interior-specialties/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/interior-specialties/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Trade Resource · Specialty Services",
+        "headline": "Custom Window Coverings and Specialty Services",
+        "sub": "Interior Specialties is a complete to the trade resource serving the design, hospitality, architectural, and construction industries.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/interior-specialties#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/interior-specialties/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why It Matters",
+        "heading": "Your project deserves a single source.",
+        "items": [
+          {
+            "label": "SCOPE",
+            "text": "Projects span window coverings, wall upholstery, bedding, motorization, and specialty needs, and Interior Specialties handles them all as your single source."
+          },
+          {
+            "label": "COMPLEXITY",
+            "text": "From tented ceilings and canopies to Japanese Norens and bed fabrication, there are no limits to your imagination."
+          },
+          {
+            "label": "CLIENTS",
+            "text": "High-profile and celebrity residential clients require a special white glove approach and respect, which Interior Specialties brings to every project."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Interior Specialties Group handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Window Coverings",
+            "detail": "We offer drapery, shades, and shutters as part of our custom window coverings to the trade."
+          },
+          {
+            "spec": "02",
+            "capability": "Wall Upholstery and Upholstered Panels",
+            "detail": "Wall upholstery and upholstered panels serve both decorative applications and sound control."
+          },
+          {
+            "spec": "03",
+            "capability": "Bedding",
+            "detail": "Bedding and bed fabrication are included among our specialty services and product offerings."
+          },
+          {
+            "spec": "04",
+            "capability": "Specialty Services",
+            "detail": "Tented ceilings, canopies, Japanese Norens, and more are offered with no limits to your imagination."
+          },
+          {
+            "spec": "05",
+            "capability": "Hospitality and Commercial",
+            "detail": "We work with hospitality and commercial projects from consultation and budget to completion."
+          },
+          {
+            "spec": "06",
+            "capability": "High End Residential",
+            "detail": "We bring a special white glove approach and respect for the high profile and celebrity client."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "How it works",
+        "heading": "From planning and budgeting to installation.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Consult and Budget",
+            "text": "We handle the planning and budgeting all the way up to the installation."
+          },
+          {
+            "n": "2",
+            "title": "Design",
+            "text": "We offer a wide array of services from planning and budgeting to design and physical installation."
+          },
+          {
+            "n": "3",
+            "title": "Fabrication",
+            "text": "LOREM"
+          },
+          {
+            "n": "4",
+            "title": "Installation",
+            "text": "Installing window coverings, wall upholstery, bedding, motorization, and other specialty needs requires the right product."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Process",
+        "heading": "From consultation and budget to completion.",
+        "steps": [
+          "Consultation and budgeting",
+          "Design and fabrication",
+          "Physical installation"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/interior-specialties/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Call us or email us today to see why we are right for your project.",
+        "line": "Because we are a complete to the trade resource, we handle the planning and budgeting all the way up to the installation."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Who does Interior Specialties Group serve?",
+            "a": "Interior Specialties serves the design, hospitality, architectural, and construction industries as a complete to the trade resource."
+          },
+          {
+            "q": "What kinds of projects does Interior Specialties Group handle?",
+            "a": "We are your single source for window coverings, wall upholstery, bedding, motorization, and specialty needs that you haven't even thought of yet."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#225ED6",
+    "accentDk": "#1C4DAF",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "inverse-solutions",
+    "company": {
+      "name": "Inverse Solutions, Inc.",
+      "logo": "",
+      "tagline": "Manufacturing and engineering solutions for the most demanding engineer",
+      "phone": "(925) 899-1724",
+      "email": "dave@inversesolutionsinc.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/inverse-solutions"
+        },
+        {
+          "label": "About",
+          "href": "/inverse-solutions/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/inverse-solutions/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/inverse-solutions/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "CNC Machining · Contract Manufacturing",
+        "headline": "High quality design, testing, and production capabilities",
+        "sub": "Inverse Solutions offers comprehensive capabilities for manufacturing and engineering technology development, including precision CNC machining, prototype or production, CNC Swiss type machining, contract manufacturing, and cost reduction analysis for component fabrication.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/inverse-solutions#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/inverse-solutions/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Your Challenges",
+        "heading": "Tough parts demand precise solutions.",
+        "items": [
+          {
+            "label": "COMPLEXITY",
+            "text": "Intricate geometries are difficult to reproduce accurately; GibbsCam software allows direct import and programming from any solid model, assuring precise reproduction and eliminating misinterpretation of blueprints."
+          },
+          {
+            "label": "PROTOTYPING",
+            "text": "Newly designed components are critical for validating design ideas; Inverse Solutions is committed to providing superior quality, turnkey prototype components and engineering design-review services to meet your needs."
+          },
+          {
+            "label": "COSTS",
+            "text": "Component fabrication costs need to be controlled; the engineering staff is always looking for innovative ideas to help reduce costs, increase part performance, and reduce particles."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Inverse Solutions, Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "CNC Swiss Type Machining",
+            "detail": "CNC Swiss machines have front and rear spindles which allow processing parts from both ends simultaneously, with seven live milling and drilling spindles giving the capability to produce parts complete in one operation."
+          },
+          {
+            "spec": "02",
+            "capability": "Milled and Turned Components",
+            "detail": "The portfolio of milling and turned projects includes components made of stainless steel, aluminum, titanium, brass, and a variety of other metals and plastics, to meet the specialized needs of customers in defense, aerospace, automotive, medical, semiconductor, solar, and more."
+          },
+          {
+            "spec": "03",
+            "capability": "Semiconductor Parts and Services",
+            "detail": "Inverse Solutions offers a number of parts and services for the semiconductor market, including refurbishment programs for heatsinks, fixed restraints, and moving clips, as well as replacement materials for quartz and silicon."
+          },
+          {
+            "spec": "04",
+            "capability": "Prototype Solutions",
+            "detail": "Inverse Solutions offers quick and accurate manufacturing of machined components from your drawings, solid files, or design ideas."
+          },
+          {
+            "spec": "05",
+            "capability": "Contract and Engineering Services",
+            "detail": "Services offered to customers include contract inspection, engineering services, stocking programs, and part and product consultation."
+          },
+          {
+            "spec": "06",
+            "capability": "Coating Services",
+            "detail": "New coating services include DLC (Diamond Like Carbon), Silicon, and Silicon Carbide coatings, with a proprietary process able to coat up to .005 in a very short amount of time."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/inverse-solutions/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Please e-mail or give us a call.",
+        "line": "Inverse Solutions offers manufacturing and engineering solutions for the most demanding engineer."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What part sizes can your CNC Swiss machines handle?",
+            "a": "With CNC Swiss machines, Inverse Solutions is able to machine parts as small as 0.005 inches in diameter up to 0.75 inches in diameter."
+          },
+          {
+            "q": "What materials do you work with?",
+            "a": "Projects include components made of stainless steel, aluminum, titanium, brass, and a variety of other metals and plastics."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#7C0000",
+    "accentDk": "#660000",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "iron-orchid",
     "company": {
       "name": "Iron Orchid Designs, LLC",
@@ -22332,6 +28386,261 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#22B203",
     "accentDk": "#1C9202",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "jaccard",
+    "company": {
+      "name": "Jaccard Corporation",
+      "logo": "",
+      "tagline": "Innovative solutions for food processing from Jaccard Corporation",
+      "phone": "(619) 990-1219",
+      "email": "sj@jaccardinteriors.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/jaccard"
+        },
+        {
+          "label": "About",
+          "href": "/jaccard/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/jaccard/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/jaccard/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Food Processing · Consumer Retail",
+        "headline": "Innovative and Compelling Solutions for Your Market",
+        "sub": "Jaccard Corporation provides innovative and compelling products to the consumer retail, food service, and food processing markets.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/jaccard#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/jaccard/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Jaccard Corporation handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Deli Slicers",
+            "detail": "From slicing cheeses, deli meats, or bacon, Jaccard offers stainless steel, NSF approved deli slicer stackers to improve your deli operations."
+          },
+          {
+            "spec": "02",
+            "capability": "Meat Tenderizers and Flatteners",
+            "detail": "With both a manual and automatic option, Jaccard commercial meat tenderizers and flatteners offer a solution for your operation."
+          },
+          {
+            "spec": "03",
+            "capability": "Rotary Slicers",
+            "detail": "From beef jerky to fajitas to stir fry, Jaccard rotary slicers can meet the needs of your business."
+          },
+          {
+            "spec": "04",
+            "capability": "Ready-To-Cook and Food Packaging",
+            "detail": "Jaccard Ready-to-Cook packaging makes dinners easy with an increasing array of fresh, healthy, and convenient mealtime options."
+          },
+          {
+            "spec": "05",
+            "capability": "Food Service and Commercial Equipment",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/jaccard/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Contact Jaccard Corporation today to learn more",
+        "line": "Jaccard Corporation has a long history in providing innovative and compelling products to the consumer retail, food service, and food processing markets."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What markets does Jaccard Corporation serve?",
+            "a": "Jaccard Corporation serves the consumer retail, food service, and food processing markets."
+          },
+          {
+            "q": "What makes Jaccard's stacker slicers stand out?",
+            "a": "Jaccard offers the world's only NSF approved stacker slicers with the lowest cost of ownership in the industry."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#EB050E",
+    "accentDk": "#C1040B",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -23116,6 +29425,261 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "jkindustries",
+    "company": {
+      "name": "JKINDUSTRIES",
+      "logo": "",
+      "tagline": "India-based plant and machinery manufacturer for Pharmaceuticals, Chemicals, Cosmetics, and Food Industries",
+      "phone": "(818) 571-6516",
+      "email": "jeff@ultimatealoeskincare.com",
+      "address": "Ahmedabad, Gujarat",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/jkindustries"
+        },
+        {
+          "label": "About",
+          "href": "/jkindustries/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/jkindustries/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/jkindustries/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Plant & Machinery · Manufacturing",
+        "headline": "Machinery Manufacturing for Pharma and Industry",
+        "sub": "JK Industries is an India-based plant and machinery manufacturing company that caters its services to Pharmaceuticals, Chemicals, Bulk Drugs, Cosmetics, and Food Industries.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/jkindustries#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/jkindustries/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Industries We Serve",
+        "heading": "Built for the demands of your industry.",
+        "items": [
+          {
+            "label": "FILTRATION",
+            "text": "Industries requiring reliable separation solutions can rely on JK Industries Filter Presses, used for a wide range of applications by Pharma, bulk drugs, distilleries, beverages, and other industries."
+          },
+          {
+            "label": "BLENDING",
+            "text": "Operations needing consistent, homogeneous mixing are served by the Ribbon Blender, an efficient and versatile blending machine for mixing dry granules and powders."
+          },
+          {
+            "label": "SCALE",
+            "text": "Companies across Pharmaceuticals, Chemicals, Bulk Drugs, Cosmetics, and Food Industries are among the different fields JK Industries caters its services to."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What JKINDUSTRIES handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Filter Press",
+            "detail": "The JK Industries range of Filter Presses are used for a wide range of applications by several industries like Pharma, bulk drugs, distilleries, beverages, and other industries."
+          },
+          {
+            "spec": "02",
+            "capability": "Ribbon Blenders",
+            "detail": "The Ribbon Blender is an efficient and versatile blending machine for mixing of dry granules and powders homogeneously."
+          },
+          {
+            "spec": "03",
+            "capability": "Pharmaceutical Manufacturing Plants",
+            "detail": "JK Industries caters its services to the Pharmaceuticals field as part of its plant and machinery manufacturing offering."
+          },
+          {
+            "spec": "04",
+            "capability": "Chemical & Bulk Drug Plants",
+            "detail": "JK Industries serves the Chemicals and Bulk Drugs fields as part of its plant and machinery manufacturing offering."
+          },
+          {
+            "spec": "05",
+            "capability": "Cosmetics & Food Industry Plants",
+            "detail": "JK Industries caters its services to the Cosmetics and Food Industries as part of its plant and machinery manufacturing offering."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/jkindustries/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What industries does JK Industries serve?",
+            "a": "JK Industries caters its services to different fields like Pharmaceuticals, Chemicals, Bulk Drugs, Cosmetics, and Food Industries."
+          },
+          {
+            "q": "What is the Ribbon Blender used for?",
+            "a": "The Ribbon Blender is an efficient and versatile blending machine for mixing of dry granules and powders homogeneously; approximately two thirds of the volume of the container is filled to ensure proper mixing."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#DA2B22",
+    "accentDk": "#B3231C",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "jmg-solutions",
     "company": {
       "name": "JMG Solutions Ltd",
@@ -23622,8 +30186,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#35B969",
-    "accentDk": "#2B9856",
+    "accent": "#C58B08",
+    "accentDk": "#A27207",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -23889,6 +30453,265 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "kamal-trading",
+    "company": {
+      "name": "Kamal Trading Co., Inc",
+      "logo": "",
+      "tagline": "Wholesale jewelry supplies, findings, chains, and accessories for the jewelry industry",
+      "phone": "(714) 231-2602",
+      "email": "rajiv@kamaltrading.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/kamal-trading"
+        },
+        {
+          "label": "About",
+          "href": "/kamal-trading/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/kamal-trading/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/kamal-trading/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Wholesale Jewelry · Supplies",
+        "headline": "One Stop Shop for Findings, Chains and Accessories",
+        "sub": "Kamal Trading provides wholesale jewelry supplies, including jewelry findings, jewelry making chains, and accessories.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/kamal-trading#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/kamal-trading/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What You Need",
+        "heading": "Everything for jewelry making in one place.",
+        "items": [
+          {
+            "label": "FINDINGS",
+            "text": "Sourcing findings across multiple metals is a challenge; Kamal Trading carries 14K gold, gold filled, sterling silver, silver filled, copper, and plated brass findings."
+          },
+          {
+            "label": "CHAINS",
+            "text": "Finding chains to match your findings wastes time; Kamal Trading offers chains in 14K gold, gold filled, sterling silver, copper, and plated brass."
+          },
+          {
+            "label": "SHIPPING",
+            "text": "Shipping costs cut into wholesale margins; Kamal Trading offers free shipping on orders of $200 and above."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Kamal Trading Co., Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Findings",
+            "detail": "Findings are available in 14K gold, copper, gold filled, plated brass, silver filled, and sterling silver."
+          },
+          {
+            "spec": "02",
+            "capability": "Chains",
+            "detail": "Chains are available in 14K gold, copper, gold filled, plated brass, and sterling silver."
+          },
+          {
+            "spec": "03",
+            "capability": "Swarovski",
+            "detail": "Swarovski products include beads, flatbacks, pearls, and pendants."
+          },
+          {
+            "spec": "04",
+            "capability": "Pearls and Stone Beads",
+            "detail": "Pearls include freshwater and Tahitian varieties, and stone beads include precious, semi-precious, and miscellaneous options."
+          },
+          {
+            "spec": "05",
+            "capability": "Stringing Material",
+            "detail": "Stringing materials include artistic wire, Beadalon, elastic, French wire, memory wire, silk cards, silk spools, Softflex, and Wild Fire."
+          },
+          {
+            "spec": "06",
+            "capability": "Tools and Supplies",
+            "detail": "Tools and supplies include bead boards, books, cutters, glue and cement, needles, pliers, and miscellaneous items."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/kamal-trading/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Is there free shipping?",
+            "a": "Free shipping is available on orders of $200 and above."
+          },
+          {
+            "q": "What resources does Kamal Trading provide?",
+            "a": "Kamal Trading provides a metal guide, Swarovski color chart, Swarovski DIY projects, a unit conversion chart, a wire conversion chart, and a Beadalon wire chart."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#F9E801",
+    "accentDk": "#CCBE01",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "kasai-consulting",
     "company": {
       "name": "Kasai Consulting",
@@ -24143,6 +30966,266 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#0197C7",
     "accentDk": "#017CA3",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "keco",
+    "company": {
+      "name": "Keco Inc",
+      "logo": "",
+      "tagline": "The world's leading supplier of marine waste pumpout systems, marine pumpout equipment, and marine pumps",
+      "phone": "(619) 602-5441",
+      "email": "anne@pumpahead.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/keco"
+        },
+        {
+          "label": "About",
+          "href": "/keco/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/keco/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/keco/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Marine Pumps · Pumpout Systems",
+        "headline": "Marine Pumpout Industry Pioneer and Leader",
+        "sub": "Keco specializes in marine pumps, marine pumpout equipment, and marine waste pumpout systems.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/keco#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/keco/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why Keco",
+        "heading": "Quality workmanship backed by industry-leading support.",
+        "items": [
+          {
+            "label": "COST",
+            "text": "Portable pumpout systems provide convenience and flexibility without the added cost of a permanent infrastructure."
+          },
+          {
+            "label": "REACH",
+            "text": "Remote pumpout systems offer marinas flexibility with installation and future expansion of your marine pumpout station."
+          },
+          {
+            "label": "DISTANCE",
+            "text": "With centralized pumpout systems, the pump and connection points can be separated up to 4,500 feet."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Keco Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Dockside PumpOut Systems",
+            "detail": "Offers an intuitive and user friendly pumpout station solution."
+          },
+          {
+            "spec": "02",
+            "capability": "Remote PumpOut Systems",
+            "detail": "Offering marinas flexibility with installation and future expansion of your marine pumpout station."
+          },
+          {
+            "spec": "03",
+            "capability": "Centralized PumpOut Systems",
+            "detail": "The pump and connection points can be separated up to 4,500 feet, a great solution for your pumpout station."
+          },
+          {
+            "spec": "04",
+            "capability": "Portable PumpOut Systems",
+            "detail": "Provide convenience and flexibility without the added cost of a permanent infrastructure."
+          },
+          {
+            "spec": "05",
+            "capability": "Trailer Mounted PumpOut Systems",
+            "detail": "These marine pumpout trailers can be transported over a variety of terrains."
+          },
+          {
+            "spec": "06",
+            "capability": "SKID Mounted PumpOut Systems",
+            "detail": "Skids are available with tank capacity up to 1025-gallons."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/keco/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Contact us today to learn more about a Keco marine pumpout station.",
+        "line": "Keco is committed to providing its customers with quality workmanship, professional and knowledgeable sales personnel, and competitive pricing."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of support does Keco provide?",
+            "a": "Keco offers lifetime technical and product support, CVA grant assistance, and a complimentary design consultation."
+          },
+          {
+            "q": "What is the PumpOut Barge?",
+            "a": "The floating marine pumpout dock has a stable working platform due to the catamaran design."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#0A3E65",
+    "accentDk": "#083353",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -25174,9 +32257,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#634C09",
-    "accentDk": "#513E07",
-    "accentText": "#FAF9F5",
+    "accent": "#E9C704",
+    "accentDk": "#BFA303",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -25692,6 +32774,520 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "lexmar-distribution",
+    "company": {
+      "name": "Lexmar Distribution Inc",
+      "logo": "",
+      "tagline": "Trucking and freight distribution across the western United States",
+      "phone": "(323) 422-9429",
+      "email": "alex@lditrucking.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/lexmar-distribution"
+        },
+        {
+          "label": "About",
+          "href": "/lexmar-distribution/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/lexmar-distribution/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/lexmar-distribution/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Trucking · Logistics",
+        "headline": "Transport Everywhere, Safe and On Time",
+        "sub": "Lexmar Distribution Inc. is a trucking company dedicated to delivering your products on time.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/lexmar-distribution#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/lexmar-distribution/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Your Challenge",
+        "heading": "Reliable delivery is what makes your business grow.",
+        "items": [
+          {
+            "label": "RELIABILITY",
+            "text": "When you need a carrier you can count on, Lexmar is dedicated to delivering your products on time so you have the reliability you need to make your business grow."
+          },
+          {
+            "label": "SERVICE",
+            "text": "At Lexmar the customer always comes first, and they do everything possible to ensure you can provide your own clients with the best service."
+          },
+          {
+            "label": "DEADLINES",
+            "text": "Their goal is to provide definite transportation solutions so that you can always meet or surpass your delivery deadline."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Lexmar Distribution Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LDI Trucking Services",
+            "detail": "LDI Trucking Services is a leading carrier in the country's western regional transportation industry, safely hauling freight throughout the 11 western states."
+          },
+          {
+            "spec": "02",
+            "capability": "LDI Truck Drivers",
+            "detail": "LDI's OTR drivers are committed to safely moving loads and professionally representing the company."
+          },
+          {
+            "spec": "03",
+            "capability": "LDI Logistics Services",
+            "detail": "LDI Logistics Services can broker freight to pre-qualified carriers that they have long standing relationships with, moving freight anywhere in the country."
+          },
+          {
+            "spec": "04",
+            "capability": "Domestic Retail Distribution",
+            "detail": "Lexmar offers a diverse range of transportation services and domestic retail distribution and delivery."
+          },
+          {
+            "spec": "05",
+            "capability": "Fleet Operations",
+            "detail": "Their modern equipped vehicles are operating with the latest industry technologies."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/lexmar-distribution/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Get your transport quote within the hour.",
+        "line": "Fill out the form to get your quote within the hour, and Lexmar will cover all routes possible."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What routes does Lexmar cover?",
+            "a": "Their experienced operations team and dedicated drivers safely haul freight throughout the 11 western states, and LDI Logistics Services can also move freight anywhere in the country."
+          },
+          {
+            "q": "Does Lexmar offer career opportunities for drivers?",
+            "a": "Lexmar Distribution Inc. offers exciting career opportunities in transportation."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FE0000",
+    "accentDk": "#D00000",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "linear-design",
+    "company": {
+      "name": "Linear Design Group",
+      "logo": "",
+      "tagline": "Industrial Automation Design and Engineering in Grass Valley, CA",
+      "phone": "(530) 559-1898",
+      "email": "zac@lineardesigngroup.com",
+      "address": "Grass Valley, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/linear-design"
+        },
+        {
+          "label": "About",
+          "href": "/linear-design/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/linear-design/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/linear-design/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Industrial Automation",
+        "headline": "Your source for Industrial Automation.",
+        "sub": "Linear Design Group develops automatic or semi-automatic machinery to improve or eliminate manual processing.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/linear-design#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/linear-design/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why Automate",
+        "heading": "Manual processing creates real risks for your operation.",
+        "items": [
+          {
+            "label": "SAFETY",
+            "text": "If manual processing creates a safety risk to your employees, automation can reduce or eliminate those risks."
+          },
+          {
+            "label": "ERGONOMICS",
+            "text": "If manual processing creates an ergonomic risk to your employees, a machine can perform the same process while reducing those risks."
+          },
+          {
+            "label": "CONSISTENCY",
+            "text": "A machine can perform faster, is more repeatable, and reduces safety risks than when the same process is performed manually."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Linear Design Group handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Medical Device Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Food Processing Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Semi-Conductor Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Plastic Extrusion Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "05",
+            "capability": "Solar Automation",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "R&D Labs Automation",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/linear-design/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Let us show you how automation can reduce or eliminate those risks.",
+        "line": "Contact Linear Design Group to learn how automated machinery can improve or eliminate manual processing at your facility."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is Industrial Automation?",
+            "a": "Industrial Automation is the process of developing automatic or semi-automatic machinery to improve or eliminate manual processing."
+          },
+          {
+            "q": "What industries can benefit from automation?",
+            "a": "Industries that have been provided automated machinery include Medical Device, Solar, Plastic Extrusion, Food Processing, Ceramics, Disk Drive, Semi-Conductor, and R&D Labs, but are not limited to these."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#023738",
+    "accentDk": "#022D2E",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "lodi-iron",
     "company": {
       "name": "Lodi Iron Works, Inc.",
@@ -25939,9 +33535,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#3C0E11",
-    "accentDk": "#310B0E",
-    "accentText": "#FAF9F5",
+    "accent": "#FF0000",
+    "accentDk": "#D10000",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -26194,8 +33789,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#8B1A0F",
-    "accentDk": "#72150C",
+    "accent": "#D70603",
+    "accentDk": "#B00502",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -26974,6 +34569,251 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#02274A",
     "accentDk": "#02203D",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "material-flow",
+    "company": {
+      "name": "Material Flow Systems",
+      "logo": "",
+      "tagline": "Garment on hanger sortation equipment serving Los Angeles, Seattle, Denver, Dallas, Kansas, and surrounds",
+      "phone": "(909) 910-6139",
+      "email": "matt.yates@materialflowsystems.com",
+      "address": "San Bernardino, CA 92407",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/material-flow"
+        },
+        {
+          "label": "About",
+          "href": "/material-flow/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/material-flow/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/material-flow/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Garment Handling · Logistics",
+        "headline": "Garment Handling, Storage and Logistic Services",
+        "sub": "Material Flow Systems supports the growing U.S. market for garment handling, storage and logistic services.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/material-flow#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/material-flow/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Material Flow Systems handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Garment Handling",
+            "detail": "Material Flow Systems supports the U.S. market for garment handling services."
+          },
+          {
+            "spec": "02",
+            "capability": "Storage",
+            "detail": "Material Flow Systems supports the U.S. market for garment storage services."
+          },
+          {
+            "spec": "03",
+            "capability": "Logistic Services",
+            "detail": "Material Flow Systems supports the U.S. market for garment logistic services."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/material-flow/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Call to Start Your Action Plan",
+        "line": "Reach Material Flow Systems by phone at (909) 930-6151 or by fax at (909) 930-6154."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Where does Material Flow Systems provide service?",
+            "a": "Material Flow Systems provides nationwide and international service, including Los Angeles, San Francisco, Seattle, Dallas, San Antonio, St. Louis, Miami, Norfolk, New York, Boston, Kansas City, Chicago, Minneapolis, Nashville, Atlanta, Mexico City, Dubai, Tokyo, Toronto, and Ontario."
+          },
+          {
+            "q": "When was Material Flow Systems founded and with whom?",
+            "a": "Material Flow Systems was founded in 1996 in association with Schonenberger Systems of Landsberg / Lech in Germany."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#002C73",
+    "accentDk": "#00245E",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -28279,6 +36119,492 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "mill-mike",
+    "company": {
+      "name": "MILL MIKE MFG. CORP.",
+      "logo": "",
+      "tagline": "Precision Machined Parts Manufacturing",
+      "phone": "(714) 307-5575",
+      "email": "tamyra@millmikemfg.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/mill-mike"
+        },
+        {
+          "label": "About",
+          "href": "/mill-mike/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/mill-mike/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/mill-mike/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Precision Machining · Manufacturing",
+        "headline": "Precision Machined Parts, On Time",
+        "sub": "Mill Mike Mfg. has provided precision machined parts utilizing high quality, state-of-the-art equipment and systems to exceed customer expectations.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/mill-mike#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/mill-mike/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why It Matters",
+        "heading": "Customers need quality parts delivered on time.",
+        "items": [
+          {
+            "label": "QUALITY",
+            "text": "When parts fall short of spec, Mill Mike Mfg. is committed to delivering the highest quality parts achievable."
+          },
+          {
+            "label": "TIMING",
+            "text": "Late deliveries hurt your operation, which is why delivering products to customers on time is a top priority."
+          },
+          {
+            "label": "SATISFACTION",
+            "text": "Unmet expectations slow business down, so Mill Mike Mfg. holds total customer satisfaction as its number one goal."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What MILL MIKE MFG. CORP. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Precision Machined Parts",
+            "detail": "Mill Mike Mfg. has provided precision machined parts using high quality, state-of-the-art equipment and systems."
+          },
+          {
+            "spec": "02",
+            "capability": "Quality Assurance",
+            "detail": "The company is committed to delivering the highest quality parts achievable through a philosophy of continuous improvement."
+          },
+          {
+            "spec": "03",
+            "capability": "On-Time Delivery",
+            "detail": "Delivering products to customers on time is identified as a core commitment of Mill Mike Mfg."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/mill-mike/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Let us exceed your expectations.",
+        "line": "Mill Mike Mfg. utilizes high quality, state-of-the-art equipment and systems with a goal of total customer satisfaction."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is Mill Mike Mfg.'s primary goal?",
+            "a": "Their number one goal is total customer satisfaction through a philosophy of continuous improvement."
+          },
+          {
+            "q": "What kind of equipment does Mill Mike Mfg. use?",
+            "a": "They utilize only high quality, state-of-the-art equipment and systems to exceed customer expectations."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#98B9E2",
+    "accentDk": "#7D98B9",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "mooney-industrials",
+    "company": {
+      "name": "Mooney Industrials",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(714) 814-4459",
+      "email": "pat@mooney-inc.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/mooney-industrials"
+        },
+        {
+          "label": "About",
+          "href": "/mooney-industrials/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/mooney-industrials/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/mooney-industrials/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/mooney-industrials#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/mooney-industrials/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Mooney Industrials handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/mooney-industrials/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "motor-city",
     "company": {
       "name": "Motor City Spindle Repair",
@@ -29058,6 +37384,241 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "nelson-air",
+    "company": {
+      "name": "Nelson Air Conditioning",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(916) 631-3696",
+      "email": "scott@nelsoninc.org",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/nelson-air"
+        },
+        {
+          "label": "About",
+          "href": "/nelson-air/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/nelson-air/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/nelson-air/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/nelson-air#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/nelson-air/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Nelson Air Conditioning handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/nelson-air/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#18314D",
+    "accentDk": "#14283F",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "nelson-auctions",
     "company": {
       "name": "Nelson Auctions",
@@ -29310,9 +37871,268 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#B7090D",
-    "accentDk": "#96070B",
+    "accent": "#BA1418",
+    "accentDk": "#991014",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "network-delivery",
+    "company": {
+      "name": "Network Delivery Systems, Inc",
+      "logo": "",
+      "tagline": "Northern California Truckload and LTL carrier providing transportation, warehousing, consolidation, and distribution services.",
+      "phone": "(916) 291-3055",
+      "email": "eric@networkdeliverysystems.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/network-delivery"
+        },
+        {
+          "label": "About",
+          "href": "/network-delivery/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/network-delivery/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/network-delivery/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Transportation · Warehousing",
+        "headline": "Our Word, Our Commitment, Every Shipment.",
+        "sub": "Network Delivery Systems provides clients with transportation, warehousing, load consolidation, load reworking, and distribution services, as well as short and long term storage solutions.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/network-delivery#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/network-delivery/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why It Matters",
+        "heading": "The transportation experience your business deserves.",
+        "items": [
+          {
+            "label": "COMMITMENT",
+            "text": "When shipments cannot afford uncertainty, Network Delivery prides itself in providing clients the best possible transportation experience from the first phone call to shipment completion."
+          },
+          {
+            "label": "CONSISTENCY",
+            "text": "Clients need a carrier whose focus on high customer satisfaction remains the same today as it was at the company's founding, and that focus has never changed at Network Delivery Systems."
+          },
+          {
+            "label": "CAPACITY",
+            "text": "When volume demands grow, Network Delivery Systems utilizes twenty-five trucks and a twenty door 42,000 square foot cross dock warehouse to meet client needs."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Network Delivery Systems, Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LTL Services",
+            "detail": "Network Delivery Systems is a Northern California-based Less Than Truckload carrier providing clients with the finest in transportation services."
+          },
+          {
+            "spec": "02",
+            "capability": "Air Freight Cartage",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Warehouse Services",
+            "detail": "Network Delivery Systems operates a twenty door 42,000 square foot cross dock warehouse to support client distribution needs."
+          },
+          {
+            "spec": "04",
+            "capability": "Short-Term Storage",
+            "detail": "Network Delivery Systems provides clients with short and long term storage solutions."
+          },
+          {
+            "spec": "05",
+            "capability": "Load Rework",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "Load Consolidation",
+            "detail": "Network Delivery Systems provides clients with load consolidation services as part of its transportation and distribution offering."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/network-delivery/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Every shipment, every time.",
+        "line": "Network Delivery prides itself in providing clients the best possible transportation experience from the first phone call to shipment completion."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What services does Network Delivery Systems provide?",
+            "a": "Network Delivery Systems provides transportation, warehousing, load consolidation, load reworking, and distribution services, as well as short and long term storage solutions."
+          },
+          {
+            "q": "What equipment and facilities does Network Delivery Systems operate?",
+            "a": "Network Delivery Systems utilizes twenty-five trucks, including bobtails and tractors, and operates a twenty door 42,000 square foot cross dock warehouse."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#F7A727",
+    "accentDk": "#CB8920",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -29570,9 +38390,253 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#00165D",
-    "accentDk": "#00124C",
+    "accent": "#000E29",
+    "accentDk": "#000B22",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "nielsen-technologies",
+    "company": {
+      "name": "Nielsen Technologies",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(530) 520-8272",
+      "email": "gavin@nielsentechnologies.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/nielsen-technologies"
+        },
+        {
+          "label": "About",
+          "href": "/nielsen-technologies/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/nielsen-technologies/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/nielsen-technologies/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/nielsen-technologies#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/nielsen-technologies/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Nielsen Technologies handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/nielsen-technologies/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FCB678",
+    "accentDk": "#CF9562",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -29830,9 +38894,253 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#003DD6",
-    "accentDk": "#0032AF",
+    "accent": "#0041DB",
+    "accentDk": "#0035B4",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "north-texas",
+    "company": {
+      "name": "North Texas Pump Company",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(214) 491-7418",
+      "email": "jena@traumarecovery101.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/north-texas"
+        },
+        {
+          "label": "About",
+          "href": "/north-texas/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/north-texas/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/north-texas/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/north-texas#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/north-texas/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What North Texas Pump Company handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/north-texas/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#039ECE",
+    "accentDk": "#0282A9",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -30341,6 +39649,251 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#008868",
     "accentDk": "#007055",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "pacific-kiln",
+    "company": {
+      "name": "Pacific Kiln",
+      "logo": "",
+      "tagline": "Innovative kiln and furnace systems for Ceramic and Investment Casting industries",
+      "phone": "(951) 653-8622",
+      "email": "joelfritz@pacifickiln.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/pacific-kiln"
+        },
+        {
+          "label": "About",
+          "href": "/pacific-kiln/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/pacific-kiln/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/pacific-kiln/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Kiln · Furnace Systems",
+        "headline": "Innovative and technically advanced kiln and furnace systems",
+        "sub": "Pacific Kiln brings innovative and technically advanced kiln and furnace systems to the Ceramic and Investment Casting industries.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/pacific-kiln#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/pacific-kiln/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Pacific Kiln handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Investment Casting Products",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Ceramic Industry Products",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Kiln and Furnace Systems",
+            "detail": "Pacific Kiln brings innovative and technically advanced kiln and furnace systems to the Ceramic and Investment Casting industries."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/pacific-kiln/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "We look forward to hearing from you.",
+        "line": "Our web site will give you an overview of these products and a line of communication to obtain more detailed information."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What industries does Pacific Kiln serve?",
+            "a": "Pacific Kiln serves the Ceramic and Investment Casting industries."
+          },
+          {
+            "q": "What kinds of systems does Pacific Kiln offer?",
+            "a": "Pacific Kiln offers innovative and technically advanced kiln and furnace systems."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#2B2E92",
+    "accentDk": "#232678",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -31372,6 +40925,251 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "pegasus-bicycle",
+    "company": {
+      "name": "Pegasus Bicycle Works",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(925) 549-2609",
+      "email": "annier@eaglepeakmontessori.org",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/pegasus-bicycle"
+        },
+        {
+          "label": "About",
+          "href": "/pegasus-bicycle/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/pegasus-bicycle/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/pegasus-bicycle/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Bicycle Shop",
+        "headline": "See you out there or in the shop.",
+        "sub": "Pegasus Bicycle Works is a bicycle shop offering rides and repairs.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/pegasus-bicycle#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/pegasus-bicycle/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Pegasus Bicycle Works handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Repairs",
+            "detail": "Once repairs are done, they will begin posting in advance which ride it will be."
+          },
+          {
+            "spec": "02",
+            "capability": "Group Rides",
+            "detail": "Sunday mornings at 8:30 they meet at the shop and ride, sometimes road, sometimes mountain."
+          },
+          {
+            "spec": "03",
+            "capability": "Bicycle Sales",
+            "detail": "Stop by for a test ride and see why this sale is such a big deal."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/pegasus-bicycle/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Join us for mellow rides, easy pulls and good times.",
+        "line": "Call to check and see you out there or in the shop."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "When do group rides happen?",
+            "a": "Sunday mornings at 8:30 they meet at the shop and ride, sometimes road, sometimes mountain. Call to check."
+          },
+          {
+            "q": "Who can join the rides?",
+            "a": "It is an open invitation to all, joining for mellow rides, easy pulls and good times."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#0D4457",
+    "accentDk": "#0B3847",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "phillips-connect",
     "company": {
       "name": "Phillips Connect",
@@ -31861,6 +41659,1017 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#FEF601",
     "accentDk": "#D0CA01",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "pirtek-san",
+    "company": {
+      "name": "PIRTEK San Leandro",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(510) 499-4492",
+      "email": "kcurrid@pirteksanleandro.com",
+      "address": "San Leandro, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/pirtek-san"
+        },
+        {
+          "label": "About",
+          "href": "/pirtek-san/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/pirtek-san/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/pirtek-san/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/pirtek-san#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/pirtek-san/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What PIRTEK San Leandro handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/pirtek-san/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "polar-power",
+    "company": {
+      "name": "Polar Power Inc.",
+      "logo": "",
+      "tagline": "DC Generators & Alternators, Hybrid Power, Solar Power, Telecommunications, Marine, Military",
+      "phone": "[(555) 555-0100]",
+      "email": "sjamshidi@polarpowerinc.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/polar-power"
+        },
+        {
+          "label": "About",
+          "href": "/polar-power/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/polar-power/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/polar-power/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Power & Energy Systems",
+        "headline": "Changing the Way We Generate and Consume Energy",
+        "sub": "Polar Power provides innovative power and cooling solutions for telecommunications, renewable energy, military applications, marine, oil fields, and rapid charging electric vehicles.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/polar-power#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/polar-power/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "The Challenge",
+        "heading": "Power solutions for all your needs",
+        "items": [
+          {
+            "label": "OUTDATED",
+            "text": "The power requirements for telecommunications, electric cars, data centers, military equipment, and marine vessels have changed for the 21st century, but they are still being powered by 19th century technology."
+          },
+          {
+            "label": "EFFICIENCY",
+            "text": "Hybrid solar energy systems offer high reliability, low capital cost, low operation cost, and a low carbon footprint."
+          },
+          {
+            "label": "CUSTOMIZATION",
+            "text": "Polar Power works to customize power solutions to their customers' needs."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Polar Power Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Telecommunications",
+            "detail": "Polar Power provides telecommunications power and cooling, including hybrid solar energy systems, temporary power and rental, backup DC generators, and prime power systems."
+          },
+          {
+            "spec": "02",
+            "capability": "Hybrid Energy Systems",
+            "detail": "Solar hybrid power solutions are designed for high reliability, low capital cost, low operation cost, and a low carbon footprint."
+          },
+          {
+            "spec": "03",
+            "capability": "Military",
+            "detail": "Military offerings include auxiliary power, prime power, environmental control, and hybrid vehicle power."
+          },
+          {
+            "spec": "04",
+            "capability": "Marine",
+            "detail": "Marine solutions include DC generators, lithium ion batteries, and hybrid electric propulsion."
+          },
+          {
+            "spec": "05",
+            "capability": "Rapid Charging EV",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "UPS",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/polar-power/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Explore our 21st century innovative ideas and solutions.",
+        "line": "Please take the opportunity to explore our website for our 21st century innovative ideas and solutions."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Where are Polar Power products made?",
+            "a": "Polar Power products are designed, made, and manufactured in California."
+          },
+          {
+            "q": "How widely are Polar Power products represented?",
+            "a": "Over the last 30+ years, their products are well represented in 100+ countries."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#2C68A7",
+    "accentDk": "#245589",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "potter-gmh-technologies",
+    "company": {
+      "name": "Potter-GMH Technologies",
+      "logo": "",
+      "tagline": "High-quality tension control solutions with gear motors and power transmission products.",
+      "phone": "(714) 926-7482",
+      "email": "mhabelow@potter-gmh.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/potter-gmh-technologies"
+        },
+        {
+          "label": "About",
+          "href": "/potter-gmh-technologies/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/potter-gmh-technologies/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/potter-gmh-technologies/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Tension Control · Power Transmission",
+        "headline": "The Commercial Success of Your Product Is Our Goal",
+        "sub": "Potter-GMH Technologies provides gear motors and power transmission products for precise tension control in industrial applications.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/potter-gmh-technologies#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/potter-gmh-technologies/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Potter-GMH Technologies handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Gear Motors",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Power Transmission Products",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Tension Control Solutions",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Laser Marking Services",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/potter-gmh-technologies/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "The commercial success of your product is our goal.",
+        "line": "Reach out to Mike or Greg to discuss your tension control and power transmission needs."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#657898",
+    "accentDk": "#53627D",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "power-transmission",
+    "company": {
+      "name": "Power Transmission Specialties",
+      "logo": "",
+      "tagline": "Industrial power transmission distributor serving southern California",
+      "phone": "(626) 695-3257",
+      "email": "chris@p-t-s.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/power-transmission"
+        },
+        {
+          "label": "About",
+          "href": "/power-transmission/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/power-transmission/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/power-transmission/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/power-transmission#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/power-transmission/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Power Transmission Specialties handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Sensors",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Variable Speed Drives",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "Servos",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Machine and Process Control",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "05",
+            "capability": "Systems Integration",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "06",
+            "capability": "Gear Motors and Reducers",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/power-transmission/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#FDFD01",
+    "accentDk": "#CFCF01",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -32380,6 +43189,256 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#004E90",
     "accentDk": "#004076",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "prime-machine",
+    "company": {
+      "name": "Prime Machine Inc",
+      "logo": "",
+      "tagline": "Prime Machine Inc., World Class Shop",
+      "phone": "(801) 560-8352",
+      "email": "doug@primemachine.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/prime-machine"
+        },
+        {
+          "label": "About",
+          "href": "/prime-machine/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/prime-machine/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/prime-machine/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Machining · Fabrication",
+        "headline": "World Class Shop, From Earth to Mars",
+        "sub": "Prime Machine Inc. manufactures, welds, fabricates, and machines parts rapidly and reliably for demanding projects.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/prime-machine#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/prime-machine/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Common Challenges",
+        "heading": "Hard problems require world class capabilities.",
+        "items": [
+          {
+            "label": "OBSOLETE",
+            "text": "When parts are obsolete or hard to find, Prime Machine can take an obsolete part and manufacture a new form fit and functional part rapidly and reliably."
+          },
+          {
+            "label": "PRECISION",
+            "text": "When tolerances are extreme, Prime Machine weld fabricated and machined a large bridge sized structure built to watchmaker tolerances."
+          },
+          {
+            "label": "SCALE",
+            "text": "When the job is oversized, Prime Machine's field machining capabilities include building a portable lathe to turn a part twenty two feet in diameter, over sixty feet in length."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Prime Machine Inc handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Prime Replicator",
+            "detail": "Prime Replicator lets Prime Machine take an obsolete part and provide you with a form fit and functional part rapidly and reliably."
+          },
+          {
+            "spec": "02",
+            "capability": "Precision Assembly",
+            "detail": "Prime Machine weld fabricated and machined the test stand for the James Webb Space Telescope, a large bridge sized structure built to watchmaker tolerances."
+          },
+          {
+            "spec": "03",
+            "capability": "Field Machining",
+            "detail": "Prime Machine's field machining capabilities are unmatched, including building a portable lathe to turn a part twenty two feet in diameter, over sixty feet in length, weighing three hundred units."
+          },
+          {
+            "spec": "04",
+            "capability": "Composite Structure Machining",
+            "detail": "Prime Machine machined the composite structures of the heat shields for the MSP 98 Orbiter project, launched successfully December 11, 1998."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/prime-machine/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Can Prime Machine make obsolete or hard to find parts?",
+            "a": "Yes. Prime Replicator lets Prime Machine take an obsolete part and provide you with a form fit and functional part rapidly and reliably."
+          },
+          {
+            "q": "Does Prime Machine handle on-site field work?",
+            "a": "Prime Machine's field machining capabilities are unmatched, including building a portable lathe to turn a monster part twenty two feet in diameter, over sixty feet in length."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#CE0001",
+    "accentDk": "#A90001",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -33404,6 +44463,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "psc-electronics",
+    "company": {
+      "name": "PSC Electronics",
+      "logo": "",
+      "tagline": "Custom Cable and Harness Manufacturer and Franchised Component Distributor in Santa Clara",
+      "phone": "(650) 464-2508",
+      "email": "morris@pscelex.com",
+      "address": "Santa Clara",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/psc-electronics"
+        },
+        {
+          "label": "About",
+          "href": "/psc-electronics/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/psc-electronics/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/psc-electronics/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Cable Assembly · Component Distribution",
+        "headline": "Custom Cable and Harness Assembly Manufacturer",
+        "sub": "PSC Electronics builds custom cables and harnesses and is a franchised component distributor with top name manufacturers in stock, ready to ship today.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/psc-electronics#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/psc-electronics/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What PSC Electronics handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Cable and Harness Assembly",
+            "detail": "PSC Electronics is a high quality cable and harness assembly manufacturer."
+          },
+          {
+            "spec": "02",
+            "capability": "Hirose Value Added Reseller",
+            "detail": "PSC Electronics is a Hirose value added reseller with specialized tooling for Hirose connectors."
+          },
+          {
+            "spec": "03",
+            "capability": "Fine-Pitch and LVDS Specialist",
+            "detail": "PSC Electronics is a fine-pitch specialist and LVDS specialist."
+          },
+          {
+            "spec": "04",
+            "capability": "Fiber Optic Patch Cords",
+            "detail": "Fiber optic patch cords are available in stock."
+          },
+          {
+            "spec": "05",
+            "capability": "Franchised Component Distribution",
+            "detail": "PSC Electronics is a franchised component distributor with top name manufacturers in stock, ready to ship today."
+          },
+          {
+            "spec": "06",
+            "capability": "Specialized Connector Tooling",
+            "detail": "PSC Electronics has specialized tooling for Hirose, Tyco/Amp, Molex, Panduit, JST, and JAE."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/psc-electronics/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Contact Us Today!",
+        "line": "Send us your spec and we'll build it for you."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is the cut off time for same day shipments?",
+            "a": "The cut off time is 3pm PST for same day shipments."
+          },
+          {
+            "q": "Does PSC Electronics test its cable and harness assemblies?",
+            "a": "All assemblies are 100% tested with in-process and final QC."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#DE2D20",
+    "accentDk": "#B6251A",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "purchase-green",
     "company": {
       "name": "Purchase Green Artificial Grass",
@@ -34177,6 +45496,263 @@ export const autoLeads: Lead[] = [
     "accent": "#86571B",
     "accentDk": "#6E4716",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "ratliff-environmental",
+    "company": {
+      "name": "Ratliff Environmental",
+      "logo": "",
+      "tagline": "Ratliff Environmental supplies the industry with top of the line Parts Washing equipment built by ADF Systems, located in Ontario, California",
+      "phone": "(909) 899-3085",
+      "email": "bobby@ratliffenvironmental.com",
+      "address": "Ontario, California",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/ratliff-environmental"
+        },
+        {
+          "label": "About",
+          "href": "/ratliff-environmental/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/ratliff-environmental/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/ratliff-environmental/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Parts Washing · Industrial Equipment",
+        "headline": "Top of the Line Parts Washing Equipment",
+        "sub": "Ratliff Environmental supplies the industry with top of the line Parts Washing equipment built by ADF Systems.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/ratliff-environmental#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/ratliff-environmental/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Industry Challenges",
+        "heading": "Protecting workers and managing waste in industrial environments.",
+        "items": [
+          {
+            "label": "FUMES",
+            "text": "Welding, grinding and polishing generate harmful dust and fumes; ADF downdraft tables draw air downward to pull contaminants away from the operator."
+          },
+          {
+            "label": "WASTE",
+            "text": "Waste disposal quantities from parts washer solutions and water soluble coolants add up; ADF Evaporators are designed to economically reduce waste disposal quantities by evaporating water."
+          },
+          {
+            "label": "CLEANING",
+            "text": "Parts with blind holes or those that nest together are difficult to clean; the gentle action of the 3 RPM rotation provides part separation so the hot aqueous solution can get to all surface areas."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Ratliff Environmental handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Downdraft Tables",
+            "detail": "ADF downdraft tables are an efficient and economical way to protect workers from harmful dust and fumes caused by welding, grinding and polishing."
+          },
+          {
+            "spec": "02",
+            "capability": "Flow Through Parts Washers",
+            "detail": "ADF Flow Through or Conveyor Washers are built for the volume and cleaning requirements of each application, available as single or multi-stage washers."
+          },
+          {
+            "spec": "03",
+            "capability": "Glove Box Parts Washer",
+            "detail": "The Model 550 is a high pressure, glove box style parts washer that, because it is a manual type operation, is one of the most versatile washers available."
+          },
+          {
+            "spec": "04",
+            "capability": "Top Load and Front Load Washers",
+            "detail": "ADF manufactures top load and front load parts washers with options ranging from low volume high pressure to high volume low pressure operating systems."
+          },
+          {
+            "spec": "05",
+            "capability": "Tumbler Washer",
+            "detail": "The 710T was designed for parts that need to be moved or turned for cleaning in order to get at difficult areas such as blind holes or parts that tend to nest together."
+          },
+          {
+            "spec": "06",
+            "capability": "ADF Evaporators",
+            "detail": "ADF Evaporators are designed to economically reduce waste disposal quantities by evaporating water from parts washer solutions, water soluble coolants, ink wastes, and compressor and mop water."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/ratliff-environmental/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Request a call to find the right equipment for your application.",
+        "line": "Ratliff Environmental supplies the industry with top of the line Parts Washing equipment built by ADF Systems."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of parts washers does ADF manufacture?",
+            "a": "ADF manufactures top load and front load parts washers; top load models include a low volume high pressure 800 series and high volume low pressure 160 and 200 series, while front load models include the low volume high pressure 860 series and the high volume low pressure 300 series."
+          },
+          {
+            "q": "Why does ADF recommend stainless steel for flow through washers?",
+            "a": "ADF strongly recommends using stainless steel for pans, spray chambers, and reservoir tanks to prevent rusting and provide years of structural integrity."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -35205,6 +46781,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "rockwell-engineering",
+    "company": {
+      "name": "ROCKWELL ENGINEERING & EQUIPMENT CO INC",
+      "logo": "",
+      "tagline": "Problem solving solutions for efficiency and minimized operational costs throughout California and Nevada",
+      "phone": "(804) 590-4669",
+      "email": "stephen.rockwell@rockwell.ie",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/rockwell-engineering"
+        },
+        {
+          "label": "About",
+          "href": "/rockwell-engineering/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/rockwell-engineering/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/rockwell-engineering/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Pumps · Equipment",
+        "headline": "Best in class products for worry free installations",
+        "sub": "Rockwell Engineering provides problem solving solutions, creating long-term efficiency and minimizing operational costs for our valued customers.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/rockwell-engineering#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/rockwell-engineering/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why Rockwell",
+        "heading": "One team, one goal: take care of the customer",
+        "items": [
+          {
+            "label": "QUALITY",
+            "text": "When product lines need to be of the highest quality, Rockwell leverages its knowledge to provide equipment across numerous industries."
+          },
+          {
+            "label": "EXPERTISE",
+            "text": "When installations have diversified over the years, Rockwell's expanded knowledge ensures the number one goal remains the same: take care of the customer."
+          },
+          {
+            "label": "UNITY",
+            "text": "When a problem demands a winning solution, Rockwell Engineering operates as one team from top to bottom to deliver it."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What ROCKWELL ENGINEERING & EQUIPMENT CO INC handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Pumps",
+            "detail": "Rockwell has sold pumps and related equipment throughout California and Nevada."
+          },
+          {
+            "spec": "02",
+            "capability": "Grinders",
+            "detail": "Rockwell's product lines include grinders as part of its highest quality equipment offerings."
+          },
+          {
+            "spec": "03",
+            "capability": "Control Panels",
+            "detail": "Control panels are part of the product lines Rockwell uses to serve customers across numerous industries."
+          },
+          {
+            "spec": "04",
+            "capability": "Level Controllers",
+            "detail": "Rockwell provides fogrod level controllers as part of its broad equipment portfolio."
+          },
+          {
+            "spec": "05",
+            "capability": "Agriculture and Food Applications",
+            "detail": "Rockwell installations include agriculture and food applications throughout California and Nevada."
+          },
+          {
+            "spec": "06",
+            "capability": "Wastewater and Energy Applications",
+            "detail": "Rockwell installations include oil and gas, renewable energy, and wastewater applications."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/rockwell-engineering/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Get in touch and we will get back to you as soon as possible",
+        "line": "At Rockwell Engineering, we are all on one team from top to bottom, ready to be a winning solution to any problem."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What industries does Rockwell Engineering serve?",
+            "a": "Rockwell installations include agriculture, food, oil and gas, renewable energy, and wastewater applications."
+          },
+          {
+            "q": "Where does Rockwell Engineering operate?",
+            "a": "Rockwell has sold pumps and related equipment throughout California and Nevada."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#0072BC",
+    "accentDk": "#005D9A",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "roy-e",
     "company": {
       "name": "Roy E. Hanson Jr. Mfg. (Hanson Tank)",
@@ -35457,8 +47293,268 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#FFFF0F",
-    "accentDk": "#D1D10C",
+    "accent": "#1A39B5",
+    "accentDk": "#152F94",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "rue-equipment",
+    "company": {
+      "name": "Rue Equipment, Inc.",
+      "logo": "",
+      "tagline": "Heavy equipment repair and maintenance serving the greater Sacramento area",
+      "phone": "(650) 669-1814",
+      "email": "doug@rueequip.com",
+      "address": "Roseville, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/rue-equipment"
+        },
+        {
+          "label": "About",
+          "href": "/rue-equipment/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/rue-equipment/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/rue-equipment/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Heavy Equipment · Repair",
+        "headline": "Quality Service to the Greater Sacramento Area",
+        "sub": "Rue Equipment, Inc. specializes in heavy equipment repair, preventative and scheduled maintenance.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/rue-equipment#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/rue-equipment/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What We Solve",
+        "heading": "Helping customers with all of their equipment needs.",
+        "items": [
+          {
+            "label": "REPAIR",
+            "text": "When equipment needs attention, we service, test and evaluate any equipment needs that you may have."
+          },
+          {
+            "label": "PURCHASING",
+            "text": "We take pride in helping our customers with help purchasing new equipment."
+          },
+          {
+            "label": "SELLING",
+            "text": "We take pride in helping our customers with selling old equipment."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Rue Equipment, Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Heavy Equipment Repair",
+            "detail": "We specialize in heavy equipment repair, preventative and scheduled maintenance."
+          },
+          {
+            "spec": "02",
+            "capability": "Preventative and Scheduled Maintenance",
+            "detail": "We service, test and evaluate any equipment needs that you may have."
+          },
+          {
+            "spec": "03",
+            "capability": "Equipment Purchasing Assistance",
+            "detail": "We take pride in helping our customers with help purchasing new equipment."
+          },
+          {
+            "spec": "04",
+            "capability": "Equipment Sales Assistance",
+            "detail": "We help our customers with selling old equipment."
+          },
+          {
+            "spec": "05",
+            "capability": "Mobile Service",
+            "detail": "With our mobile service truck, we service, test and evaluate any equipment needs that you may have."
+          },
+          {
+            "spec": "06",
+            "capability": "Shop Service",
+            "detail": "With our shop in Roseville, CA we service, test and evaluate any equipment needs that you may have."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/rue-equipment/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Call us today at (916) 764-9373.",
+        "line": "With our mobile service truck and our shop in Roseville, CA we service, test and evaluate any equipment needs that you may have."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What area does Rue Equipment, Inc. serve?",
+            "a": "Rue Equipment, Inc. has been providing quality service to the greater Sacramento area since 1989."
+          },
+          {
+            "q": "What types of equipment do you work with?",
+            "a": "From a Cat D10 to rolling canopy enclosures we can help."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#EACA02",
+    "accentDk": "#C0A602",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -35972,6 +48068,263 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#01ACEE",
     "accentDk": "#018DC3",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "schmidlen-metalwerks",
+    "company": {
+      "name": "Schmidlen Metalwerks",
+      "logo": "",
+      "tagline": "Maker of Da Vinci & Ion Robotic Systems",
+      "phone": "(408) 390-3442",
+      "email": "rob.schmidlen@intusurg.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/schmidlen-metalwerks"
+        },
+        {
+          "label": "About",
+          "href": "/schmidlen-metalwerks/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/schmidlen-metalwerks/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/schmidlen-metalwerks/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Robotic Surgery · Medical Technology",
+        "headline": "The most advanced and integrated platform ever created.",
+        "sub": "Intuitive makes the Da Vinci and Ion robotic systems, inspiring transformation in care.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/schmidlen-metalwerks#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/schmidlen-metalwerks/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What We Solve",
+        "heading": "Advancing care through minimally invasive approaches.",
+        "items": [
+          {
+            "label": "SURGERY",
+            "text": "Traditional surgical approaches can limit what is possible; Da Vinci SP inspires new and transformative surgical approaches."
+          },
+          {
+            "label": "DIAGNOSIS",
+            "text": "Detecting lung cancer early is difficult; Ion robotic bronchoscopy advances lung cancer care with minimally invasive biopsies."
+          },
+          {
+            "label": "SKILLS",
+            "text": "Maintaining surgical proficiency requires ongoing practice; SimNow helps surgeons sharpen their surgical skills."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Schmidlen Metalwerks handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Da Vinci 5",
+            "detail": "Da Vinci 5 is the most advanced and integrated platform Intuitive has ever created."
+          },
+          {
+            "spec": "02",
+            "capability": "Da Vinci SP",
+            "detail": "Da Vinci SP inspires new and transformative surgical approaches."
+          },
+          {
+            "spec": "03",
+            "capability": "Ion Robotic Bronchoscopy",
+            "detail": "Ion advances lung cancer care with minimally invasive biopsies."
+          },
+          {
+            "spec": "04",
+            "capability": "Da Vinci Instruments",
+            "detail": "Da Vinci Instruments are built around quality, precision, and innovation."
+          },
+          {
+            "spec": "05",
+            "capability": "My Intuitive",
+            "detail": "My Intuitive delivers data, insights, and action."
+          },
+          {
+            "spec": "06",
+            "capability": "SimNow",
+            "detail": "SimNow is a digital solution designed to sharpen your surgical skills."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/schmidlen-metalwerks/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Learn more about our products and services.",
+        "line": "Intuitive has been inspiring transformation in care since 1995."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Can robotic surgery be used for emergency surgery?",
+            "a": "Intuitive's newsroom addresses the question of whether robotic surgery can be used for emergency surgery."
+          },
+          {
+            "q": "What is the value of health technology assessments?",
+            "a": "Intuitive publishes material on the value of health technology assessments for evaluating robotic surgery systems."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -36993,6 +49346,266 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "socal-packaging",
+    "company": {
+      "name": "SoCal Packaging Repair",
+      "logo": "",
+      "tagline": "Emergency service, repair, and preventative maintenance for industrial packaging equipment",
+      "phone": "(714) 600-1786",
+      "email": "daniel@pkgrepair.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/socal-packaging"
+        },
+        {
+          "label": "About",
+          "href": "/socal-packaging/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/socal-packaging/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/socal-packaging/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Packaging Equipment · Service & Repair",
+        "headline": "Packaging Equipment Repair You Can Trust",
+        "sub": "We are committed to packaging equipment repair and to serving you with honesty, quality, and value.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/socal-packaging#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/socal-packaging/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Sound Familiar?",
+        "heading": "Doing it yourself doesn't always pan out.",
+        "items": [
+          {
+            "label": "DOWNTIME",
+            "text": "Doing it yourself doesn't always pan out, rely on our knowledge and experience instead, and your equipment is in the best of hands."
+          },
+          {
+            "label": "COMPLEXITY",
+            "text": "From simple case sealers and manual shrink sealers to the most complex palletizers, automatic stretch wrappers, and high speed servo sealers, we've got you covered."
+          },
+          {
+            "label": "NEGLECT",
+            "text": "The right care extends the life of any equipment, and we bring advanced techniques and reliable experience to the table every time."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What SoCal Packaging Repair handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Emergency Repair Service",
+            "detail": "We know what we are doing, and we are dedicated to keeping your equipment up and running."
+          },
+          {
+            "spec": "02",
+            "capability": "Preventative Maintenance",
+            "detail": "We offer customized preventative maintenance programs to fit your needs, it is the convenient way to keep your equipment healthy."
+          },
+          {
+            "spec": "03",
+            "capability": "Replacement Parts",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Machine Upgrades",
+            "detail": "From simple preventative maintenance to complex machine upgrades, we have got you covered."
+          },
+          {
+            "spec": "05",
+            "capability": "Diagnostic Service",
+            "detail": "We use the latest diagnostic technology to provide high-quality service and quick turnaround."
+          },
+          {
+            "spec": "06",
+            "capability": "Field Service",
+            "detail": "Our friendly, experienced field service specialists will help keep your equipment in top condition."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/socal-packaging/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Looking for a packaging equipment technician you can trust?",
+        "line": "We work as closely as possible with every manufacturer that we service to provide you with a service company you can trust."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What types of equipment do you service?",
+            "a": "We service almost anything, from simple case sealers, manual shrink sealers, and semi automatic stretch wrappers to the most complex palletizers, automatic stretch wrappers, high speed servo sealers, wrap around case packers, and more."
+          },
+          {
+            "q": "Do you offer maintenance programs?",
+            "a": "We offer customized preventative maintenance programs to fit your needs, it is the convenient way to keep your equipment healthy."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#172856",
+    "accentDk": "#132147",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "soft-touch",
     "company": {
       "name": "Soft Touch AB",
@@ -37505,8 +50118,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#1F418A",
-    "accentDk": "#193571",
+    "accent": "#22428B",
+    "accentDk": "#1C3672",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -37765,6 +50378,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
+    "accent": "#1C9798",
+    "accentDk": "#177C7D",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -38024,6 +50639,248 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#00AD17",
     "accentDk": "#008E13",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "star-tecs",
+    "company": {
+      "name": "Star Tecs",
+      "logo": "",
+      "tagline": "Lorem ipsum dolor sit amet consectetur.",
+      "phone": "(707) 372-0505",
+      "email": "harry@startecs.net",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/star-tecs"
+        },
+        {
+          "label": "About",
+          "href": "/star-tecs/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/star-tecs/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/star-tecs/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Lorem ipsum · dolor sit",
+        "headline": "Lorem ipsum dolor sit amet consectetur elit.",
+        "sub": "Lorem ipsum dolor sit amet for industrial operators, consectetur adipiscing elit sed.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/star-tecs#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/star-tecs/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Star Tecs handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "03",
+            "capability": "LOREM",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/star-tecs/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -38540,8 +51397,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#000C38",
-    "accentDk": "#000A2E",
+    "accent": "#E60002",
+    "accentDk": "#BD0002",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -39055,8 +51912,269 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#F11F28",
-    "accentDk": "#C61921",
+    "accent": "#C7001B",
+    "accentDk": "#A30016",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "systems-wire",
+    "company": {
+      "name": "Systems Wire & Cable Ltd",
+      "logo": "",
+      "tagline": "Innovative and cost-effective bulk cable and wire solutions, manufactured in Los Angeles, CA.",
+      "phone": "(562) 659-4164",
+      "email": "pete@systemswire.com",
+      "address": "Los Angeles, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/systems-wire"
+        },
+        {
+          "label": "About",
+          "href": "/systems-wire/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/systems-wire/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/systems-wire/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Wire · Cable Manufacturing",
+        "headline": "Bulk Custom Wire and Cable Manufacturer",
+        "sub": "Systems Wire and Cable designs, develops, and manufactures electronic cable and wire for computer, communications, medical equipment, military, and more.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/systems-wire#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/systems-wire/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Our Approach",
+        "heading": "Quality, delivery, and cost should never be a compromise.",
+        "items": [
+          {
+            "label": "SPEC",
+            "text": "Computer draft designs are used for maximum perfection, ensuring every product is built on spec."
+          },
+          {
+            "label": "TIME",
+            "text": "Product delivery days before due dates keeps your project on schedule."
+          },
+          {
+            "label": "BUDGET",
+            "text": "Systems Wire and Cable delivers on or under budget with best quality products."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Systems Wire & Cable Ltd handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Custom Wire and Cable",
+            "detail": "System Wire and Cable has a host of experience in custom cable application design and offers free consulting in a non-rushed environment."
+          },
+          {
+            "spec": "02",
+            "capability": "Medical Wire and Cable",
+            "detail": "Of the many custom cables Systems Wire and Cable manufactures, medical wire and cable have been a particular point of focus for the company."
+          },
+          {
+            "spec": "03",
+            "capability": "Military Spec Cable",
+            "detail": "SWC is honored to offer its talent in producing a multitude of military spec cable constructions."
+          },
+          {
+            "spec": "04",
+            "capability": "Bonded Wire",
+            "detail": "Thermal bonding of wire is an area that Systems Wire and Cable has developed for many of its custom cable products using a variety of polymers."
+          },
+          {
+            "spec": "05",
+            "capability": "Alpha Equals",
+            "detail": "Systems Wire and Cable designs, develops, and manufactures electronic cable and wire for computer, communications, medical equipment, military, and more."
+          },
+          {
+            "spec": "06",
+            "capability": "Quality and Testing",
+            "detail": "Our commitment to quality has been a core principal that has given us name recognition in the industrial and medical custom cable markets."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/systems-wire/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Request a free quote today.",
+        "line": "System Wire and Cable offers free consulting in a non-rushed environment."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What has been the guiding principle at Systems Wire and Cable since its founding?",
+            "a": "Since Systems Wire and Cable's inception in 1985, our Commitment to Quality has been the core principal that has enveloped our company."
+          },
+          {
+            "q": "Does Systems Wire and Cable cut corners on approvals or testing?",
+            "a": "SWC doesn't cut corners on quality, and Underwriters Laboratory UL as well as Canadian Standards Association CSA are public safety nationally recognized testing labs that SWC works with."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#004C95",
+    "accentDk": "#003E7A",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -40842,8 +53960,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#FE7701",
-    "accentDk": "#D06201",
+    "accent": "#C81C38",
+    "accentDk": "#A4172E",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -41360,6 +54479,246 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#A5CD39",
     "accentDk": "#87A82F",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "valley-precision",
+    "company": {
+      "name": "Valley Precision Products",
+      "logo": "",
+      "tagline": "Precision Sheet Metal & Machining, Goleta, CA",
+      "phone": "(805) 448-7267",
+      "email": "brian@valleyprecision.net",
+      "address": "Goleta, CA",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/valley-precision"
+        },
+        {
+          "label": "About",
+          "href": "/valley-precision/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/valley-precision/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/valley-precision/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Sheet Metal · Machining",
+        "headline": "Valley Precision Products",
+        "sub": "Valley Precision Products offers precision sheet metal and machining services.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/valley-precision#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/valley-precision/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Valley Precision Products handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Precision Sheet Metal",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Machining",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/valley-precision/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "Lorem ipsum dolor sit amet?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#DF000F",
+    "accentDk": "#B7000C",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -42135,6 +55494,255 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "vista-environmental",
+    "company": {
+      "name": "Vista Environmental Consulting,Inc.",
+      "logo": "",
+      "tagline": "Hazardous materials consulting for the western U.S.",
+      "phone": "(925) 948-5097",
+      "email": "chuckbove@vista-env.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/vista-environmental"
+        },
+        {
+          "label": "About",
+          "href": "/vista-environmental/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/vista-environmental/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/vista-environmental/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Environmental Consulting · Hazardous Materials",
+        "headline": "Focused on Your Needs",
+        "sub": "Vista Environmental Consulting works to solve the unknown or 'It' factor for clients.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/vista-environmental#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/vista-environmental/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "What We Solve",
+        "heading": "Working to Solve the Unknown or 'It' Factor for Our Clients",
+        "items": [
+          {
+            "label": "UNKNOWN",
+            "text": "When projects surface the unknown, Vista Environmental Consulting works to solve the 'It' factor for clients."
+          },
+          {
+            "label": "NEEDS",
+            "text": "Vista Environmental Consulting stays focused on your needs to deliver exceptional environmental services."
+          },
+          {
+            "label": "COMPLEXITY",
+            "text": "Exceptional environmental professionals are engaged to address the full range of hazardous materials challenges clients face."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Vista Environmental Consulting,Inc. handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Hazardous Materials Consulting",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "02",
+            "capability": "Asbestos",
+            "detail": "Asbestos is a naturally occurring mineral dating back to prehistoric times, and large scale mining began at the end of the 19th century when manufacturers and builders began using it."
+          },
+          {
+            "spec": "03",
+            "capability": "Markets",
+            "detail": "LOREM"
+          },
+          {
+            "spec": "04",
+            "capability": "Services",
+            "detail": "LOREM"
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/vista-environmental/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Connect with Vista Environmental Consulting today.",
+        "line": "Reach out through our contact page to get started with exceptional environmental professionals."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "How long has asbestos been in use?",
+            "a": "Asbestos is a naturally occurring mineral dating back to prehistoric times, and mining for asbestos existed more than 4,000 years ago, though large scale mining began at the end of the 19th century."
+          },
+          {
+            "q": "Consectetur adipiscing elit?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#02983D",
+    "accentDk": "#027D32",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "wbc-showroom",
     "company": {
       "name": "WBC Showroom, Inc",
@@ -42377,6 +55985,262 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
+    "accent": "#B89989",
+    "accentDk": "#977D70",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "west-link",
+    "company": {
+      "name": "West-Link Corporation",
+      "logo": "",
+      "tagline": "Inspection, packaging, and processing equipment solutions for the food industry",
+      "phone": "(831) 239-8082",
+      "email": "bps@west-link.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/west-link"
+        },
+        {
+          "label": "About",
+          "href": "/west-link/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/west-link/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/west-link/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Food Industry · Equipment Solutions",
+        "headline": "Scale Your Processing Operations",
+        "sub": "From a single unit to robust solutions at scale, our processing solutions are engineered to seamlessly integrate with your existing operations.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/west-link#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/west-link/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Why It Matters",
+        "heading": "Quality matters, so does your equipment.",
+        "items": [
+          {
+            "label": "INSPECTION",
+            "text": "In the competitive food industry, operational agility and the use of multifunctional inspection equipment and solutions is mission-critical, and West-Link's team of experts and partners can help."
+          },
+          {
+            "label": "PROCESSING",
+            "text": "Whether operating short runs for specialty products or handling high-throughput lines, our processing equipment and solutions can help your food industry operations remain flexible and agile in a competitive marketplace."
+          },
+          {
+            "label": "PACKAGING",
+            "text": "No matter how simple or complex your food packaging requirements, our team can help you determine the best packaging solutions to help you stay competitive."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What West-Link Corporation handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Food Inspection Equipment",
+            "detail": "Protect your food industry brand with high-quality precision inspection equipment."
+          },
+          {
+            "spec": "02",
+            "capability": "Food Industry Processing Equipment",
+            "detail": "From a single unit to robust solutions at scale, our processing solutions are engineered to seamlessly integrate with your existing operations."
+          },
+          {
+            "spec": "03",
+            "capability": "Food Packaging Solutions",
+            "detail": "From single machines to turn-key systems, our experts will help you find the right fit for your food packaging needs."
+          },
+          {
+            "spec": "04",
+            "capability": "Tree Nut Industry Solutions",
+            "detail": "We specialize in processing, inspection, and packaging solutions for the tree nut industry."
+          },
+          {
+            "spec": "05",
+            "capability": "Engineering Solutions",
+            "detail": "We provide Engineering Solutions, Equipment, Installation Services, and After-Sales Support."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "How it works",
+        "heading": "From concept to completion.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Assess Needs",
+            "text": "Whether you need sales, service, or support, we're here to help you with your food industry equipment needs and turnkey solutions from concept to completion."
+          },
+          {
+            "n": "2",
+            "title": "Find the Fit",
+            "text": "Our experts will help you find the right fit for your food packaging needs."
+          },
+          {
+            "n": "3",
+            "title": "Review and Recommend",
+            "text": "Contact us today to receive a review and recommendations for improving your tree nut product operations."
+          },
+          {
+            "n": "4",
+            "title": "After-Sales Support",
+            "text": "We provide Engineering Solutions, Equipment, Installation Services, and After-Sales Support."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Process",
+        "heading": "From concept to completion.",
+        "steps": [
+          "Assess your food industry equipment needs with our team of experts.",
+          "Find the right fit from single machines to full turn-key systems.",
+          "Receive ongoing installation services and after-sales support."
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/west-link/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "We're here to help with your food industry equipment needs.",
+        "line": "We're in your area with several local offices to provide quick, reliable service."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What industries and equipment types does West-Link serve?",
+            "a": "West-Link is the leading manufacturer's representative and distributor for inspection, packaging, and processing equipment for the food industry."
+          },
+          {
+            "q": "Does West-Link support tree nut operations specifically?",
+            "a": "At West-Link, we understand the unique industry and operational demands for inspection, processing, and packaging of nut products."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#2EA3F2",
+    "accentDk": "#2686C6",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -42902,6 +56766,261 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
+    "slug": "western-switches",
+    "company": {
+      "name": "Western Switches & Controls",
+      "logo": "",
+      "tagline": "Leading distributor of electromechanical, electronics and factory automation products",
+      "phone": "(949) 795-6938",
+      "email": "claudio.moreno@westernswitches.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/western-switches"
+        },
+        {
+          "label": "About",
+          "href": "/western-switches/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/western-switches/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/western-switches/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Distributor · Factory Automation",
+        "headline": "Components, Controls and Automation Products",
+        "sub": "Western Switches and Controls provides components, controls and automation products to Original Equipment Manufacturers and to the Industrial End User Market.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/western-switches#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/western-switches/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Who We Serve",
+        "heading": "Serving the customers who build and run industry.",
+        "items": [
+          {
+            "label": "MANUFACTURERS",
+            "text": "Original Equipment Manufacturers need reliable components and controls, and Western Switches and Controls has been providing state of the art products to meet that need."
+          },
+          {
+            "label": "INTEGRATORS",
+            "text": "System Integrators and Panel Builders require consistent, quality products, and Western Switches and Controls supplies them to increase production capacity."
+          },
+          {
+            "label": "ENDUSERS",
+            "text": "Industrial End Users depend on better quality product output, and Western Switches and Controls serves that market directly."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Western Switches & Controls handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Electromechanical Products",
+            "detail": "Western Switches and Controls is a leading distributor of electromechanical products."
+          },
+          {
+            "spec": "02",
+            "capability": "Electronics Distribution",
+            "detail": "Western Switches and Controls distributes electronics products to OEM and industrial end user markets."
+          },
+          {
+            "spec": "03",
+            "capability": "Factory Automation",
+            "detail": "Western Switches and Controls provides factory automation products to help customers increase the production capacity of their machines."
+          },
+          {
+            "spec": "04",
+            "capability": "OEM Supply",
+            "detail": "Western Switches and Controls provides components and controls to Original Equipment Manufacturers."
+          },
+          {
+            "spec": "05",
+            "capability": "Panel Builder Support",
+            "detail": "Western Switches and Controls supplies state of the art products to Panel Builders and System Integrators."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/western-switches/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Your satisfaction with our service and products is our main concern.",
+        "line": "Call us toll free at 1-800-454-8144 to speak with Western Switches and Controls."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What is Western Switches and Controls' guiding philosophy?",
+            "a": "To serve our customers and to do whatever it takes to achieve that goal. Our number one priority is our customer and our main concern is that every customer is completely satisfied with our service and products."
+          },
+          {
+            "q": "Who does Western Switches and Controls supply products to?",
+            "a": "Western Switches and Controls provides components, controls and automation products to Original Equipment Manufacturers, Panel Builders, System Integrators, and End Users."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#000A76",
+    "accentDk": "#000861",
+    "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
     "slug": "westrax-machinery",
     "company": {
       "name": "Westrax Machinery, Inc.",
@@ -43408,9 +57527,268 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#7B6A10",
-    "accentDk": "#65570D",
+    "accent": "#695B0E",
+    "accentDk": "#564B0B",
     "accentText": "#FAF9F5",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "wilkey-industries",
+    "company": {
+      "name": "Wilkey Industries",
+      "logo": "",
+      "tagline": "Design, fabrication and installation of processing equipment in agricultural, industrial and manufacturing facilities.",
+      "phone": "(209) 993-1247",
+      "email": "pat@wilkeyindustries.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/wilkey-industries"
+        },
+        {
+          "label": "About",
+          "href": "/wilkey-industries/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/wilkey-industries/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/wilkey-industries/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Agriculture · Industry",
+        "headline": "Innovative solutions through design, fabrication, installation.",
+        "sub": "Wilkey Industries specializes in providing innovative solutions through design, fabrication and installation of processing equipment in agricultural, industrial and manufacturing facilities.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/wilkey-industries#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/wilkey-industries/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Common Challenges",
+        "heading": "Processing facilities face costly, complex problems.",
+        "items": [
+          {
+            "label": "DOWNTIME",
+            "text": "Bearing failures interrupt operations; through the use of the Smart-Fix℠ bearing analysis program, Wilkey Industries has helped reduce downtime by supplying onsite technicians to analyze the remaining life of the motor, conveyor and fan bearings."
+          },
+          {
+            "label": "EMISSIONS",
+            "text": "An improperly operating dust collector can be a production bottleneck, a hazard and/or an environmental problem for its owners; WI addresses air filtration and emissions containment as a core area of facility improvement."
+          },
+          {
+            "label": "SEPARATION",
+            "text": "Processing facilities require reliable product separation and conveyance; WI will work to develop customized solutions for conveyance, product separation, storage, pollution control and any other unique needs your facility may have."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What Wilkey Industries handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Agricultural Processing",
+            "detail": "WI can help develop customized solutions for Receiving, Cleaning, Hulling, Shelling, Meat Cleaning and Processing."
+          },
+          {
+            "spec": "02",
+            "capability": "Industrial Processing",
+            "detail": "WI will work to develop customized solutions for conveyance, product separation, storage, pollution control and any other unique needs that your processing facility may have."
+          },
+          {
+            "spec": "03",
+            "capability": "Maintenance Solutions",
+            "detail": "Through the use of the Smart-Fix℠ bearing analysis program, Wilkey Industries has helped reduce downtime, with technicians able to balance fans onsite."
+          },
+          {
+            "spec": "04",
+            "capability": "Laser Cutting",
+            "detail": "Using a high-speed laser cutting machine, WI can design and fabricate any part or piece needed using mild steel (up to 1\" thick), stainless steel (up to 5/8\" thick) or aluminum (up to 3/8\" thick)."
+          },
+          {
+            "spec": "05",
+            "capability": "Plant Layout & Design",
+            "detail": "WI has improved the performance of many processing facilities in the areas of equipment placement and plant layout & design."
+          },
+          {
+            "spec": "06",
+            "capability": "Sample Probe",
+            "detail": "The Sample Probe™ is designed to take representative samples of almonds and walnuts, stored in 4 x 4 x 4 wood bins, for FDA and USDA quality testing, and comes in 3 different sizes to meet your needs."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/wilkey-industries/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Talk to us",
+        "headline": "Work with us to meet your specific processing needs.",
+        "line": "WI can work with you to meet your specific processing needs."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What industries does Wilkey Industries serve?",
+            "a": "Wilkey Industries specializes in providing innovative solutions through design, fabrication and installation of processing equipment in agricultural, industrial and manufacturing facilities."
+          },
+          {
+            "q": "What is the Smart-Fix℠ program?",
+            "a": "Through the use of the Smart-Fix℠ bearing analysis program, Wilkey Industries has helped reduce downtime by supplying onsite technicians to analyze the remaining life of the motor, conveyor and fan bearings; technicians are also able to balance fans onsite."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#F9D928",
+    "accentDk": "#CCB221",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -43928,8 +58306,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#31F200",
-    "accentDk": "#28C600",
+    "accent": "#0A56A4",
+    "accentDk": "#084786",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -44187,21 +58566,21 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#C00000",
-    "accentDk": "#9D0000",
+    "accent": "#004A98",
+    "accentDk": "#003D7D",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
   },
   {
-    "slug": "interior-specialties",
+    "slug": "la-valves",
     "company": {
-      "name": "Interior Specialties Group",
+      "name": "L.A. Valves & Automation Inc.- LAVA",
       "logo": "",
-      "tagline": "Custom Window Coverings and Specialty Services to the Trade",
-      "phone": "(818) 522-6755",
-      "email": "michael@interiorspec.com",
+      "tagline": "Exclusive Manufacturer's Rep for Mechanical Equipment Products",
+      "phone": "(949) 394-4585",
+      "email": "adrian@lavalves.com",
       "address": "[City, State]",
       "yearsInBusiness": "[##]",
       "credentials": [
@@ -44215,34 +58594,34 @@ export const autoLeads: Lead[] = [
       "links": [
         {
           "label": "Home",
-          "href": "/interior-specialties"
+          "href": "/la-valves"
         },
         {
           "label": "About",
-          "href": "/interior-specialties/about"
+          "href": "/la-valves/about"
         },
         {
           "label": "Contact",
-          "href": "/interior-specialties/contact"
+          "href": "/la-valves/contact"
         }
       ],
       "cta": {
         "label": "Talk to us",
-        "href": "/interior-specialties/contact"
+        "href": "/la-valves/contact"
       }
     },
     "home": {
       "hero": {
-        "eyebrow": "Trade Resource · Specialty Services",
-        "headline": "Custom Window Coverings and Specialty Services",
-        "sub": "Interior Specialties is a complete to the trade resource serving the design, hospitality, architectural, and construction industries.",
+        "eyebrow": "Valves · Automation",
+        "headline": "Exclusive Manufacturer's Rep for Mechanical Equipment",
+        "sub": "L.A. Valves & Automation Inc. represents manufacturers of mechanical equipment products including industrial valves, regulators, and automation solutions.",
         "primaryCta": {
           "label": "See capabilities",
-          "href": "/interior-specialties#capabilities"
+          "href": "/la-valves#capabilities"
         },
         "secondaryCta": {
           "label": "Talk to us",
-          "href": "/interior-specialties/contact"
+          "href": "/la-valves/contact"
         }
       },
       "heroSpec": [
@@ -44268,92 +58647,92 @@ export const autoLeads: Lead[] = [
         "[Projects delivered]"
       ],
       "problems": {
-        "eyebrow": "Why It Matters",
-        "heading": "Your project deserves a single source.",
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
         "items": [
           {
-            "label": "SCOPE",
-            "text": "Projects span window coverings, wall upholstery, bedding, motorization, and specialty needs, and Interior Specialties handles them all as your single source."
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
           },
           {
-            "label": "COMPLEXITY",
-            "text": "From tented ceilings and canopies to Japanese Norens and bed fabrication, there are no limits to your imagination."
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
           },
           {
-            "label": "CLIENTS",
-            "text": "High-profile and celebrity residential clients require a special white glove approach and respect, which Interior Specialties brings to every project."
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
           }
         ]
       },
       "ledger": {
         "eyebrow": "Capabilities",
-        "heading": "What Interior Specialties Group handles.",
+        "heading": "What L.A. Valves & Automation Inc.- LAVA handles.",
         "rows": [
           {
             "spec": "01",
-            "capability": "Window Coverings",
-            "detail": "We offer drapery, shades, and shutters as part of our custom window coverings to the trade."
+            "capability": "Industrial Regulators & Control Valves",
+            "detail": "LAVA represents Jordan for industrial regulators, control valves, and temperature regulators."
           },
           {
             "spec": "02",
-            "capability": "Wall Upholstery and Upholstered Panels",
-            "detail": "Wall upholstery and upholstered panels serve both decorative applications and sound control."
+            "capability": "Safety Relief Valves",
+            "detail": "LAVA represents Leser for safety relief valves."
           },
           {
             "spec": "03",
-            "capability": "Bedding",
-            "detail": "Bedding and bed fabrication are included among our specialty services and product offerings."
+            "capability": "Bio-Pharma & Clean Process Equipment",
+            "detail": "LAVA represents Steriflow for bio-pharma and clean process valves and equipment."
           },
           {
             "spec": "04",
-            "capability": "Specialty Services",
-            "detail": "Tented ceilings, canopies, Japanese Norens, and more are offered with no limits to your imagination."
+            "capability": "Quarter Turn & Automated Ball Valves",
+            "detail": "LAVA represents Marwin for quarter turn and automated ball valves."
           },
           {
             "spec": "05",
-            "capability": "Hospitality and Commercial",
-            "detail": "We work with hospitality and commercial projects from consultation and budget to completion."
+            "capability": "Fractional Flow Control",
+            "detail": "LAVA represents LowFlow for fractional flow control valves and regulators."
           },
           {
             "spec": "06",
-            "capability": "High End Residential",
-            "detail": "We bring a special white glove approach and respect for the high profile and celebrity client."
+            "capability": "Rupture Discs & Steam Traps",
+            "detail": "LAVA represents Oseco for industrial and aseptic rupture discs, and Bestobell for steam traps."
           }
         ]
       },
       "process": {
-        "eyebrow": "How it works",
-        "heading": "From planning and budgeting to installation.",
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
         "steps": [
           {
             "n": "1",
-            "title": "Consult and Budget",
-            "text": "We handle the planning and budgeting all the way up to the installation."
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
           },
           {
             "n": "2",
-            "title": "Design",
-            "text": "We offer a wide array of services from planning and budgeting to design and physical installation."
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           },
           {
             "n": "3",
-            "title": "Fabrication",
-            "text": "LOREM"
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
           },
           {
             "n": "4",
-            "title": "Installation",
-            "text": "Installing window coverings, wall upholstery, bedding, motorization, and other specialty needs requires the right product."
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
           }
         ]
       },
       "flow": {
-        "eyebrow": "Process",
-        "heading": "From consultation and budget to completion.",
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
         "steps": [
-          "Consultation and budgeting",
-          "Design and fabrication",
-          "Physical installation"
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
         ]
       },
       "stats": {
@@ -44383,7 +58762,7 @@ export const autoLeads: Lead[] = [
       "ctaMid": {
         "heading": "Lorem ipsum dolor sit amet consectetur.",
         "label": "Request a quote",
-        "href": "/interior-specialties/contact"
+        "href": "/la-valves/contact"
       },
       "trustBand": {
         "heading": "Lorem ipsum dolor sit amet.",
@@ -44420,21 +58799,21 @@ export const autoLeads: Lead[] = [
         ]
       },
       "endCta": {
-        "eyebrow": "Talk to us",
-        "headline": "Call us or email us today to see why we are right for your project.",
-        "line": "Because we are a complete to the trade resource, we handle the planning and budgeting all the way up to the installation."
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
       },
       "faq": {
         "eyebrow": "Before you ask",
         "heading": "Common questions.",
         "items": [
           {
-            "q": "Who does Interior Specialties Group serve?",
-            "a": "Interior Specialties serves the design, hospitality, architectural, and construction industries as a complete to the trade resource."
+            "q": "What does L.A. Valves & Automation represent?",
+            "a": "LAVA is an exclusive manufacturer's rep for mechanical equipment products including industrial regulators, control valves, temperature regulators, safety relief valves, bio-pharma and clean process valves, quarter turn and automated ball valves, fractional flow control valves, rupture discs, steam traps, wafer check valves, and instrument valves."
           },
           {
-            "q": "What kinds of projects does Interior Specialties Group handle?",
-            "a": "We are your single source for window coverings, wall upholstery, bedding, motorization, and specialty needs that you haven't even thought of yet."
+            "q": "Where can I find a full list of LAVA's product lines?",
+            "a": "You can view the LAVA Industrial Line Card for a complete overview of represented products."
           },
           {
             "q": "Sed do eiusmod tempor incididunt?",
@@ -44447,6 +58826,9 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
+    "accent": "#3B0102",
+    "accentDk": "#300102",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
