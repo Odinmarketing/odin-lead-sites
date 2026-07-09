@@ -171,23 +171,19 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "bell-electrical": {
     "images": {
       "hero": "/leads/bell-electrical/hero.jpg",
-      "capabilities": "/leads/bell-electrical/capabilities.jpg",
-      "operations": "/leads/bell-electrical/operations.jpg"
+      "capabilities": "/leads/bell-electrical/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/395732977?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/64138936?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/417663985?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/64138936?lang=en"
     }
   },
   "mc-sales": {
     "images": {
-      "hero": "/leads/mc-sales/hero.jpg",
       "capabilities": "/leads/mc-sales/capabilities.jpg",
       "operations": "/leads/mc-sales/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/19857850?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/292178956?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/420042687?lang=en"
     }
@@ -267,13 +263,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "r-g": {
     "images": {
       "hero": "/leads/r-g/hero.jpg",
-      "capabilities": "/leads/r-g/capabilities.jpg",
-      "operations": "/leads/r-g/operations.jpg"
+      "capabilities": "/leads/r-g/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/23035089?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/143592122?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/29549036?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/143592122?lang=en"
     }
   },
   "suppose-u": {
@@ -303,12 +297,10 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "norcal-battery": {
     "images": {
       "hero": "/leads/norcal-battery/hero.jpg",
-      "capabilities": "/leads/norcal-battery/capabilities.jpg",
       "operations": "/leads/norcal-battery/operations.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/378951703?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/18023304?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/420225298?lang=en"
     }
   },
@@ -327,13 +319,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "kermetico-hvaf": {
     "images": {
       "hero": "/leads/kermetico-hvaf/hero.jpg",
-      "capabilities": "/leads/kermetico-hvaf/capabilities.jpg",
-      "operations": "/leads/kermetico-hvaf/operations.jpg"
+      "capabilities": "/leads/kermetico-hvaf/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/312483763?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/125379846?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/134902996?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/125379846?lang=en"
     }
   },
   "imperial-ambulance": {
@@ -350,60 +340,46 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   },
   "protech-thermal": {
     "images": {
-      "hero": "/leads/protech-thermal/hero.jpg",
-      "capabilities": "/leads/protech-thermal/capabilities.jpg",
       "operations": "/leads/protech-thermal/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/37685696?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/37685696?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/423395358?lang=en"
     }
   },
   "denise-duffy": {
     "images": {
-      "hero": "/leads/denise-duffy/hero.jpg",
       "capabilities": "/leads/denise-duffy/capabilities.jpg",
       "operations": "/leads/denise-duffy/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/372420890?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/374457809?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/212516210?lang=en"
     }
   },
   "aopec-automotive": {
     "images": {
-      "hero": "/leads/aopec-automotive/hero.jpg",
-      "capabilities": "/leads/aopec-automotive/capabilities.jpg",
-      "operations": "/leads/aopec-automotive/operations.jpg"
+      "capabilities": "/leads/aopec-automotive/capabilities.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/323802654?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/39353968?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/216414381?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/39353968?lang=en"
     }
   },
   "acculoader": {
     "images": {
       "hero": "/leads/acculoader/hero.jpg",
-      "capabilities": "/leads/acculoader/capabilities.jpg",
       "operations": "/leads/acculoader/operations.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/39043846?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/27788765?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/95518273?lang=en"
     }
   },
   "custom-machining": {
     "images": {
-      "hero": "/leads/custom-machining/hero.jpg",
       "capabilities": "/leads/custom-machining/capabilities.jpg",
       "operations": "/leads/custom-machining/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/410360188?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/26735612?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/324145235?lang=en"
     }
@@ -590,24 +566,20 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   },
   "american-performance": {
     "images": {
-      "hero": "/leads/american-performance/hero.jpg",
       "capabilities": "/leads/american-performance/capabilities.jpg",
       "operations": "/leads/american-performance/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/410360188?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/359953793?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/193690754?lang=en"
     }
   },
   "american-rubber": {
     "images": {
-      "hero": "/leads/american-rubber/hero.jpg",
       "capabilities": "/leads/american-rubber/capabilities.jpg",
       "operations": "/leads/american-rubber/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/37391111?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/4159900?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/376314937?lang=en"
     }
@@ -615,13 +587,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "appleton-electronics": {
     "images": {
       "hero": "/leads/appleton-electronics/hero.jpg",
-      "capabilities": "/leads/appleton-electronics/capabilities.jpg",
-      "operations": "/leads/appleton-electronics/operations.jpg"
+      "capabilities": "/leads/appleton-electronics/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/330084855?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/349526819?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/377742680?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/349526819?lang=en"
     }
   },
   "apt-electronics": {
@@ -638,14 +608,10 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   },
   "atlas-environmental": {
     "images": {
-      "hero": "/leads/atlas-environmental/hero.jpg",
-      "capabilities": "/leads/atlas-environmental/capabilities.jpg",
-      "operations": "/leads/atlas-environmental/operations.jpg"
+      "capabilities": "/leads/atlas-environmental/capabilities.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/28671164?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/242300968?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/295889098?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/242300968?lang=en"
     }
   },
   "bl-paletten": {
@@ -675,13 +641,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "cal-west": {
     "images": {
       "hero": "/leads/cal-west/hero.jpg",
-      "capabilities": "/leads/cal-west/capabilities.jpg",
-      "operations": "/leads/cal-west/operations.jpg"
+      "capabilities": "/leads/cal-west/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/147160582?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/136317163?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/28535382?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/136317163?lang=en"
     }
   },
   "central-irrigation": {
@@ -711,13 +675,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "designit-prototype": {
     "images": {
       "hero": "/leads/designit-prototype/hero.jpg",
-      "capabilities": "/leads/designit-prototype/capabilities.jpg",
-      "operations": "/leads/designit-prototype/operations.jpg"
+      "capabilities": "/leads/designit-prototype/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/333889408?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/361351176?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/418049209?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/361351176?lang=en"
     }
   },
   "direct-appliance": {
@@ -735,12 +697,10 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "diversified-waterscapes": {
     "images": {
       "hero": "/leads/diversified-waterscapes/hero.jpg",
-      "capabilities": "/leads/diversified-waterscapes/capabilities.jpg",
       "operations": "/leads/diversified-waterscapes/operations.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/281169796?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/408774082?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/17354575?lang=en"
     }
   },
@@ -783,37 +743,29 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "golden-state": {
     "images": {
       "hero": "/leads/golden-state/hero.jpg",
-      "capabilities": "/leads/golden-state/capabilities.jpg",
       "operations": "/leads/golden-state/operations.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/238939647?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/47116733?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/339748371?lang=en"
     }
   },
   "gp-landscape": {
     "images": {
-      "hero": "/leads/gp-landscape/hero.jpg",
       "capabilities": "/leads/gp-landscape/capabilities.jpg",
       "operations": "/leads/gp-landscape/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/75059461?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/394475328?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/411719568?lang=en"
     }
   },
   "green-mary": {
     "images": {
-      "hero": "/leads/green-mary/hero.jpg",
-      "capabilities": "/leads/green-mary/capabilities.jpg",
-      "operations": "/leads/green-mary/operations.jpg"
+      "hero": "/leads/green-mary/hero.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/283063635?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/2848086?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/372423040?lang=en"
+      "hero": "https://www.magnific.com/profile/license/pdf/283063635?lang=en"
     }
   },
   "heleon-safety": {
@@ -843,13 +795,11 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "integrated-motion": {
     "images": {
       "hero": "/leads/integrated-motion/hero.jpg",
-      "capabilities": "/leads/integrated-motion/capabilities.jpg",
-      "operations": "/leads/integrated-motion/operations.jpg"
+      "capabilities": "/leads/integrated-motion/capabilities.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/132159341?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/329847564?lang=en",
-      "operations": "https://www.magnific.com/profile/license/pdf/206847070?lang=en"
+      "capabilities": "https://www.magnific.com/profile/license/pdf/329847564?lang=en"
     }
   },
   "interior-specialties": {
@@ -866,13 +816,9 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   },
   "jasper-electronics": {
     "images": {
-      "hero": "/leads/jasper-electronics/hero.jpg",
-      "capabilities": "/leads/jasper-electronics/capabilities.jpg",
       "operations": "/leads/jasper-electronics/operations.jpg"
     },
     "imageLicenses": {
-      "hero": "https://www.magnific.com/profile/license/pdf/377742680?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/326037194?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/417003019?lang=en"
     }
   },
@@ -915,12 +861,10 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
   "l9-electric": {
     "images": {
       "hero": "/leads/l9-electric/hero.jpg",
-      "capabilities": "/leads/l9-electric/capabilities.jpg",
       "operations": "/leads/l9-electric/operations.jpg"
     },
     "imageLicenses": {
       "hero": "https://www.magnific.com/profile/license/pdf/391672545?lang=en",
-      "capabilities": "https://www.magnific.com/profile/license/pdf/280256661?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/409670153?lang=en"
     }
   },
@@ -934,6 +878,418 @@ export const leadImages: Record<string, { images: Record<string, string>; imageL
       "hero": "https://www.magnific.com/profile/license/pdf/167902030?lang=en",
       "capabilities": "https://www.magnific.com/profile/license/pdf/406929595?lang=en",
       "operations": "https://www.magnific.com/profile/license/pdf/288506072?lang=en"
+    }
+  },
+  "jkindustries": {
+    "images": {
+      "hero": "/leads/jkindustries/hero.jpg",
+      "capabilities": "/leads/jkindustries/capabilities.jpg",
+      "operations": "/leads/jkindustries/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/26150534?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/387229497?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/376256791?lang=en"
+    }
+  },
+  "kamal-trading": {
+    "images": {
+      "hero": "/leads/kamal-trading/hero.jpg",
+      "capabilities": "/leads/kamal-trading/capabilities.jpg",
+      "operations": "/leads/kamal-trading/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/28711601?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/18922519?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/328573042?lang=en"
+    }
+  },
+  "kasai-consulting": {
+    "images": {
+      "capabilities": "/leads/kasai-consulting/capabilities.jpg",
+      "operations": "/leads/kasai-consulting/operations.jpg",
+      "hero": "/leads/kasai-consulting/hero.jpg"
+    },
+    "imageLicenses": {
+      "capabilities": "https://www.magnific.com/profile/license/pdf/356243876?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/360638235?lang=en"
+    }
+  },
+  "keco": {
+    "images": {
+      "hero": "/leads/keco/hero.jpg",
+      "capabilities": "/leads/keco/capabilities.jpg",
+      "operations": "/leads/keco/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/418646180?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/418646180?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/224203104?lang=en"
+    }
+  },
+  "la-valves": {
+    "images": {
+      "hero": "/leads/la-valves/hero.jpg",
+      "capabilities": "/leads/la-valves/capabilities.jpg",
+      "operations": "/leads/la-valves/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/248284364?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/391430762?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/425300075?lang=en"
+    }
+  },
+  "lexmar-distribution": {
+    "images": {
+      "hero": "/leads/lexmar-distribution/hero.jpg",
+      "capabilities": "/leads/lexmar-distribution/capabilities.jpg",
+      "operations": "/leads/lexmar-distribution/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/320959395?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/91287884?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/32499833?lang=en"
+    }
+  },
+  "linear-design": {
+    "images": {
+      "hero": "/leads/linear-design/hero.jpg",
+      "capabilities": "/leads/linear-design/capabilities.jpg",
+      "operations": "/leads/linear-design/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/273678800?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/383803270?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/223019034?lang=en"
+    }
+  },
+  "lodi-iron": {
+    "images": {
+      "capabilities": "/leads/lodi-iron/capabilities.jpg",
+      "operations": "/leads/lodi-iron/operations.jpg",
+      "hero": "/leads/lodi-iron/hero.jpg"
+    },
+    "imageLicenses": {
+      "capabilities": "https://www.magnific.com/profile/license/pdf/143591305?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/415670745?lang=en"
+    }
+  },
+  "m-m": {
+    "images": {
+      "hero": "/leads/m-m/hero.jpg",
+      "capabilities": "/leads/m-m/capabilities.jpg",
+      "operations": "/leads/m-m/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/398860358?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/397148700?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/25423612?lang=en"
+    }
+  },
+  "macfab-welding": {
+    "images": {
+      "hero": "/leads/macfab-welding/hero.jpg",
+      "capabilities": "/leads/macfab-welding/capabilities.jpg",
+      "operations": "/leads/macfab-welding/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/19653353?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/378147498?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/47918638?lang=en"
+    }
+  },
+  "machinery-resources": {
+    "images": {
+      "hero": "/leads/machinery-resources/hero.jpg",
+      "capabilities": "/leads/machinery-resources/capabilities.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/32958388?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/26128669?lang=en"
+    }
+  },
+  "marmol-export": {
+    "images": {
+      "hero": "/leads/marmol-export/hero.jpg",
+      "capabilities": "/leads/marmol-export/capabilities.jpg",
+      "operations": "/leads/marmol-export/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/421080327?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/354800141?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/410346062?lang=en"
+    }
+  },
+  "material-flow": {
+    "images": {
+      "hero": "/leads/material-flow/hero.jpg",
+      "capabilities": "/leads/material-flow/capabilities.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/37320135?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/400593928?lang=en"
+    }
+  },
+  "menches-tool": {
+    "images": {
+      "hero": "/leads/menches-tool/hero.jpg",
+      "capabilities": "/leads/menches-tool/capabilities.jpg",
+      "operations": "/leads/menches-tool/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/144142005?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/45737391?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/395553160?lang=en"
+    }
+  },
+  "mill-mike": {
+    "images": {
+      "hero": "/leads/mill-mike/hero.jpg",
+      "capabilities": "/leads/mill-mike/capabilities.jpg",
+      "operations": "/leads/mill-mike/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/144141867?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/348800598?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/363783362?lang=en"
+    }
+  },
+  "mooney-industrials": {
+    "images": {
+      "hero": "/leads/mooney-industrials/hero.jpg",
+      "capabilities": "/leads/mooney-industrials/capabilities.jpg",
+      "operations": "/leads/mooney-industrials/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/342864040?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/342864040?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/224734233?lang=en"
+    }
+  },
+  "motor-city": {
+    "images": {
+      "hero": "/leads/motor-city/hero.jpg",
+      "capabilities": "/leads/motor-city/capabilities.jpg",
+      "operations": "/leads/motor-city/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/22495568?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/166545576?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/166545576?lang=en"
+    }
+  },
+  "nelson-air": {
+    "images": {
+      "hero": "/leads/nelson-air/hero.jpg",
+      "capabilities": "/leads/nelson-air/capabilities.jpg",
+      "operations": "/leads/nelson-air/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/398816477?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/238519075?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/32177252?lang=en"
+    }
+  },
+  "nelson-auctions": {
+    "images": {
+      "hero": "/leads/nelson-auctions/hero.jpg",
+      "capabilities": "/leads/nelson-auctions/capabilities.jpg",
+      "operations": "/leads/nelson-auctions/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/28451485?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/321222478?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/337911268?lang=en"
+    }
+  },
+  "network-delivery": {
+    "images": {
+      "hero": "/leads/network-delivery/hero.jpg",
+      "capabilities": "/leads/network-delivery/capabilities.jpg",
+      "operations": "/leads/network-delivery/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/387341515?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/380300597?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/372853663?lang=en"
+    }
+  },
+  "neuro-logic": {
+    "images": {
+      "hero": "/leads/neuro-logic/hero.jpg",
+      "capabilities": "/leads/neuro-logic/capabilities.jpg",
+      "operations": "/leads/neuro-logic/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/381607846?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/352408442?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/352408442?lang=en"
+    }
+  },
+  "nielsen-technologies": {
+    "images": {
+      "hero": "/leads/nielsen-technologies/hero.jpg",
+      "capabilities": "/leads/nielsen-technologies/capabilities.jpg",
+      "operations": "/leads/nielsen-technologies/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/415456176?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/283810741?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/404928718?lang=en"
+    }
+  },
+  "north-texas": {
+    "images": {
+      "hero": "/leads/north-texas/hero.jpg",
+      "capabilities": "/leads/north-texas/capabilities.jpg",
+      "operations": "/leads/north-texas/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/138831560?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/76792115?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/388082431?lang=en"
+    }
+  },
+  "pacific-kiln": {
+    "images": {
+      "hero": "/leads/pacific-kiln/hero.jpg",
+      "capabilities": "/leads/pacific-kiln/capabilities.jpg",
+      "operations": "/leads/pacific-kiln/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/22832037?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/155183645?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/347851232?lang=en"
+    }
+  },
+  "pade": {
+    "images": {
+      "hero": "/leads/pade/hero.jpg",
+      "capabilities": "/leads/pade/capabilities.jpg",
+      "operations": "/leads/pade/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/65535199?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/373955172?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/331039990?lang=en"
+    }
+  },
+  "pegasus-bicycle": {
+    "images": {
+      "hero": "/leads/pegasus-bicycle/hero.jpg",
+      "capabilities": "/leads/pegasus-bicycle/capabilities.jpg",
+      "operations": "/leads/pegasus-bicycle/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/318443664?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/420083845?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/346170860?lang=en"
+    }
+  },
+  "pirtek-power": {
+    "images": {
+      "hero": "/leads/pirtek-power/hero.jpg",
+      "capabilities": "/leads/pirtek-power/capabilities.jpg",
+      "operations": "/leads/pirtek-power/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/183242897?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/183242897?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/413227227?lang=en"
+    }
+  },
+  "pirtek-san": {
+    "images": {
+      "hero": "/leads/pirtek-san/hero.jpg",
+      "capabilities": "/leads/pirtek-san/capabilities.jpg",
+      "operations": "/leads/pirtek-san/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/175222523?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/328241709?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/51505394?lang=en"
+    }
+  },
+  "polar-power": {
+    "images": {
+      "capabilities": "/leads/polar-power/capabilities.jpg",
+      "operations": "/leads/polar-power/operations.jpg"
+    },
+    "imageLicenses": {
+      "capabilities": "https://www.magnific.com/profile/license/pdf/283097620?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/72547283?lang=en"
+    }
+  },
+  "potter-gmh-technologies": {
+    "images": {
+      "hero": "/leads/potter-gmh-technologies/hero.jpg",
+      "capabilities": "/leads/potter-gmh-technologies/capabilities.jpg",
+      "operations": "/leads/potter-gmh-technologies/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/342339216?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/427898655?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/378927990?lang=en"
+    }
+  },
+  "power-transmission": {
+    "images": {
+      "hero": "/leads/power-transmission/hero.jpg",
+      "capabilities": "/leads/power-transmission/capabilities.jpg",
+      "operations": "/leads/power-transmission/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/137740178?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/2998540?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/422775167?lang=en"
+    }
+  },
+  "prime-machine": {
+    "images": {
+      "hero": "/leads/prime-machine/hero.jpg",
+      "capabilities": "/leads/prime-machine/capabilities.jpg",
+      "operations": "/leads/prime-machine/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/21926876?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/348802061?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/326040193?lang=en"
+    }
+  },
+  "proper-quality": {
+    "images": {
+      "hero": "/leads/proper-quality/hero.jpg",
+      "capabilities": "/leads/proper-quality/capabilities.jpg",
+      "operations": "/leads/proper-quality/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/420723229?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/426361494?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/420607811?lang=en"
+    }
+  },
+  "protek-cnc": {
+    "images": {
+      "hero": "/leads/protek-cnc/hero.jpg",
+      "capabilities": "/leads/protek-cnc/capabilities.jpg",
+      "operations": "/leads/protek-cnc/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/143591103?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/427616516?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/359636116?lang=en"
+    }
+  },
+  "provoast-automation": {
+    "images": {
+      "hero": "/leads/provoast-automation/hero.jpg",
+      "capabilities": "/leads/provoast-automation/capabilities.jpg",
+      "operations": "/leads/provoast-automation/operations.jpg"
+    },
+    "imageLicenses": {
+      "hero": "https://www.magnific.com/profile/license/pdf/278973240?lang=en",
+      "capabilities": "https://www.magnific.com/profile/license/pdf/144472944?lang=en",
+      "operations": "https://www.magnific.com/profile/license/pdf/355918197?lang=en"
     }
   }
 };

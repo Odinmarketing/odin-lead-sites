@@ -10019,266 +10019,6 @@ export const autoLeads: Lead[] = [
     "cta": SHARED_CTA
   },
   {
-    "slug": "candyland-amusements",
-    "company": {
-      "name": "Candyland Amusements",
-      "logo": "",
-      "tagline": "Rides, games, and food for events in Southern California",
-      "phone": "(818) 345-7988",
-      "email": "raymond@candylandamusements.com",
-      "address": "Tarzana, CA 91356",
-      "yearsInBusiness": "[##]",
-      "credentials": [
-        "[Add a certification]",
-        "[Add years in business]",
-        "[Add a key metric]",
-        "[Add a key metric]"
-      ]
-    },
-    "nav": {
-      "links": [
-        {
-          "label": "Home",
-          "href": "/candyland-amusements"
-        },
-        {
-          "label": "About",
-          "href": "/candyland-amusements/about"
-        },
-        {
-          "label": "Contact",
-          "href": "/candyland-amusements/contact"
-        }
-      ],
-      "cta": {
-        "label": "Talk to us",
-        "href": "/candyland-amusements/contact"
-      }
-    },
-    "home": {
-      "hero": {
-        "eyebrow": "Rides · Games · Food",
-        "headline": "A Leader in Events Across Southern California",
-        "sub": "We are a leader in providing rides, games, and food for small to medium and large size events in Southern California.",
-        "primaryCta": {
-          "label": "See capabilities",
-          "href": "/candyland-amusements#capabilities"
-        },
-        "secondaryCta": {
-          "label": "Talk to us",
-          "href": "/candyland-amusements/contact"
-        }
-      },
-      "heroSpec": [
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        },
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        },
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        }
-      ],
-      "heroTrust": [
-        "[Years in business]",
-        "[Units shipped]",
-        "[Projects delivered]"
-      ],
-      "problems": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        "items": [
-          {
-            "label": "LOREM",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          },
-          {
-            "label": "IPSUM",
-            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
-          },
-          {
-            "label": "DOLOR",
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
-          }
-        ]
-      },
-      "ledger": {
-        "eyebrow": "Capabilities",
-        "heading": "What Candyland Amusements handles.",
-        "rows": [
-          {
-            "spec": "01",
-            "capability": "Rides",
-            "detail": "We are a leader in providing rides for small to medium and large size events in Southern California."
-          },
-          {
-            "spec": "02",
-            "capability": "Games",
-            "detail": "We are a leader in providing games for small to medium and large size events in Southern California."
-          },
-          {
-            "spec": "03",
-            "capability": "Food",
-            "detail": "We are a leader in providing food for small to medium and large size events in Southern California."
-          },
-          {
-            "spec": "04",
-            "capability": "Studio and Live Production Rentals",
-            "detail": "We specialize in renting equipment for movie productions."
-          },
-          {
-            "spec": "05",
-            "capability": "Corporate and Private Rentals",
-            "detail": "We specialize in large corporate rentals."
-          },
-          {
-            "spec": "06",
-            "capability": "Fairs and Festivals",
-            "detail": "LOREM"
-          }
-        ]
-      },
-      "process": {
-        "eyebrow": "Lorem process",
-        "heading": "Lorem ipsum dolor sit amet consectetur.",
-        "steps": [
-          {
-            "n": "1",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
-          },
-          {
-            "n": "2",
-            "title": "Dolor sit",
-            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          },
-          {
-            "n": "3",
-            "title": "Consectetur",
-            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-          },
-          {
-            "n": "4",
-            "title": "Adipiscing",
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
-          }
-        ]
-      },
-      "flow": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet flow.",
-        "steps": [
-          "[Step one]",
-          "[Step two]",
-          "[Step three]"
-        ]
-      },
-      "stats": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet.",
-        "items": [
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          },
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          },
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          }
-        ]
-      },
-      "ctaMid": {
-        "heading": "Lorem ipsum dolor sit amet consectetur.",
-        "label": "Request a quote",
-        "href": "/candyland-amusements/contact"
-      },
-      "trustBand": {
-        "heading": "Lorem ipsum dolor sit amet.",
-        "logos": [
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]"
-        ],
-        "certs": [
-          "[Cert badge]",
-          "[Compliance badge]"
-        ]
-      },
-      "proof": {
-        "eyebrow": "[Proof: real results only]",
-        "heading": "[Add real customer results]",
-        "testimonials": [
-          {
-            "quote": "[Add a real customer testimonial, exact quote only]",
-            "name": "[Full name]",
-            "title": "[Title]",
-            "company": "[Company]",
-            "result": "[Quantified result]"
-          },
-          {
-            "quote": "[Add a second real testimonial, exact quote only]",
-            "name": "[Full name]",
-            "title": "[Title]",
-            "company": "[Company]",
-            "result": "[Quantified result]"
-          }
-        ]
-      },
-      "endCta": {
-        "eyebrow": "Talk to us",
-        "headline": "Book Candyland Amusements for your next event.",
-        "line": "For more information on booking Candyland Amusements for your next event, please email or call us at 310-873-3248."
-      },
-      "faq": {
-        "eyebrow": "Before you ask",
-        "heading": "Common questions.",
-        "items": [
-          {
-            "q": "What types of events does Candyland Amusements serve?",
-            "a": "We provide rides, games, and food for small to medium and large size events in Southern California including the greater Los Angeles metropolitan area."
-          },
-          {
-            "q": "Does Candyland Amusements serve movie productions and corporate clients?",
-            "a": "We also specialize in renting equipment for movie productions and large corporate rentals."
-          },
-          {
-            "q": "Sed do eiusmod tempor incididunt?",
-            "a": "[Answer from the lead's real policy, do not invent specifics]"
-          },
-          {
-            "q": "Ut enim ad minim veniam?",
-            "a": "[Answer from the lead's real policy, do not invent specifics]"
-          }
-        ]
-      }
-    },
-    "accent": "#C5006E",
-    "accentDk": "#A2005A",
-    "accentText": "#FAF9F5",
-    "about": SHARED_ABOUT,
-    "contact": SHARED_CONTACT,
-    "cta": SHARED_CTA
-  },
-  {
     "slug": "carlsen-associates",
     "company": {
       "name": "Carlsen & Associates",
@@ -13074,8 +12814,8 @@ export const autoLeads: Lead[] = [
         ]
       }
     },
-    "accent": "#913194",
-    "accentDk": "#772879",
+    "accent": "#36461D",
+    "accentDk": "#2C3918",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
@@ -32259,6 +31999,266 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#E9C704",
     "accentDk": "#BFA303",
+    "about": SHARED_ABOUT,
+    "contact": SHARED_CONTACT,
+    "cta": SHARED_CTA
+  },
+  {
+    "slug": "la-valves",
+    "company": {
+      "name": "L.A. Valves & Automation Inc.- LAVA",
+      "logo": "",
+      "tagline": "Exclusive Manufacturer's Rep for Mechanical Equipment Products",
+      "phone": "(949) 394-4585",
+      "email": "adrian@lavalves.com",
+      "address": "[City, State]",
+      "yearsInBusiness": "[##]",
+      "credentials": [
+        "[Add a certification]",
+        "[Add years in business]",
+        "[Add a key metric]",
+        "[Add a key metric]"
+      ]
+    },
+    "nav": {
+      "links": [
+        {
+          "label": "Home",
+          "href": "/la-valves"
+        },
+        {
+          "label": "About",
+          "href": "/la-valves/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/la-valves/contact"
+        }
+      ],
+      "cta": {
+        "label": "Talk to us",
+        "href": "/la-valves/contact"
+      }
+    },
+    "home": {
+      "hero": {
+        "eyebrow": "Valves · Automation",
+        "headline": "Exclusive Manufacturer's Rep for Mechanical Equipment",
+        "sub": "L.A. Valves & Automation Inc. represents manufacturers of mechanical equipment products including industrial valves, regulators, and automation solutions.",
+        "primaryCta": {
+          "label": "See capabilities",
+          "href": "/la-valves#capabilities"
+        },
+        "secondaryCta": {
+          "label": "Talk to us",
+          "href": "/la-valves/contact"
+        }
+      },
+      "heroSpec": [
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        },
+        {
+          "label": "[DIFFERENTIATOR]",
+          "value": "[##]",
+          "unit": "[unit]"
+        }
+      ],
+      "heroTrust": [
+        "[Years in business]",
+        "[Units shipped]",
+        "[Projects delivered]"
+      ],
+      "problems": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+        "items": [
+          {
+            "label": "LOREM",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+          },
+          {
+            "label": "IPSUM",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+          },
+          {
+            "label": "DOLOR",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+          }
+        ]
+      },
+      "ledger": {
+        "eyebrow": "Capabilities",
+        "heading": "What L.A. Valves & Automation Inc.- LAVA handles.",
+        "rows": [
+          {
+            "spec": "01",
+            "capability": "Industrial Regulators & Control Valves",
+            "detail": "LAVA represents Jordan for industrial regulators, control valves, and temperature regulators."
+          },
+          {
+            "spec": "02",
+            "capability": "Safety Relief Valves",
+            "detail": "LAVA represents Leser for safety relief valves."
+          },
+          {
+            "spec": "03",
+            "capability": "Bio-Pharma & Clean Process Equipment",
+            "detail": "LAVA represents Steriflow for bio-pharma and clean process valves and equipment."
+          },
+          {
+            "spec": "04",
+            "capability": "Quarter Turn & Automated Ball Valves",
+            "detail": "LAVA represents Marwin for quarter turn and automated ball valves."
+          },
+          {
+            "spec": "05",
+            "capability": "Fractional Flow Control",
+            "detail": "LAVA represents LowFlow for fractional flow control valves and regulators."
+          },
+          {
+            "spec": "06",
+            "capability": "Rupture Discs & Steam Traps",
+            "detail": "LAVA represents Oseco for industrial and aseptic rupture discs, and Bestobell for steam traps."
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Lorem process",
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "steps": [
+          {
+            "n": "1",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
+          },
+          {
+            "n": "2",
+            "title": "Dolor sit",
+            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "n": "3",
+            "title": "Consectetur",
+            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "n": "4",
+            "title": "Adipiscing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+          }
+        ]
+      },
+      "flow": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet flow.",
+        "steps": [
+          "[Step one]",
+          "[Step two]",
+          "[Step three]"
+        ]
+      },
+      "stats": {
+        "eyebrow": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet.",
+        "items": [
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          },
+          {
+            "figure": "[##]",
+            "unit": "[unit]",
+            "label": "[METRIC]",
+            "context": "[One line on what this figure proves]"
+          }
+        ]
+      },
+      "ctaMid": {
+        "heading": "Lorem ipsum dolor sit amet consectetur.",
+        "label": "Request a quote",
+        "href": "/la-valves/contact"
+      },
+      "trustBand": {
+        "heading": "Lorem ipsum dolor sit amet.",
+        "logos": [
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]",
+          "[Client logo]"
+        ],
+        "certs": [
+          "[Cert badge]",
+          "[Compliance badge]"
+        ]
+      },
+      "proof": {
+        "eyebrow": "[Proof: real results only]",
+        "heading": "[Add real customer results]",
+        "testimonials": [
+          {
+            "quote": "[Add a real customer testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          },
+          {
+            "quote": "[Add a second real testimonial, exact quote only]",
+            "name": "[Full name]",
+            "title": "[Title]",
+            "company": "[Company]",
+            "result": "[Quantified result]"
+          }
+        ]
+      },
+      "endCta": {
+        "eyebrow": "Book a scope call",
+        "headline": "Lorem ipsum dolor sit amet consectetur.",
+        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      "faq": {
+        "eyebrow": "Before you ask",
+        "heading": "Common questions.",
+        "items": [
+          {
+            "q": "What does L.A. Valves & Automation represent?",
+            "a": "LAVA is an exclusive manufacturer's rep for mechanical equipment products including industrial regulators, control valves, temperature regulators, safety relief valves, bio-pharma and clean process valves, quarter turn and automated ball valves, fractional flow control valves, rupture discs, steam traps, wafer check valves, and instrument valves."
+          },
+          {
+            "q": "Where can I find a full list of LAVA's product lines?",
+            "a": "You can view the LAVA Industrial Line Card for a complete overview of represented products."
+          },
+          {
+            "q": "Sed do eiusmod tempor incididunt?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          },
+          {
+            "q": "Ut enim ad minim veniam?",
+            "a": "[Answer from the lead's real policy, do not invent specifics]"
+          }
+        ]
+      }
+    },
+    "accent": "#3B0102",
+    "accentDk": "#300102",
+    "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
     "cta": SHARED_CTA
@@ -58568,266 +58568,6 @@ export const autoLeads: Lead[] = [
     },
     "accent": "#004A98",
     "accentDk": "#003D7D",
-    "accentText": "#FAF9F5",
-    "about": SHARED_ABOUT,
-    "contact": SHARED_CONTACT,
-    "cta": SHARED_CTA
-  },
-  {
-    "slug": "la-valves",
-    "company": {
-      "name": "L.A. Valves & Automation Inc.- LAVA",
-      "logo": "",
-      "tagline": "Exclusive Manufacturer's Rep for Mechanical Equipment Products",
-      "phone": "(949) 394-4585",
-      "email": "adrian@lavalves.com",
-      "address": "[City, State]",
-      "yearsInBusiness": "[##]",
-      "credentials": [
-        "[Add a certification]",
-        "[Add years in business]",
-        "[Add a key metric]",
-        "[Add a key metric]"
-      ]
-    },
-    "nav": {
-      "links": [
-        {
-          "label": "Home",
-          "href": "/la-valves"
-        },
-        {
-          "label": "About",
-          "href": "/la-valves/about"
-        },
-        {
-          "label": "Contact",
-          "href": "/la-valves/contact"
-        }
-      ],
-      "cta": {
-        "label": "Talk to us",
-        "href": "/la-valves/contact"
-      }
-    },
-    "home": {
-      "hero": {
-        "eyebrow": "Valves · Automation",
-        "headline": "Exclusive Manufacturer's Rep for Mechanical Equipment",
-        "sub": "L.A. Valves & Automation Inc. represents manufacturers of mechanical equipment products including industrial valves, regulators, and automation solutions.",
-        "primaryCta": {
-          "label": "See capabilities",
-          "href": "/la-valves#capabilities"
-        },
-        "secondaryCta": {
-          "label": "Talk to us",
-          "href": "/la-valves/contact"
-        }
-      },
-      "heroSpec": [
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        },
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        },
-        {
-          "label": "[DIFFERENTIATOR]",
-          "value": "[##]",
-          "unit": "[unit]"
-        }
-      ],
-      "heroTrust": [
-        "[Years in business]",
-        "[Units shipped]",
-        "[Projects delivered]"
-      ],
-      "problems": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        "items": [
-          {
-            "label": "LOREM",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-          },
-          {
-            "label": "IPSUM",
-            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
-          },
-          {
-            "label": "DOLOR",
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
-          }
-        ]
-      },
-      "ledger": {
-        "eyebrow": "Capabilities",
-        "heading": "What L.A. Valves & Automation Inc.- LAVA handles.",
-        "rows": [
-          {
-            "spec": "01",
-            "capability": "Industrial Regulators & Control Valves",
-            "detail": "LAVA represents Jordan for industrial regulators, control valves, and temperature regulators."
-          },
-          {
-            "spec": "02",
-            "capability": "Safety Relief Valves",
-            "detail": "LAVA represents Leser for safety relief valves."
-          },
-          {
-            "spec": "03",
-            "capability": "Bio-Pharma & Clean Process Equipment",
-            "detail": "LAVA represents Steriflow for bio-pharma and clean process valves and equipment."
-          },
-          {
-            "spec": "04",
-            "capability": "Quarter Turn & Automated Ball Valves",
-            "detail": "LAVA represents Marwin for quarter turn and automated ball valves."
-          },
-          {
-            "spec": "05",
-            "capability": "Fractional Flow Control",
-            "detail": "LAVA represents LowFlow for fractional flow control valves and regulators."
-          },
-          {
-            "spec": "06",
-            "capability": "Rupture Discs & Steam Traps",
-            "detail": "LAVA represents Oseco for industrial and aseptic rupture discs, and Bestobell for steam traps."
-          }
-        ]
-      },
-      "process": {
-        "eyebrow": "Lorem process",
-        "heading": "Lorem ipsum dolor sit amet consectetur.",
-        "steps": [
-          {
-            "n": "1",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed."
-          },
-          {
-            "n": "2",
-            "title": "Dolor sit",
-            "text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          },
-          {
-            "n": "3",
-            "title": "Consectetur",
-            "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-          },
-          {
-            "n": "4",
-            "title": "Adipiscing",
-            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse."
-          }
-        ]
-      },
-      "flow": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet flow.",
-        "steps": [
-          "[Step one]",
-          "[Step two]",
-          "[Step three]"
-        ]
-      },
-      "stats": {
-        "eyebrow": "Lorem ipsum",
-        "heading": "Lorem ipsum dolor sit amet.",
-        "items": [
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          },
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          },
-          {
-            "figure": "[##]",
-            "unit": "[unit]",
-            "label": "[METRIC]",
-            "context": "[One line on what this figure proves]"
-          }
-        ]
-      },
-      "ctaMid": {
-        "heading": "Lorem ipsum dolor sit amet consectetur.",
-        "label": "Request a quote",
-        "href": "/la-valves/contact"
-      },
-      "trustBand": {
-        "heading": "Lorem ipsum dolor sit amet.",
-        "logos": [
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]",
-          "[Client logo]"
-        ],
-        "certs": [
-          "[Cert badge]",
-          "[Compliance badge]"
-        ]
-      },
-      "proof": {
-        "eyebrow": "[Proof: real results only]",
-        "heading": "[Add real customer results]",
-        "testimonials": [
-          {
-            "quote": "[Add a real customer testimonial, exact quote only]",
-            "name": "[Full name]",
-            "title": "[Title]",
-            "company": "[Company]",
-            "result": "[Quantified result]"
-          },
-          {
-            "quote": "[Add a second real testimonial, exact quote only]",
-            "name": "[Full name]",
-            "title": "[Title]",
-            "company": "[Company]",
-            "result": "[Quantified result]"
-          }
-        ]
-      },
-      "endCta": {
-        "eyebrow": "Book a scope call",
-        "headline": "Lorem ipsum dolor sit amet consectetur.",
-        "line": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
-      },
-      "faq": {
-        "eyebrow": "Before you ask",
-        "heading": "Common questions.",
-        "items": [
-          {
-            "q": "What does L.A. Valves & Automation represent?",
-            "a": "LAVA is an exclusive manufacturer's rep for mechanical equipment products including industrial regulators, control valves, temperature regulators, safety relief valves, bio-pharma and clean process valves, quarter turn and automated ball valves, fractional flow control valves, rupture discs, steam traps, wafer check valves, and instrument valves."
-          },
-          {
-            "q": "Where can I find a full list of LAVA's product lines?",
-            "a": "You can view the LAVA Industrial Line Card for a complete overview of represented products."
-          },
-          {
-            "q": "Sed do eiusmod tempor incididunt?",
-            "a": "[Answer from the lead's real policy, do not invent specifics]"
-          },
-          {
-            "q": "Ut enim ad minim veniam?",
-            "a": "[Answer from the lead's real policy, do not invent specifics]"
-          }
-        ]
-      }
-    },
-    "accent": "#3B0102",
-    "accentDk": "#300102",
     "accentText": "#FAF9F5",
     "about": SHARED_ABOUT,
     "contact": SHARED_CONTACT,
